@@ -1,0 +1,13 @@
+﻿{
+      "name": "成長血清",
+    "icon": "minecraft:enchanted_book",
+    "category": "apotheosis:enchanting/enchantments",
+	"flag": "apotheosis:enchanting",
+	"sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+      "text": "$(2)成長血清$() は、ハサミ用の傑作エンチャントです。$(p)これにより、羊の毛がすぐに再生する確率が 50% になります。"
+        }
+	]
+}

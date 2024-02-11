@@ -1,0 +1,13 @@
+﻿{
+  "parent": "quest_giver:root",
+  "reputation": 1,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "こんにちは"
+    },
+    "description": {
+      "text": "私と友達の帽子は少し傷んでしまっています。新しい帽子を作りたいのですが...$(red)わら俵$()をもらえますか?"
+    }
+  }
+}

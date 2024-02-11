@@ -1,0 +1,47 @@
+﻿{
+  "parent": "quest_giver:root",
+  "reputation": 2,
+  "icon": "minecraft:white_wool",
+  "start": {
+    "title": {
+      "text": "小麦をください！"
+    },
+    "description": {
+      "text": "$(red)小麦$() は持ってきましたか？農場には十分あるはずです。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "ありがとう。あなたにあげられるものはあまりないのですが…この毛糸を受け取ってもらえますか？"
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "minecraft:wheat"
+      },
+      "id": "quest_giver:gift",
+      "times": 2
+     }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:white_wool"
+      },
+      "id": "quest_giver:item",
+      "times": 2
+    },
+    {
+      "command": "/addreputation reputation:villager @p 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only custom:trade_shepherd",
+      "id": "quest_giver:command"
+    }
+  ]
+}

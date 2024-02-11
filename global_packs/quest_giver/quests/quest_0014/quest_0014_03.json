@@ -1,0 +1,44 @@
+﻿{
+  "parent": "quest_giver:quest_0014_02",
+  "reputation": 10,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "アイホルダーへの道"
+    },
+    "description": {
+      "text": "私があげた地図が見えますか？ あなたの最初の任務は、$(red)ゴブリン キング$() を退治することです。 彼らは城の頂上で見つけることができます。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "アイホルダーへの道"
+    },
+    "description": {
+      "text": "よくやりました。  $(red)堕落したオーガ$() と戦う準備ができたようです。 ここでは、マークされた場所に住む生き物が神秘の目を持っています。"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "goblinsanddungeons:goblin_crown"
+      },
+      "id": "quest_giver:item_pickup",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/loot give @p loot minecraft:guildmaster1",
+      "id": "quest_giver:command"
+    },
+     {
+      "command": "/advancement grant @p only simple_mobs:goblin_king_quest_complete",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p guildmaster3 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

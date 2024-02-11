@@ -1,0 +1,12 @@
+﻿{
+  "reputation": 0,
+  "icon": "minecraft:dirt",
+  "start": {
+    "title": {
+      "text": "やぁ！"
+    },
+    "description": {
+      "text": "おい。あなたは冒険家ですよね？ちょっと時間ある？"
+    }
+  }
+}

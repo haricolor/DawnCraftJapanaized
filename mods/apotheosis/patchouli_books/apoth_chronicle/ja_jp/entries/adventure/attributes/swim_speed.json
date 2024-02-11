@@ -1,0 +1,17 @@
+﻿{
+      "name": "泳ぐ速度",
+    "icon": "minecraft:kelp",
+    "category": "apotheosis:adventure/attributes",
+	"flag": "apotheosis:adventure",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+      "text": "$(9)Swim Speed$() は、移動速度に基づく実際の水泳速度の修正値です。あなたの水泳速度が 2.0 であれば、2 倍の速さで泳ぐことになります。$(p)ブーツにのみ存在します。"
+        },
+		{
+			"type": "patchouli:text",
+      "text": "$(9)$(n)基本値:$() 1$(p)$(9)$(n)最大値:$() 1024$(p)"
+		}
+	]
+}

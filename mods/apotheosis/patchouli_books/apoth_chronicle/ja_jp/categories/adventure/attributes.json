@@ -1,0 +1,7 @@
+﻿{
+      "name": "属性",
+      "description": "バニラの属性に加えて、Apotheosis は幅広い新しい属性を追加します。$(p)このセクションでは、それらすべてについて詳しく説明します。",
+    "icon": "minecraft:diamond_chestplate",
+	"flag": "apotheosis:adventure",
+	"parent": "apotheosis:adventure/adventure"
+}

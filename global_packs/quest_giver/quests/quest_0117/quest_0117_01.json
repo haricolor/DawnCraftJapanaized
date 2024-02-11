@@ -1,0 +1,36 @@
+﻿{
+  "parent": "quest_giver:root",
+  "reputation": 10,
+  "icon": "minecraft:iron_axe",
+  "start": {
+    "title": {
+      "text": "提案"
+    },
+    "description": {
+      "text": "エメラルド 25 個で大剣の二刀流を教えてあげる。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "よろしくお願いします。ただし腰を折らないように注意してください。"
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:gift",
+      "amount": 25
+     }
+  ],
+  "rewards": [
+    {
+      "command": "/give @p epicfight:skillbook{skill:"epicfight:dualgreatsword"}",
+      "id": "quest_giver:command"
+    }
+  ]
+}

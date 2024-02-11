@@ -1,0 +1,12 @@
+﻿{
+  "reputation": 13,
+  "icon": "minecraft:arrow",
+  "start": {
+    "title": {
+      "text": "やぁ！"
+    },
+    "description": {
+      "text": "冒険者さん、ものを集めるのに協力してください。"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+﻿{
+      "name": "時代の知識",
+    "icon": "minecraft:enchanted_book",
+    "category": "apotheosis:enchanting/enchantments",
+	"flag": "apotheosis:enchanting",
+	"sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+      "text": "$(2)Knowledge of the Age$() は、剣に適用できるマスターワーク $(br)エンチャントです。$(p)Mob を倒すと、すべてのドロップが経験値に変換されます。$(p)各個人アイテムは同じ量の経験値に相当します。"
+        },
+		{
+			"type": "patchouli:text",
+      "text": "これにより、大量のアイテムをドロップする Mob を倒すのが最も効率的になります。$(p) アイテムごとの経験値はエンチャント レベルに応じて増加します。$(p) 予防措置として、プレイヤーを殺してもアイテムは変換されません。"
+		}
+	]
+}

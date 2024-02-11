@@ -1,0 +1,13 @@
+﻿{
+      "name": "氷のとげ",
+    "icon": "minecraft:enchanted_book",
+    "category": "apotheosis:enchanting/enchantments",
+	"flag": "apotheosis:enchanting",
+	"sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+      "text": "$(9)Icy Thorns$() はチェスト当てのエンチャントです。$(p)攻撃者に速度低下を与えます。持続時間と強さはエンチャント レベルに応じて変化します。$(p)これは $(9)Thorns$() と排他的です。"
+        }
+	]
+}

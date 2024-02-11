@@ -1,0 +1,40 @@
+﻿{
+  "parent": "quest_giver:quest_0110_01b",
+  "reputation": 16,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "またあったね！"
+    },
+    "description": {
+      "text": "勇敢な方。 その生き物がどこにいるのか示すために紙をください。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ここです。"
+    },
+    "description": {
+      "text": "ただし、この情報を提供してくれたのは聖職者です。 したがって、それが完全に正確かどうかはわかりません。 いずれにしても、この生き物を見つけて殺し 、落ちたものを持ち帰ってください。"
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "minecraft:paper"
+      },
+      "id": "quest_giver:gift",
+      "amount": 1
+     }
+  ],
+  "rewards": [
+    {
+      "command": "/loot give @p loot minecraft:guard3",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p guard3 true",
+      "id": "quest_giver:command"
+    }    
+  ]
+}

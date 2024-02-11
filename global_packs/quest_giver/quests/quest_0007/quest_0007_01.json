@@ -1,0 +1,36 @@
+﻿{
+  "parent": "quest_giver:root",
+  "reputation": 10,
+  "icon": "minecraft:cod",
+  "start": {
+    "title": {
+      "text": "頼んだものは持ってきてくれましたか？"
+    },
+    "description": {
+      "text": "矢羽根テーブルの使い方を学ぶためにはエメラルド 10 個が必要です、 割と安いですよね?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "どうぞ。矢作りを楽しんでください！"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:gift",
+      "times": 10
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/pmmo admin @p add archery level 1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

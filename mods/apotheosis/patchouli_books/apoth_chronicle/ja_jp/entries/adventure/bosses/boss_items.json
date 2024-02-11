@@ -1,0 +1,17 @@
+﻿{
+      "name": "ボスアイテム",
+    "icon": "minecraft:ender_chest",
+    "category": "apotheosis:adventure/bosses",
+	"flag": "apotheosis:adventure",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+      "text": "すべてのボスは、残りの完全にエンチャントされた装備と一緒に、正確に 1 つの付加アイテムで権限を与えられます。$(p) この付加アイテムは死亡時にドロップされることが保証されており、他の付加ソースよりもレア度が高い可能性が高くなります。略奪品。"
+        },
+		{
+			"type": "patchouli:text",
+      "text": "このアイテムだけでも、ボスを倒して得られるトロフィーであり、それだけの価値があると思われます。$(p) 元の所有者の記念品として、すべてのボス アイテムにはアイテム名の先頭にボスの名前が付けられます。"
+		}
+	]
+}

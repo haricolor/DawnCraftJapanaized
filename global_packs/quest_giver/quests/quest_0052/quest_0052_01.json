@@ -1,0 +1,44 @@
+﻿{
+	"parent": "quest_giver:quest_0052_01b",
+	"reputation": 1,
+	"icon": "minecraft:wheat_seeds",
+	"start": {
+		"title": {
+      "text": "頼んだものは持ってきてくれましたか？"
+		},
+		"description": {
+      "text": "もう忘れましたか？心配しないで、思い出させてください。 $(red)わら俵$() が必要です。"
+		}
+	},
+	"complete": {
+		"title": {
+      "text": "ありがとう！"
+		},
+		"description": {
+      "text": "わら俵だ！これで新しい麦わら帽子が作れます！ありがとう、見知らぬ人。"
+		}
+	},
+	"tasks": [{
+		"item": {
+			"item": "farmersdelight:straw_bale"
+		},
+		"id": "quest_giver:gift",
+		"times": 1
+	}],
+	"rewards": [{
+			"command": "/advancement grant @p only custom:trade_farmer",
+			"id": "quest_giver:command"
+		},
+		{
+			"command": "/addreputation reputation:villager @p 1",
+			"id": "quest_giver:command"
+		},
+		{
+			"item": {
+				"item": "minecraft:emerald"
+			},
+			"id": "quest_giver:item",
+			"times": 1
+		}
+	]
+}

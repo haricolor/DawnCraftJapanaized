@@ -1,0 +1,47 @@
+﻿{
+  "parent": "quest_giver:quest_0067_01b",
+  "reputation": 24,
+  "icon": "minecraft:leather",
+  "start": {
+    "title": {
+      "text": "頼んだものは持ってきてくれましたか？"
+    },
+    "description": {
+      "text": "もう商品は持ってきましたか？ $(red)シロクマの毛皮 2個$()が必要です。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "ありがとう。どうぞ、お取引をよろしくお願いいたします。"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "untamedwilds:hide_bear_white"
+      },
+      "id": "quest_giver:gift",
+      "times": 2
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/advancement grant @p only custom:trade_leatherworker",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 10
+    }
+  ]
+}

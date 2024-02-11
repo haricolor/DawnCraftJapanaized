@@ -1,0 +1,17 @@
+﻿{
+      "name": "火災によるダメージ",
+    "icon": "minecraft:blaze_powder",
+    "category": "apotheosis:adventure/attributes",
+	"flag": "apotheosis:adventure",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+      "text": "$(9)Fireダメージ$()は、近接攻撃に適用されるボーナス魔法ダメージです。また、ターゲットを短時間炎上させます。ダメージが大きいほど発砲持続時間が長くなります。$(p)近接武器で見つかります。"
+        },
+		{
+			"type": "patchouli:text",
+      "text": "$(9)$(n)基本値:$() 0$(p)$(9)$(n)最大値:$() 1024$(p)"
+		}
+	]
+}

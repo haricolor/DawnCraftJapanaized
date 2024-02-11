@@ -1,0 +1,17 @@
+﻿{
+      "name": "攻撃速度",
+    "icon": "minecraft:golden_sword",
+    "category": "apotheosis:adventure/attributes",
+	"flag": "apotheosis:adventure",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+      "text": "$(9)攻撃速度$() は、攻撃できる頻度を制御します。攻撃速度が 2 の場合、1 秒間に 2 回攻撃できます。$(p)さまざまなアイテムで攻撃速度を上げることができます。"
+        },
+		{
+			"type": "patchouli:text",
+      "text": "$(9)$(n)基本値:$() 4$(p)$(9)$(n)最大値:$() 1024$(p)注: 通常、武器は独自の攻撃速度を指定しますが、無視されます。基本値は 4。"
+		}
+	]
+}

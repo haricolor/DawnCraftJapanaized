@@ -1,0 +1,45 @@
+﻿{
+  "parent": "quest_giver:quest_0027_01b",
+  "reputation": 20,
+  "icon": "minecraft:iron_ingot",
+  "start": {
+    "title": {
+      "text": "精霊狩り"
+    },
+    "description": {
+      "text": "$(red)Possessed Armor 5体$() をまだ倒せませんか?まあ、もっと頑張ろうよ（笑）！"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ここです。"
+    },
+    "description": {
+      "text": "ハハ、本当にやったね！君は狂人だけど、私はそれが好きだよ！ほら、報酬を受け取ってください、それは当然のことです!"
+    }
+  },
+  "tasks": [ 
+    {
+      "entity": "dannys_expansion:hollow_armor",
+      "id": "quest_giver:kill",
+      "times": 5
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 5
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only custom:trade_armorer",
+      "id": "quest_giver:command"
+    }
+  ]
+}

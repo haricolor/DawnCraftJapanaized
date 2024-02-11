@@ -1,0 +1,13 @@
+﻿{
+      "name": "地球の恵み",
+    "icon": "minecraft:enchanted_book",
+    "category": "apotheosis:enchanting/enchantments",
+	"flag": "apotheosis:enchanting",
+	"sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+      "text": "$(2)Boon of the Earth$() は、ツルハシのマスターワーク エンチャントです。$(p)単純な石を採掘する場合、鉱石ブロックがドロップされる可能性があります。"
+        }
+	]
+}

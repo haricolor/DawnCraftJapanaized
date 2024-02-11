@@ -1,0 +1,34 @@
+﻿{
+  "parent": "quest_giver:quest_0048_03b",
+  "reputation": 25,
+  "icon": "minecraft:brewing_stand",
+  "start": {
+    "title": {
+      "text": "頼んだものは持ってきてくれたか？"
+    },
+    "description": {
+      "text": "普通の村の衛兵を3人殺して、 俺のところに戻ってこい。 他人に見られないようにしろよ？ お前の顔がやつらに割れるようなことがあれば 俺も会話はできなくなるからな。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "よくやった。"
+    },
+    "description": {
+      "text": "ははは…卑劣な男だな。また「いたずら」を頼むかもな。"
+    }
+  },
+  "tasks": [
+    {
+      "entity": "guardvillagers:guard",
+      "id": "quest_giver:kill",
+      "times": 3
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/pmmo admin @p add slayer level 1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

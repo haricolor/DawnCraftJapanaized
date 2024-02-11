@@ -1,0 +1,12 @@
+﻿{
+  "reputation": 16,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "やぁ！"
+    },
+    "description": {
+      "text": "おい、冒険者よ。話を聞いてもらえませんか？"
+    }
+  }
+}

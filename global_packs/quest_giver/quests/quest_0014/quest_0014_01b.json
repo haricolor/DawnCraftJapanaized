@@ -1,0 +1,13 @@
+﻿{
+  "parent": "quest_giver:root",
+  "reputation": 5,
+  "icon": "minecraft:enchanted_book",
+  "start": {
+    "title": {
+      "text": "基本スキル"
+    },
+    "description": {
+      "text": "ああ…今の状態では神秘の目が見つからないと思います。 $(red)10 人のピリジャー $() を倒したら、私のところに戻ってきてください。この世界であなたが習得できる最も重要なスキルを教えます。"
+    }
+  }
+}

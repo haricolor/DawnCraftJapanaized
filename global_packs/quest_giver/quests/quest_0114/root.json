@@ -1,0 +1,12 @@
+﻿{
+  "reputation": 19,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "やぁ！"
+    },
+    "description": {
+      "text": "こんにちは、勇敢な旅行者。挑戦してみませんか？"
+    }
+  }
+}

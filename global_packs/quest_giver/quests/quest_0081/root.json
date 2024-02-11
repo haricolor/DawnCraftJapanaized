@@ -1,0 +1,12 @@
+﻿{
+  "reputation": 2,
+  "icon": "minecraft:white_wool",
+  "start": {
+    "title": {
+      "text": "やぁ！"
+    },
+    "description": {
+      "text": "こんにちは、農場から成長した小麦を 2 個入手するのを手伝ってもらえますか?ウーリーバックを繁殖させるためにそれが必要です。"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+﻿{
+  "reputation": 6,
+  "icon": "minecraft:log",
+  "start": {
+    "title": {
+      "text": "やぁ！"
+    },
+    "description": {
+      "text": "$(red)紫のアークウッドの原木$() を持ってきてもらえませんか？"
+    }
+  }
+}

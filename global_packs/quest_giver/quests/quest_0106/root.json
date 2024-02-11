@@ -1,0 +1,12 @@
+﻿{
+  "reputation": 14,
+  "icon": "minecraft:log",
+  "start": {
+    "title": {
+      "text": "やぁ！"
+    },
+    "description": {
+      "text": "友よ、道具屋から新しい斧を買うのを手伝ってくれませんか？必ずお返しします、約束します！"
+    }
+  }
+}

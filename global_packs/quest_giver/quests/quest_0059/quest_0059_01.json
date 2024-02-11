@@ -1,0 +1,30 @@
+﻿{
+  "parent": "quest_giver:quest_0059_01b",
+  "reputation": 4,
+  "icon": "minecraft:cod",
+  "start": {
+    "title": {
+      "text": "時を追う"
+    },
+    "description": {
+      "text": "砂時計を持ってきましたか？ いつ頼んだかさえ覚えていないけど、私にはそれが必要なんです。 急いでください。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "ナイス！これは...待って、中には何もありません。 どうやって使用すればいいですか？ うーん... $(red)レッドストーン$() をもらえますか?それで砂時計が動くはずです。"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "supplementaries:hourglass"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ]
+}

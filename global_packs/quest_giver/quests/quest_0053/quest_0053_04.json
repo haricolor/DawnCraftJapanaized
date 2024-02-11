@@ -1,0 +1,30 @@
+﻿{
+  "parent": "quest_giver:quest_0053_03",
+  "reputation": 0,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "頼んだものは持ってきてくれましたか？"
+    },
+    "description": {
+      "text": "こんにちは、$(red)ビートルート 2個$() は持ってきましたか？"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "ありがとう。"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:beetroot"
+      },
+      "id": "quest_giver:gift",
+      "times": 2
+    }
+  ]
+}

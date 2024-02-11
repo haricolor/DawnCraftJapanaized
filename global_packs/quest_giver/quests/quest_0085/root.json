@@ -1,0 +1,12 @@
+﻿{
+  "reputation": 24,
+  "icon": "minecraft:iron_axe",
+  "start": {
+    "title": {
+      "text": "やぁ！"
+    },
+    "description": {
+      "text": "そこの貴方！ネザーから深紅色の木の幹を入手するのを手伝ってくれませんか？ 特殊なハンドルを備えたツールを作成しようとしています。"
+    }
+  }
+}

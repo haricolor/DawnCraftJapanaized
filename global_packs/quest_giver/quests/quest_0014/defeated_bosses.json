@@ -1,0 +1,30 @@
+﻿{
+  "parent": "quest_giver:quest_0014_01",
+  "reputation": 10,
+  "icon": "minecraft:emerald",
+  "start": {
+    "title": {
+      "text": "すでに完了しました!"
+    },
+    "description": {
+      "text": "おお？地図を渡す前にもうアイホルダーを倒したんですか？ ……えぇ？ アイホルダーが落とした神秘の目を見せてもらっても？ まぁ実際のところ、落として拾い上げれば… あぁいやなんでもないよ。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "これで頼みたいことは無くなりました。"
+    },
+    "description": {
+      "text": "友人にこれ以上お伝えできる情報はありません。自分の使命に従ってください。"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "endrem:corrupted_eye"
+      },
+      "id": "quest_giver:item_pickup",
+      "times": 1
+    }
+  ]
+}

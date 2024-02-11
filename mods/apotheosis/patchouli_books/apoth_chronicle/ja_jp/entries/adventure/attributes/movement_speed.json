@@ -1,0 +1,17 @@
+﻿{
+      "name": "移動速度",
+    "icon": "minecraft:leather_boots",
+    "category": "apotheosis:adventure/attributes",
+	"flag": "apotheosis:adventure",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+      "text": "$(9)移動速度$() は、1 秒あたりのブロック数で表した移動速度です。$(p)この統計は、ほぼすべてのアイテムによって提供されます。"
+        },
+		{
+			"type": "patchouli:text",
+      "text": "$(9)$(n)基本値:$() 0.7$(p)$(9)$(n)最大値:$() 1024"
+		}
+	]
+}

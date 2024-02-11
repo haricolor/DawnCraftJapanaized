@@ -1,0 +1,12 @@
+﻿{
+  "reputation": 3,
+  "icon": "minecraft:bow",
+  "start": {
+    "title": {
+      "text": "やぁ！"
+    },
+    "description": {
+      "text": "動物の餌の材料を集めるのを手伝ってくれませんか？"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+﻿{
+      "name": "サルベージ",
+    "icon": "apotheosis:salvaging_table",
+    "category": "apotheosis:adventure/affix_loot",
+	"flag": "apotheosis:adventure",
+	"sortnum": 3,
+    "pages": [
+        {
+            "type": "patchouli:crafting",
+			"recipe": "apotheosis:salvaging_table",
+      "text": "$(9)Salvaging Table$() は、アフィックス アイテムを対応する $(9)Rarity Materials$() に分解するために使用されます。"
+		},
+		{
+            "type": "patchouli:spotlight",
+			"item": "apotheosis:common_material",
+			"link_recipe": true,
+      "text": "奇妙な形をした正体不明の金属片。$(p)この材料は一般的なアイテムをサルベージするときに入手できます。"
+        },
+		{
+            "type": "patchouli:spotlight",
+			"item": "apotheosis:uncommon_material",
+			"link_recipe": true,
+      "text": "信じられないほど耐久性のある生地で、数え切れないほどの年月を経て使い古されています。 $(p)珍しいアイテムをサルベージするときに見つかります。"
+        },
+		{
+            "type": "patchouli:spotlight",
+			"item": "apotheosis:rare_material",
+			"link_recipe": true,
+      "text": "これまでに存在した中で最も明るいクリスタルの一部。単なる破片ですが、強力な魔力を秘めています。$(p)レアアイテムをサルベージすることで入手できます。"
+        },
+		{
+            "type": "patchouli:spotlight",
+			"item": "apotheosis:epic_material",
+			"link_recipe": true,
+      "text": "神秘的な魔法がすべての生命をワープさせる、魔法の領域からの砂の粒。$(p)壮大なアイテムをサルベージすると、この形に縮小されます。"
+        },
+		{
+            "type": "patchouli:spotlight",
+			"item": "apotheosis:mythic_material",
+			"link_recipe": true,
+      "text": "浄化された神のようなエネルギーの真珠。内に封印された巨大な力により、非常に不安定になります。$(p)これらの並外れた創造物は、神話アイテムを回収することによってのみ入手できます。"
+        }
+	]
+}

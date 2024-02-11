@@ -1,0 +1,13 @@
+﻿{
+  "parent": "quest_giver:root",
+  "reputation": 12,
+  "icon": "minecraft:iron_helmet",
+  "start": {
+    "title": {
+      "text": "聞いてくれてありがとう！"
+    },
+    "description": {
+      "text": "私の溶鉱炉が故障してしまった... 新しい溶鉱炉を $(red)craft$() して譲ってもらえませんか?"
+    }
+  }
+}

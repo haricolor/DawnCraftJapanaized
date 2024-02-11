@@ -1,0 +1,12 @@
+﻿{
+      "name": "アイテムのエンチャント性",
+    "icon": "minecraft:golden_sword",
+    "category": "apotheosis:enchanting/table",
+	"flag": "apotheosis:enchanting",
+    "pages": [
+        {
+            "type": "patchouli:text",
+      "text": "バニラでは、アイテムのエンチャント能力は $(fpower) に寄与します。$(p)Apotheosis は、代わりに直接 $(arcana) ブーストを提供するように変更します。$(p)$(arcana) はアイテムのエンチャント能力の 50% 増加します。"
+        }
+	]
+}

@@ -1,0 +1,13 @@
+﻿{
+  "parent": "quest_giver:root",
+  "reputation": 7,
+  "icon": "minecraft:brewing_stand",
+  "start": {
+    "title": {
+      "text": "アドバイス"
+    },
+    "description": {
+      "text": "知っていましたか？ フロストモゥは、コールド アイを守っているイエティからそれを奪い去りました。 この話をすでに何人かの旅行者から聞いたので、 きっと本当でしょう… 私たちはなんと混沌とした世界に住んでいるのでしょう。"
+    }
+  }
+}

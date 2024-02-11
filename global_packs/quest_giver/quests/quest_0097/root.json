@@ -1,0 +1,12 @@
+﻿{
+  "reputation": 12,
+  "icon": "minecraft:redstone",
+  "start": {
+    "title": {
+      "text": "やぁ！"
+    },
+    "description": {
+      "text": "私たちの種族の中には、 Createからくりブロックを使って個別の 城に移住したと聞いています。 もし見かけたら、 その場所がどんな感じなのか教えていただけますか?"
+    }
+  }
+}

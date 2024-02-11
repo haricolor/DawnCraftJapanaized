@@ -1,0 +1,43 @@
+﻿{
+  "parent": "quest_giver:quest_0098_01b",
+  "reputation": 20,
+  "icon": "minecraft:redstone",
+  "start": {
+    "title": {
+      "text": "頼んだものは持ってきてくれましたか？"
+    },
+    "description": {
+      "text": "ランド ゴーレムを倒して、$(red)ゴーレムの目$() を持ってきましたか？"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "これは私が今まで見た中で最も魅力的なアイテムの一つです！  レッドストーンを支払いとして受け取ってください。 ……申し訳ありませんが、現在エメラルドは持っていないので……"
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "ba_bt:guardian_eye_land"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+     }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:redstone"
+      },
+      "id": "quest_giver:item",
+      "times": 32
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    }
+  ]
+}

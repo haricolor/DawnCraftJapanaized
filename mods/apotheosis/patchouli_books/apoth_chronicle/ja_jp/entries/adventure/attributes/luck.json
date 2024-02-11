@@ -1,0 +1,17 @@
+﻿{
+      "name": "運",
+    "icon": "minecraft:rabbit_foot",
+    "category": "apotheosis:adventure/attributes",
+	"flag": "apotheosis:adventure",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+      "text": "$(9)Luck$() はあなたに幸運をもたらします!つまり、より良い戦利品を受け取る可能性が高まります。$(p)すべてが幸運をもたらすことができます。"
+        },
+		{
+			"type": "patchouli:text",
+      "text": "$(9)$(n)基本値:$() 0$(p)$(9)$(n)最大値:$() 1024$(p)注: 運が悪い場合もあるので、より良い戦利品が得られます。ドロップはさらに入手困難になります。"
+		}
+	]
+}

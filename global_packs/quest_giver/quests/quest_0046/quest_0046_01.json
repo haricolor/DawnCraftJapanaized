@@ -1,0 +1,41 @@
+﻿{
+  "parent": "quest_giver:quest_0046_01b",
+  "reputation": 15,
+  "icon": "minecraft:paper",
+  "start": {
+    "title": {
+      "text": "こんにちは"
+    },
+    "description": {
+      "text": "まだ契約を終えていないようです。それとも契約内容を忘れましたか？$(red)銀の獣を2匹$()倒してください。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ここです。"
+    },
+    "description": {
+      "text": "よくやったね。悪の勢力が彼らの前進を一時的に止めているのを感じます。しかし、彼らの征服に終わりはありません。別の契約をご希望の場合は、もう一度私に相談してください。"
+    }
+  },
+  "tasks": [ 
+    {
+      "entity": "bloodandmadness:silverbeast",
+      "id": "quest_giver:kill",
+      "times": 2
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 4
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    }
+  ]
+}

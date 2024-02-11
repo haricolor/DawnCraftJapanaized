@@ -1,0 +1,36 @@
+﻿{
+  "parent": "quest_giver:quest_0035_02b",
+  "reputation": 35,
+  "icon": "minecraft:beef",
+  "start": {
+    "title": {
+      "text": "インセンジウム"
+    },
+    "description": {
+      "text": "ネザーの灰の荒廃地帯を思い出してください。そこを訪れたらまた私のところに来てください。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "終了した"
+    },
+    "description": {
+      "text": "それは魅力的ですね...あの場所について教えてくれてありがとう。これがご褒美です。さて、そろそろ行きましょう...重要な決断をしなければなりません。"
+    }
+  },
+  "tasks": [
+    {
+		"id": "afptweaks:advancement",
+		"advancement": "custom:scarlet_rot"
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 5
+    }
+  ]
+}

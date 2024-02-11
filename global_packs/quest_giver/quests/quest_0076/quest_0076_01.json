@@ -1,0 +1,47 @@
+﻿{
+  "parent": "quest_giver:root",
+  "reputation": 28,
+  "icon": "minecraft:stone",
+  "start": {
+    "title": {
+      "text": "異次元から来た石"
+    },
+    "description": {
+      "text": "$(red)月の石$() はもう持ってきましたか？エバードーン次元でそれらを見つけることができます。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "ありがとう。品質は...標準以下です。他の用途も考えてみます。"
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "blue_skies:lunar_stone"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+     }
+  ],
+  "rewards": [
+    {
+      "command": "/advancement grant @p only custom:trade_mason",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:village @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

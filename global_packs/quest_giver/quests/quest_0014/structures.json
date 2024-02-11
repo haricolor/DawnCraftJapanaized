@@ -1,0 +1,29 @@
+﻿{
+  "parent": "quest_giver:quest_0014_01",
+  "reputation": 10,
+  "icon": "minecraft:compass",
+  "start": {
+    "title": {
+      "text": "人のいない目"
+    },
+    "description": {
+      "text": "私の知る限り、現在、アイホルダーによって管理されていない神秘の目は 7 つあります。 建造物で見つかるものには、Cursed と Old が含まれます。 他のものについては...それらのほとんどは私たちの世界の生命力で作成できると思いますが、 そのうちのいくつかは知能のある獣によって盗まれた可能性があります。 周りの地元の人は私よりもそのことについて詳しいかもしれません。 それから私は聖職者がEvil eyeを所有していることを知っています。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "人のいない目"
+    },
+    "description": {
+      "text": "もう目を探す必要はないと思いますか？"
+    }
+  },
+  "tasks": [
+    {
+		"id": "afptweaks:advancement",
+		"advancement": "minecraft:end/kill_dragon"
+    }
+  ],
+  "rewards": [
+  ]
+}

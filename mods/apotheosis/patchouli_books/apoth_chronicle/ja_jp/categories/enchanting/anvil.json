@@ -1,0 +1,7 @@
+﻿{
+      "name": "アンビル",
+      "description": "このセクションでは、金床に対するすべての変更について詳しく説明します。$(p)金床はエンチャント可能になり、レベル制限がなく、鉄ブロックで (金床で) 修理できます。",
+    "icon": "minecraft:anvil",
+	"flag": "apotheosis:enchanting",
+	"parent": "apotheosis:enchanting/enchanting"
+}

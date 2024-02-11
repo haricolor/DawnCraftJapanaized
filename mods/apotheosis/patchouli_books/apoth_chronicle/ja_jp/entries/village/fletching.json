@@ -1,0 +1,44 @@
+﻿{
+      "name": "矢羽立て",
+    "icon": "minecraft:fletching_table",
+    "category": "apotheosis:village/village",
+	"flag": "apotheosis:village",
+	"sortnum": -1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+      "text": "Apotheosis では、$(9)Fletching$() と呼ばれる新しいタイプのクラフトが導入されています。$(p)これにより、より効率的に矢を作成できるようになります。$(p)クラフト タイプに加えて、新しい矢もあります。"
+        },
+		{
+            "type": "patchouli:spotlight",
+			"item": "apotheosis:obsidian_arrow",
+			"link_recipe": true,
+      "text": "$(9)Obsidian Arrow$() は標準の矢を直接アップグレードしたものです。$(p)すべての遠距離攻撃で 20% の追加ダメージを与えます。"
+        },
+		{
+            "type": "patchouli:spotlight",
+			"item": "apotheosis:broadhead_arrow",
+			"anchor": "broadhead",
+			"link_recipe": true,
+      "text": "$(9)ブロードヘッドアロー$()は長時間の戦闘に最適です。$(p)ヒットするたびに出血が適用されます。追加のヒットごとに持続時間が更新され、ターゲットの出血レベルが増加します。"
+        },
+		{
+            "type": "patchouli:spotlight",
+			"item": "apotheosis:explosive_arrow",
+			"link_recipe": true,
+      "text": "$(9)爆発アロー$()はグループに対して最適です。$(p)衝撃時に爆発を引き起こします。"
+        },
+		{
+            "type": "patchouli:spotlight",
+			"item": "apotheosis:iron_mining_arrow",
+			"link_recipe": true,
+      "text": "$(9)鉄採掘の矢$()は空飛ぶつるはしのようなものです。$(p)この矢が当たったブロックはすべて、鉄のつるはしで砕いたかのように採掘されます。"
+        },
+		{
+            "type": "patchouli:spotlight",
+			"item": "apotheosis:diamond_mining_arrow",
+			"link_recipe": true,
+      "text": "$(9)ダイヤモンド採掘の矢$() は、より優れた飛行ツルハシです!$(p)この矢で命中したブロックはすべて、ダイヤモンドのツルハシで砕いたかのように採掘されます。"
+        }
+	]
+}

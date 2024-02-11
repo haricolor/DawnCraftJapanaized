@@ -1,0 +1,12 @@
+﻿{
+  "reputation": 13,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "そこの貴方！"
+    },
+    "description": {
+      "text": "冒険者さん、こんにちは！"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+﻿{
+  "parent": "quest_giver:quest_0054_01b",
+  "reputation": 5,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "頼んだものは持ってきてくれましたか？"
+    },
+    "description": {
+      "text": "$(red)鉄の鍬$()は持ってきましたか？"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "ああ、私たちのために持ってきてくれたんだ… とても感謝しています。 別のお願いをするのは申し訳ないのですが...でも、 $(red)パン 2個$() を私たちのために作ってくれませんか? 私たちが得意なのは栽培と収穫だけです。 私たちの農場の小麦を使ってください！"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:iron_hoe"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ]
+}

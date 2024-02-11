@@ -1,0 +1,13 @@
+﻿{
+  "parent": "quest_giver:quest_0014_01",
+  "reputation": 10,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "アイホルダーへの道"
+    },
+    "description": {
+      "text": "よし、冒険の準備はできたようだ！初めての目を見つける準備はできましたか?"
+    }
+  }
+}

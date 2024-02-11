@@ -1,0 +1,12 @@
+﻿{
+  "reputation": 5,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "提案"
+    },
+    "description": {
+      "text": "若い人、オファーに興味がありますか？"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+﻿{
+  "parent": "quest_giver:root",
+  "reputation": 35,
+  "icon": "minecraft:beef",
+  "start": {
+    "title": {
+      "text": "ナイフ研ぎ"
+    },
+    "description": {
+      "text": "ナイフに適した砥石を探しています。地下には深層岩と呼ばれる研ぎに最適な素材があると聞いたことがあります。$(red)深層岩 3個$()を持ってきてもらえませんか？"
+    }
+  }
+}

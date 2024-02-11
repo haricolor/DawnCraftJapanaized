@@ -1,0 +1,38 @@
+﻿{
+	"parent": "quest_giver:quest_0014_01b",
+	"reputation": 5,
+	"icon": "minecraft:enchanted_book",
+	"start": {
+		"title": {
+      "text": "基本スキル"
+		},
+		"description": {
+      "text": "$(red)ピリジャーを 10 人倒す $() という条件を満たしたら戻ってきてください。"
+		}
+	},
+	"complete": {
+		"title": {
+      "text": "基本スキル"
+		},
+		"description": {
+      "text": "ここでは、本を開いてスキルを学びましょう。スキルブックをもっと入手したい場合は、衛兵の依頼をいくつかこなすことをお勧めします。旅の幸運を祈ります。"
+		}
+	},
+	"tasks": [{
+		"entity": "minecraft:pillager",
+		"id": "quest_giver:kill",
+		"times": 10
+	}],
+	"rewards": [{
+		"command": "/give @p epicfight:skillbook{skill:\"epicfight:roll\"}",
+		"id": "quest_giver:command"
+	},
+        {
+          "command": "/loot give @p loot minecraft:guildmaster0",
+          "id": "quest_giver:command"
+        },
+        {
+           "command": "/gamestage add @p guildmaster2 true",
+            "id": "quest_giver:command"
+        }]
+}

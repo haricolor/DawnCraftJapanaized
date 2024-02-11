@@ -1,0 +1,40 @@
+﻿{
+  "parent": "quest_giver:quest_0048_01",
+  "reputation": 25,
+  "icon": "minecraft:brewing_stand",
+  "start": {
+    "title": {
+      "text": "頼んだものは持ってきたか？"
+    },
+    "description": {
+      "text": "ハハハッハッハ！毒の雨を降らせやる！"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "いい働きだ！"
+    },
+    "description": {
+      "text": "素晴らしい仕事だ。あなたは英雄だ、と言っておいてやろう。"
+    }
+  },
+  "tasks": [
+    {
+		"id": "afptweaks:advancement",
+		"advancement": "custom:begone_witch/begone_witch"
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/advancement revoke @p only custom:tricked/tricked",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "minecraft:dirt"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

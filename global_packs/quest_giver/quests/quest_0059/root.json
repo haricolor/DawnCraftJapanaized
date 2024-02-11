@@ -1,0 +1,12 @@
+﻿{
+  "reputation": 4,
+  "icon": "minecraft:cod",
+  "start": {
+    "title": {
+      "text": "やぁ！"
+    },
+    "description": {
+      "text": "釣りに出ているとき、 時間を把握するのはとても難しいです… あることを手伝ってくれませんか？"
+    }
+  }
+}

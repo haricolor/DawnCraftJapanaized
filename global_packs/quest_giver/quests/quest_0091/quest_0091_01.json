@@ -1,0 +1,51 @@
+﻿{
+  "parent": "quest_giver:quest_0091_01b",
+  "reputation": 46,
+  "icon": "minecraft:ender_pearl",
+  "start": {
+    "title": {
+      "text": "頼んだものは持ってきてくれましたか？"
+    },
+    "description": {
+      "text": "$(red)ドラゴンの卵$() を手に入れたら、ぜひ見せてください。それを見るのが私の夢でした。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "見た目はこんな感じなんだ… ドラゴンの卵を置くと新しい ドラゴンが生まれるって知ってましたか？ ここで、それを飼いならす方法を教えます。 できるだけ多くの魚を与えるだけです… 簡単ですよね?"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:dragon_egg"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+     }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:dragon_egg"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "command": "/advancement grant @p only custom:trade_enderian",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 3",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/pmmo admin @p add taming level 1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+﻿{
+  "parent": "quest_giver:root",
+  "reputation": 4,
+  "icon": "minecraft:cod",
+  "start": {
+    "title": {
+      "text": "時を追う"
+    },
+    "description": {
+      "text": "時間を把握するのに役立つものがあると聞きました。 それらは...何と呼ばれていましたか…… そうそう、$(red)砂時計$()! そのうちの1つをもらえますか？"
+    }
+  }
+}

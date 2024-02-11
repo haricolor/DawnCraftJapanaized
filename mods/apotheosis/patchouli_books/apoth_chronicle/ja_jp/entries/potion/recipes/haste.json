@@ -1,0 +1,19 @@
+﻿{
+      "name": "速攻",
+    "icon": "minecraft:textures/mob_effect/haste.png",
+    "category": "apotheosis:potion/recipes",
+	"flag": "apotheosis:potion",
+	"sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+      "text": "$(9)Haste$() もバニラにはレシピのない便利な効果です。$(p) 各レベルで採掘速度が +20% 増加します。"
+        },
+		{
+            "type": "patchouli:spotlight",
+			"title": "Brewing Recipe",
+			"item": "minecraft:mushroom_stew",
+      "text": "このポーションは、Awkward Potion とマッシュルーム シチューを使って作成できます。$(p)通常の材料を使用して拡張したり、強化したり、スプラッシュ ポーションに変えることができます。"
+        }
+	]
+}

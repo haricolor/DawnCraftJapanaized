@@ -1,0 +1,43 @@
+﻿{
+  "parent": "quest_giver:quest_0116_01b",
+  "reputation": 10,
+  "icon": "minecraft:iron_axe",
+  "start": {
+    "title": {
+      "text": "提案"
+    },
+    "description": {
+      "text": "エメラルド4個で、 イグニスを召喚するのに必要な素材がどこにあるのか紹介します。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "ここにあります。 この村の近くにあの忌まわしいものを呼び寄せないでくださいね。 そして、 このマップはネザーで開いた場合に のみ機能することを忘れないでください。 ここでこのマップを開いてロールしても、 空白のマップしか得られません。 理由は聞かないでください.. .見当もつきません。"
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:gift",
+      "amount": 4
+     }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "simple_mobs:rolled_map_2"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "command": "/gamestage add @p netherian3 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

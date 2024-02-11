@@ -1,0 +1,12 @@
+﻿{
+  "reputation": 10,
+  "icon": "minecraft:white_wool",
+  "start": {
+    "title": {
+      "text": "やぁ！"
+    },
+    "description": {
+      "text": "エメラルドを10個くれたら、機織り機の使い方を教えてあげるよ！"
+    }
+  }
+}

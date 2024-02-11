@@ -1,0 +1,40 @@
+﻿{
+      "name": "ジェム",
+    "icon": "apotheosis:gem",
+    "category": "apotheosis:adventure/affix_loot",
+	"flag": "apotheosis:adventure",
+	"sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+      "text": "$(9)Gem$() は凝縮された強さの結晶です。$(p)接辞アイテムにソケットに取り付けると、通常であればいつでも強力な属性ボーナスが得られます。"
+        },
+		{
+			"type": "patchouli:text",
+			"title": "Obtaining Gems",
+      "text": "ジェムはチェストの戦利品で見つけることができますが、Mob を倒したときにまれに見つかる場合もあります。ただし、ジェムをドロップするには、マシンやその他のオートメーション ソースではなく、実際のプレイヤーが倒す必要があります。$(p)ジェムはボスからドロップされる可能性が高くなります。"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Socketing Gems",
+      "text": "ジェムをアイテムにソケットに取り付けるには、鍛冶テーブルで 2 つを組み合わせます。$(p) アイテムを左側に、ジェムを右側に配置します。$(p) ジェムは必ずしも \" に配置する必要はありません。正しいアイテムを選択すると、アイテムの使用中に常にボーナスが提供されます。"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Removing Gems",
+      "text": "アイテムからジェムを取り除くのは難しいプロセスでしたが、一部の賢い錬金術師はその方法を見つけ出しました。$(p)彼らのメモは次の数ページで詳しく説明されています。"
+		},
+		{
+            "type": "patchouli:crafting",
+			"recipe": "apotheosis:vial_of_expulsion",
+			"title": "Searing Expulsion",
+      "text": "ソケットにあるアイテムと鍛冶台の $(9)Vial of Searing Expulsion$() を組み合わせてジェムを取り除き、その過程でそれらを破壊します。"
+		},
+		{
+            "type": "patchouli:crafting",
+			"recipe": "apotheosis:vial_of_extraction",
+			"title": "Arcane Extraction",
+      "text": "ソケットにあるアイテムを鍛冶テーブルの $(9)Vial of Arcane Extraction$() と組み合わせてジェムを取り出し、その過程でアイテムを破壊します。"
+		}
+	]
+}

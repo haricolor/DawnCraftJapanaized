@@ -1,0 +1,12 @@
+﻿{
+  "reputation": 4,
+  "icon": "minecraft:ender_pearl",
+  "start": {
+    "title": {
+      "text": "やぁ！"
+    },
+    "description": {
+      "text": "冒険者さん、エンダーパールを5個手に入れるのを手伝ってくれませんか？"
+    }
+  }
+}

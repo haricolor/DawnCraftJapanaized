@@ -1,0 +1,7 @@
+﻿{
+      "name": "ローグスポナー",
+      "description": "洞窟内にまばらにスポナーが 1 つあり、その上に硬いブロックがあり、その下にチェストが隠されています。これらは起源、目的、所有者が不明であるため、$(9)Rogue Spawners$() と呼びます。",
+    "icon": "minecraft:spawner",
+	"flag": "apotheosis:adventure",
+	"parent": "apotheosis:adventure/adventure"
+}

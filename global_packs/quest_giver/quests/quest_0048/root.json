@@ -1,0 +1,12 @@
+﻿{
+  "reputation": 25,
+  "icon": "minecraft:brewing_stand",
+  "start": {
+    "title": {
+      "text": "やぁ！"
+    },
+    "description": {
+      "text": "あるものを手伝ってくれませんか？"
+    }
+  }
+}

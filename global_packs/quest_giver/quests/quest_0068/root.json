@@ -1,0 +1,12 @@
+﻿{
+  "reputation": 8,
+  "icon": "minecraft:leather",
+  "start": {
+    "title": {
+      "text": "やぁ！"
+    },
+    "description": {
+      "text": "冒険者さん、料理は得意ですか？"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+﻿{
+      "name": "ステップの高さ",
+    "icon": "minecraft:iron_boots",
+    "category": "apotheosis:adventure/attributes",
+	"flag": "apotheosis:adventure",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+      "text": "$(9)Step Height$() は、ブロックを自動的にステップアップできる高さを変更します。$(p)ブーツにのみ存在します。"
+        },
+		{
+			"type": "patchouli:text",
+      "text": "$(9)$(n)基本値:$() 0$(p)$(9)$(n)最大値:$() 512$(p)注: この値はステップの高さの合計ではありません。むしろ、暗黙のベース 0.5 に値が追加されます。"
+		}
+	]
+}

@@ -1,0 +1,44 @@
+﻿{
+  "parent": "quest_giver:quest_0014_06",
+  "reputation": 10,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "アイホルダーへの道"
+    },
+    "description": {
+      "text": "次の目玉持ち主はアンデッドです。 正確には色々な仕掛けを施したアンデッド… 取り巻きに囲まれているので近づくのに一苦労するかも知れません。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "アイホルダーへの道"
+    },
+    "description": {
+      "text": "スケルトンロードはおそらく私が今まで見た中で最も強力なアンデッドです。 あなたが彼を倒せたことに驚いています。 さて、次の目は高名な聖騎士によって守られています。 困難な戦いになるでしょうが、 とにかくその場所を教えます。慎重に準備を進めてください。"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "endrem:magical_eye"
+      },
+      "id": "quest_giver:item_pickup",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/loot give @p loot minecraft:guildmaster5",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only simple_mobs:skeleton_lord_quest_complete",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p guildmaster7 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+﻿{
+	"parent": "quest_giver:quest_0073_01b",
+	"reputation": 8,
+	"icon": "minecraft:book",
+	"start": {
+		"title": {
+      "text": "林業の知識"
+		},
+		"description": {
+      "text": "取得する葉の種類は、$(red)黄昏の葉、楓の葉、星空の葉$()の 3 種類です。"
+		}
+	},
+	"complete": {
+		"title": {
+      "text": "ありがとう！"
+		},
+		"description": {
+      "text": "それは魅力的ですね！まったく異なる環境で育つ植物に共通の特徴があるというのは、どのようなケースなのでしょうか?とにかく、ご褒美はこれです。"
+		}
+	},
+	"tasks": [{
+			"item": {
+				"item": "blue_skies:dusk_leaves"
+			},
+			"id": "quest_giver:gift",
+			"times": 1
+		},
+		{
+			"item": {
+				"item": "blue_skies:maple_leaves"
+			},
+			"id": "quest_giver:gift",
+			"amount": 1
+		},
+		{
+			"item": {
+				"item": "blue_skies:starlit_leaves"
+			},
+			"id": "quest_giver:gift",
+			"amount": 1
+		}
+	],
+	"rewards": [{
+			"command": "/advancement grant @p only custom:trade_librarian",
+			"id": "quest_giver:command"
+		},
+		{
+			"command": "/addreputation reputation:villager @p 3",
+			"id": "quest_giver:command"
+		},
+		{
+			"item": {
+				"item": "ars_nouveau:source_gem"
+			},
+			"id": "quest_giver:item",
+			"times": 20
+		}
+	]
+}

@@ -1,0 +1,43 @@
+﻿{
+  "parent": "quest_giver:quest_0123_01b",
+  "reputation": 16,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "スカルク"
+    },
+    "description": {
+      "text": "ああ、帰ってきたね！ $(red)スカルクセンサー$() はもう入手しましたか?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "これは...とても奇妙に見えます。所長に遭遇しましたか？まあ、あなたがまだ生きていることを考えると、そうではなかったと思います。とにかく、ご褒美はこれです。このアイテムは、ありふれたスライムからあなたを守ってくれます。"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "wildbackport:sculk_shrieker"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "dannys_expansion:gelatinous_diplomacy"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "command": "/advancement grant @p only custom:trade_miner",
+      "id": "quest_giver:command"
+    }
+  ]
+}

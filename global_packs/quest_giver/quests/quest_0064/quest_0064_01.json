@@ -1,0 +1,43 @@
+﻿{
+  "parent": "quest_giver:quest_0064_01b",
+  "reputation": 18,
+  "icon": "supplementaries:slingshot",
+  "start": {
+    "title": {
+      "text": "スリングショットの製作"
+    },
+    "description": {
+      "text": "$(red)スリングショット$() はまだできませんね? まあ、わかります...良いものを作るのは不思議と難しいです。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "はい、これはまさに私が想像していたものです！ うーん...それほど印象的ではないようです。 石を弾薬として使用するようですが...まあ、ほら、 特に必要ありません。 見せてくれてありがとう！"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "supplementaries:slingshot"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "supplementaries:slingshot"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

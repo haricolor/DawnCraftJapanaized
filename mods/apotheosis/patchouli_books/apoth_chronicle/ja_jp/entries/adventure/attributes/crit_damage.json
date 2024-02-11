@@ -1,0 +1,17 @@
+﻿{
+      "name": "クリティカルダメージ",
+    "icon": "minecraft:netherite_axe",
+    "category": "apotheosis:adventure/attributes",
+	"flag": "apotheosis:adventure",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+      "text": "$(9)クリティカル ダメージ$() は、通常の攻撃と比較した、クリティカル攻撃が与えるダメージの量です。値 2 = 通常ダメージの 2 倍。$(p)ジャンプクリティカルが発生すると、この量だけブーストされます。$(p)近接武器で見つかります。"
+        },
+		{
+			"type": "patchouli:text",
+      "text": "$(9)$(n)基本値:$() 1$(p)$(9)$(n)最大値:$() 1024$(p)"
+		}
+	]
+}

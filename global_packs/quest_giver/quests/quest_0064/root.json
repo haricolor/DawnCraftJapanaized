@@ -1,0 +1,12 @@
+﻿{
+  "reputation": 18,
+  "icon": "minecraft:arrow",
+  "start": {
+    "title": {
+      "text": "やぁ！"
+    },
+    "description": {
+      "text": "原始的な村人は弓以外のあるものをを使って狩りをしていました… それが何であるかわかりますか?"
+    }
+  }
+}

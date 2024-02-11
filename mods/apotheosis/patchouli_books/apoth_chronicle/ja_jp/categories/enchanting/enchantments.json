@@ -1,0 +1,7 @@
+﻿{
+      "name": "新しいエンチャント",
+      "description": "このセクションの各エントリは、このモジュールによって追加された新しいエンチャントについて詳しく説明します。$(p)他のモジュールによって追加されたエンチャントについては、ここでは説明しません。",
+    "icon": "minecraft:enchanted_book",
+	"flag": "apotheosis:enchanting",
+	"parent": "apotheosis:enchanting/enchanting"
+}

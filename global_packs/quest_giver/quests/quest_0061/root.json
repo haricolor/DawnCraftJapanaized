@@ -1,0 +1,12 @@
+﻿{
+  "reputation": 0,
+  "icon": "minecraft:arrow",
+  "start": {
+    "title": {
+      "text": "やぁ！"
+    },
+    "description": {
+      "text": "こんにちは、手を貸してもらえますか？"
+    }
+  }
+}

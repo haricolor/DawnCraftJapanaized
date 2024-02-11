@@ -1,0 +1,13 @@
+﻿{
+  "parent": "quest_giver:quest_0053_05",
+  "reputation": 0,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "頼んだものは持ってきてくれましたか？"
+    },
+    "description": {
+      "text": "まあ、なんておこがましいんだろう。 報酬については何も言っていませんでしたね？ さあ、どっか行きなさい、坊や、私が警備を呼ぶ前にね。"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+﻿{
+  "parent": "quest_giver:root",
+  "reputation": 15,
+  "icon": "minecraft:paper",
+  "start": {
+    "title": {
+      "text": "難しいゾウ"
+    },
+    "description": {
+      "text": "サバンナの生物群系にゾウという 巨大な生き物が生息していることをご存知ですか? まあ、私たちの仲間の何人かは彼らを 捕まえることに成功しました。 しかし象を飼いならすことができると思いますか……？"
+    }
+  }
+}

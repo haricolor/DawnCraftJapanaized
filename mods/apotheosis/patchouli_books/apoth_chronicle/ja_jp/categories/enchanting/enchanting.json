@@ -1,0 +1,6 @@
+﻿{
+      "name": "エンチャントモジュール",
+      "description": "エンチャント モジュールは、エンチャント システムに対するすべての変更を担当します。$(p) コンテンツがたくさんあるので、見て回ってください。",
+    "icon": "minecraft:enchanting_table",
+	"flag": "apotheosis:enchanting"
+}

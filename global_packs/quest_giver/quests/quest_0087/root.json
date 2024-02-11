@@ -1,0 +1,12 @@
+﻿{
+  "reputation": 7,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "やぁ！"
+    },
+    "description": {
+      "text": "やあ、あなたは料理が上手みたいですね。私のためにある料理を作ってくれませんか？"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+﻿{
+  "parent": "quest_giver:root",
+  "reputation": 13,
+  "icon": "minecraft:iron_axe",
+  "start": {
+    "title": {
+      "text": "貴重なアイテム"
+    },
+    "description": {
+      "text": "ある場所に行って鉄の斧を回収できますか？ その場所はオークに群がっていたので、 放棄せざるを得ませんでした...ちょっと待って、 紙を持ってきてください、 地図を描きます。"
+    }
+  }
+}

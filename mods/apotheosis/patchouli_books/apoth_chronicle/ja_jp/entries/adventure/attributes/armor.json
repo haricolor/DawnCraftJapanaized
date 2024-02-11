@@ -1,0 +1,17 @@
+﻿{
+      "name": "鎧",
+    "icon": "minecraft:iron_chestplate",
+    "category": "apotheosis:adventure/attributes",
+	"flag": "apotheosis:adventure",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+      "text": "$(9)装甲$() は、物理的ダメージに対する耐性の尺度です。$(p) 通常、装甲と一部の盾によって提供されます。"
+        },
+		{
+			"type": "patchouli:text",
+      "text": "$(9)$(n)基本値:$() 0$(p)$(9)$(n)最大値:$() 40$(p)注: バニラでは、最大値は 30 です。上限が 40 に引き上げられ、防具の計算も変更されます。"
+		}
+	]
+}

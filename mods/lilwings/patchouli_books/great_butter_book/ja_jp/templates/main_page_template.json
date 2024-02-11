@@ -1,0 +1,22 @@
+{
+  "components": [
+    {
+      "type": "patchouli:header",
+      "text": "#title",
+      "x": -1,
+      "y": -1,
+      "color": "#color"
+    },
+    {
+      "type": "patchouli:separator",
+      "y": -1
+    },
+    {
+      "type": "patchouli:text",
+      "text": "#text",
+      "max_width": 110,
+      "x": 5,
+      "y": 18
+    }
+  ]
+}

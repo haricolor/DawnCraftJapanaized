@@ -1,0 +1,40 @@
+﻿{
+  "parent": "quest_giver:root",
+  "reputation": 40,
+  "icon": "minecraft:book",
+  "start": {
+    "title": {
+      "text": "貴重なアイテムを取り戻す"
+    },
+    "description": {
+      "text": "地図を描くので紙を持ってきてください。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ここです。"
+    },
+    "description": {
+      "text": "ご迷惑おかけして申し訳ありません。 ここがあなたに行ってほしい場所です。 そこに私の所有していた本があります。 そこはかつては各次元の学者が集う神殿だったが、 今はどうなっているのかは知らない。慎重に進んでください、 そして私の本を持ってきてください。"
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "minecraft:paper"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+     }
+  ],
+  "rewards": [
+    {
+      "command": "/loot give @p loot minecraft:librarian1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p librarian1 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

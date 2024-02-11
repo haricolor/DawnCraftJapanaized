@@ -1,0 +1,22 @@
+﻿{
+      "name": "entity.lilwings.swamp_hopper_butterfly",
+  "icon": "lilwings:swamp_hopper_wings",
+  "category": "lilwings:butterflies",
+  "pages": [
+    {
+      "type": "lilwings:main_page_template",
+      "text": "book.lilwings.butterfly.swamphopper",
+      "title": "スワンプホッパーバタフライ",
+      "color": "1288ff"
+    },
+    {
+      "type": "lilwings:image_template",
+      "text": "Page 2",
+      "color": "1288ff",
+      "entity": "lilwings:swamp_hopper_butterfly",
+      "image": "lilwings:textures/item/swamp_hopper_wings.png",
+      "wings_caption": "book.lilwings.butterfly.swamphopper.wings_caption",
+      "butterfly_caption": "book.lilwings.butterfly.swamphopper.butterfly_caption"
+    }
+  ]
+}

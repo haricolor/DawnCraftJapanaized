@@ -1,0 +1,17 @@
+﻿{
+      "name": "冷害",
+    "icon": "minecraft:blue_ice",
+    "category": "apotheosis:adventure/attributes",
+	"flag": "apotheosis:adventure",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+      "text": "$(9)Coldダメージ$()は近接攻撃に適用されるボーナス魔法ダメージです。また、ダメージの強さに応じて低速も適用されます。$(p)近接武器にあります。"
+        },
+		{
+			"type": "patchouli:text",
+      "text": "$(9)$(n)基本値:$() 0$(p)$(9)$(n)最大値:$() 1024$(p)"
+		}
+	]
+}

@@ -1,0 +1,36 @@
+﻿{
+  "parent": "quest_giver:quest_0110_01",
+  "reputation": 16,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "頼んだものは持ってきてくれましたか？"
+    },
+    "description": {
+      "text": "洞窟の住人はもう退治しましたか？もしそうなら、そのドロップアイテムを持ってきてください。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "これほど頑丈な天然の鎧を持った生き物を想像するのは奇妙です... まあ、死んでよかったです。 ここでは、支払いとしての新しいスキル、ステップを教えます。"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "simple_mobs:dweller_armor_fragment"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/give @p epicfight:skillbook{skill:\"epicfight:step\"}",
+      "id": "quest_giver:command"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+﻿{
+      "name": "インフュージョン・エンチャンティング",
+    "icon": "apotheosis:infused_hellshelf",
+    "category": "apotheosis:enchanting/table",
+	"flag": "apotheosis:enchanting",
+    "pages": [
+        {
+            "type": "patchouli:text",
+      "text": "$(9)Infusion Enchanting$() は、Enchantment Table を通じて作成する新しい方法です。$(p)各 Infusion レシピには 1 つのアイテム入力と 3 つのステータス要件があります。"
+        },
+		{
+			"type": "patchouli:text",
+      "text": "各ステータス要件には通常、少なくともある程度の値が必要で、オプションで最大値も設定されます。$(p)Infusion エンチャントは 3 番目のスロットのみを使用し、経験値を過剰に消費することができます。"
+		},
+		{
+			"type": "patchouli:text",
+      "text": "注入エンチャントを実行するには、スロットにアイテムを配置するだけです。$(p)正しいステータスがある場合、3 番目のスロットが点灯し、それをクリックすると注入が実行されます。"
+		}
+	]
+}

@@ -1,0 +1,55 @@
+﻿{
+  "parent": "quest_giver:quest_0014_07",
+  "reputation": 10,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "アイホルダーへの道"
+    },
+    "description": {
+      "text": "センチネル ナイトは何世紀にもわたってガーディアン アイを守ってきました。 私の知る冒険者で彼を越えた人は誰もいません… 彼は目を休眠状態から解放する鍵を持っていると聞きました。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "アイホルダーへの道"
+    },
+    "description": {
+      "text": "すばらしい。センチネルナイトですらあなたにはかなわない...  さて、あなたは旅の終わりに近づいています。 気分はどうですか？ ...とにかく、 次のアイホルダーを召喚する必要があります。 さあ、この髪の結び目と地図を召喚祭壇に持って行きましょう。"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "endrem:guardian_eye"
+      },
+      "id": "quest_giver:item_pickup",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/loot give @p loot minecraft:guildmaster6",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "simple_mobs:giant_knot"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "command": "/gamestage add @p fire_giant",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only simple_mobs:sentinel_knight_quest_complete",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p guildmaster8 true",
+      "id": "quest_giver:command"
+    }    
+  ]
+}

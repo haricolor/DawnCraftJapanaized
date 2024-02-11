@@ -1,0 +1,44 @@
+﻿{
+	"parent": "quest_giver:root",
+	"reputation": 24,
+	"icon": "minecraft:stone",
+	"start": {
+		"title": {
+      "text": "異次元から来た石"
+		},
+		"description": {
+      "text": "$(red)ターコイズストーン$() はもう持ってきましたか？それらはエバーブライト次元で見つけることができます。"
+		}
+	},
+	"complete": {
+		"title": {
+      "text": "ありがとう！"
+		},
+		"description": {
+      "text": "うーん...品質は...悪くありません。大切に使わせていただきます、ありがとうございました！"
+		}
+	},
+	"tasks": [{
+		"item": {
+			"item": "blue_skies:turquoise_stone"
+		},
+		"id": "quest_giver:gift",
+		"times": 1
+	}],
+	"rewards": [{
+			"command": "/advancement grant @p only custom:trade_mason",
+			"id": "quest_giver:command"
+		},
+		{
+			"command": "/addreputation reputation:village @p 2",
+			"id": "quest_giver:command"
+		},
+		{
+			"item": {
+				"item": "minecraft:emerald"
+			},
+			"id": "quest_giver:item",
+			"times": 1
+		}
+	]
+}

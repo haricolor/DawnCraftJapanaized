@@ -1,0 +1,49 @@
+{
+  "components": [
+    {
+      "type": "patchouli:header",
+      "text": "#text",
+      "x": -1,
+      "y": -1,
+      "color": "#color"
+    },
+    {
+      "type": "patchouli:separator",
+      "y": -1
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "#entity",
+      "x": 32,
+      "y": 50,
+      "render_size": 55,
+      "default_rotation": -45,
+      "rotate": false
+    },
+    {
+      "type": "patchouli:image",
+      "image": "#image",
+      "x": 50,
+      "y": 85,
+      "width": 16,
+      "height": 16,
+      "texture_width": 16,
+      "texture_height": 16,
+      "scale": 4
+    },
+    {
+      "type": "patchouli:text",
+      "text": "#wings_caption",
+      "x": 0,
+      "y": 87,
+      "max_width": 50
+    },
+    {
+      "type": "patchouli:text",
+      "text": "#butterfly_caption",
+      "x": 65,
+      "y": 15,
+      "max_width": 55
+    }
+  ]
+}

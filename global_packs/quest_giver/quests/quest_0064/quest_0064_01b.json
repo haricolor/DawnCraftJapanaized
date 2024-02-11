@@ -1,0 +1,13 @@
+﻿{
+  "parent": "quest_giver:root",
+  "reputation": 18,
+  "icon": "minecraft:arrow",
+  "start": {
+    "title": {
+      "text": "スリングショットの製作"
+    },
+    "description": {
+      "text": "そうだ、スリングショットだ！ 私はそれを動作させようと努めてきましたが、 使用可能なレプリカを作成するのに必要な職人技が欠けているようです。試してみてもらえますか？"
+    }
+  }
+}

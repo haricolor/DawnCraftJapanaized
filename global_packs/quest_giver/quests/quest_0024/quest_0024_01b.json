@@ -1,0 +1,13 @@
+﻿{
+  "parent": "quest_giver:root",
+  "reputation": 6,
+  "icon": "minecraft:bow",
+  "start": {
+    "title": {
+      "text": "助けてください！"
+    },
+    "description": {
+      "text": "略奪者が私たちの村から子供を誘拐しました...  助けに行って連れて帰ってください。 ここの警備員はパトロールの任務に追われています、 あなたが私たちの唯一の希望です。"
+    }
+  }
+}

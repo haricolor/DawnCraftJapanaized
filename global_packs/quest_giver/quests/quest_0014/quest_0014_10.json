@@ -1,0 +1,29 @@
+﻿{
+  "parent": "quest_giver:quest_0014_09",
+  "reputation": 10,
+  "icon": "minecraft:ender_pearl",
+  "start": {
+    "title": {
+      "text": "道の終わり"
+    },
+    "description": {
+      "text": "友人にこれ以上お伝えできる情報はありません。 自分の使命に従ってください。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "終わりは始まりに過ぎない??"
+    },
+    "description": {
+      "text": "それで...ドラゴンを倒しましたか？ そうすればあなたはこの国の新しい統治者になれると思います。 おめでとう、勇敢な征服者よ。 あなたは…できることはすべてやりました。 さて、失礼いたします。"
+    }
+  },
+  "tasks": [
+    {
+		"id": "afptweaks:advancement",
+		"advancement": "minecraft:end/kill_dragon"
+    }
+  ],
+  "rewards": [
+  ]
+}

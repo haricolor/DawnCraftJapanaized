@@ -1,0 +1,13 @@
+﻿{
+  "parent": "quest_giver:root",
+  "reputation": 14,
+  "icon": "minecraft:bow",
+  "start": {
+    "title": {
+      "text": "助けてください！"
+    },
+    "description": {
+      "text": "$(red)海洋の心$() というアイテムを取り戻すのに協力が必要です。埋蔵金の中からよく見つかるが、私には冒険者ほどの経験や専門知識が無いです。代わりに持ってきてもらえますか？"
+    }
+  }
+}

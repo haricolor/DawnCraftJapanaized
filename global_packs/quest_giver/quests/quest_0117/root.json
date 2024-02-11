@@ -1,0 +1,12 @@
+﻿{
+  "reputation": 5,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "提案"
+    },
+    "description": {
+      "text": "私はあなたに教えることができる興味深いスキルを手に入れました - 大剣の二刀流。ただし、それを教えるにはエメラルドが 25 個かかります。"
+    }
+  }
+}

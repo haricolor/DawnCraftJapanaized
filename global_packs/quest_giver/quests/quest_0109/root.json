@@ -1,0 +1,12 @@
+﻿{
+  "reputation": 16,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "やぁ！"
+    },
+    "description": {
+      "text": "冒険者さん、助けてください…私たちに残された助けはあなただけです！"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+﻿{
+  "parent": "quest_giver:root",
+  "reputation": 3,
+  "icon": "minecraft:bow",
+  "start": {
+    "title": {
+      "text": "助けてください！"
+    },
+    "description": {
+      "text": "素晴らしい！$(red) ヘムロック のパッチ２つ$()が必要です。 ほとんどの動物にとっては毒性が強すぎるが、 私が狩っている卑劣な獣にとってはそうではない..."
+    }
+  }
+}

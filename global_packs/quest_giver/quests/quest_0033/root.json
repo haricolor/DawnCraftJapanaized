@@ -1,0 +1,12 @@
+﻿{
+  "reputation": 7,
+  "icon": "minecraft:beef",
+  "start": {
+    "title": {
+      "text": "おい。"
+    },
+    "description": {
+      "text": "おい、冒険者よ。耳を貸してくれないか?"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+﻿{
+  "parent": "quest_giver:root",
+  "reputation": 16,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "エンダーガーディアンへのマップ"
+    },
+    "description": {
+      "text": "友よ。エメラルドを 5 つくれたら、 エンダー ガーディアンへの道順を教えてやろう。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "とてもよかったです、どうぞ。 実際にジ・エンドに到達するまでは、このマップを開かないでください。 白紙になっても私が警告しなかったとは言わないでください。"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:gift",
+      "times": 5
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "simple_mobs:rolled_map_3"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "command": "/gamestage add @p enderian1 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

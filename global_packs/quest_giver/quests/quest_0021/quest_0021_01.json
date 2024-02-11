@@ -1,0 +1,47 @@
+﻿{
+  "parent": "quest_giver:quest_0021_01b",
+  "reputation": 14,
+  "icon": "minecraft:heart_of_the_sea",
+  "start": {
+    "title": {
+      "text": "頼んだものは持ってきてくれましたか？"
+    },
+    "description": {
+      "text": "$(red)海洋の心$() はもう入手しましたか?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "これは...奇妙に見えます。しかし、海から来るもののほとんどはこの性質のものです... とにかく、冒険者さん、ありがとう。これがご褒美です。"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:heart_of_the_sea"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+     }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 2
+    },
+    {
+      "command": "/addreputation reputation:villager @p 3",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only custom:trade_oceanographer",
+      "id": "quest_giver:command"
+    }
+  ]
+}

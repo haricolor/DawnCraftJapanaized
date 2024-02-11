@@ -1,0 +1,21 @@
+﻿{
+      "name": "翼製作キット",
+  "icon": "lilwings:paper_wings",
+  "category": "lilwings:items",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "紙の翼",
+      "item": "lilwings:paper_wings",
+      "link_recipe": true,
+      "text": "紙の翼は、紙を3枚並べて作業台で簡単に作成できます。それは動物実験のない蝶の羽を作るために不可欠です。作業台にある紙の羽と、ある種の蝶の DNA を含む綿球を組み合わせると、エリトラの装飾やディスプレイに使用できる蝶の羽が生成されます。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "綿の球",
+      "item": "lilwings:cotton_ball",
+      "link_recipe": true,
+      "text": "羊毛と石英を使用して作られた綿球は、紙と綿を使って蝶の羽を再現するために、蝶のエッセンスを優しく抽出するのに使用できます。綿球を持った蝶を右クリックするだけで、その蝶のデータが塗り付けられた綿球が返されます。"
+    }
+  ]
+}

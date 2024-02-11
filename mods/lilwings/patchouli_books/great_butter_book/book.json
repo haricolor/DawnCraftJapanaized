@@ -1,0 +1,9 @@
+{
+  "name": "item.lilwings.butter_book",
+  "book_texture": "patchouli:textures/gui/book_green.png",
+  "creative_tab": "lilwings.itemgroup",
+  "model": "lilwings:book",
+  "landing_text": "オーバーワールドとそれ以外の世界のすべての蝶を捕まえるためのガイドです! $(br2)Kekie6、CodexAdrian、abused_master より",
+  "i18n": true,
+  "version": 1
+}

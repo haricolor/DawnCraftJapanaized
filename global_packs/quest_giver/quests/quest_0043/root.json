@@ -1,0 +1,12 @@
+﻿{
+  "reputation": 10,
+  "icon": "minecraft:paper",
+  "start": {
+    "title": {
+      "text": "そこの貴方！"
+    },
+    "description": {
+      "text": "こんにちは。製図台の使い方をどのように学びたいですか?たったの10エメラルドです！"
+    }
+  }
+}

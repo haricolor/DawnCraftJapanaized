@@ -1,0 +1,12 @@
+﻿{
+  "reputation": 7,
+  "icon": "minecraft:brewing_stand",
+  "start": {
+    "title": {
+      "text": "やぁ！"
+    },
+    "description": {
+      "text": "こんにちは、チャットする時間はありますか?時間をかけてみる価値はあると思います。"
+    }
+  }
+}

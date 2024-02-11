@@ -1,0 +1,47 @@
+﻿{
+  "parent": "quest_giver:root",
+  "reputation": 12,
+  "icon": "minecraft:arrow",
+  "start": {
+    "title": {
+      "text": "羽根つき"
+    },
+    "description": {
+      "text": "$(red)ロードランナーの羽根 2枚$() はもう持ってきましたか？"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "うーん…品質は特に良くないようです。他の方法で活用できないか検討してみます。とにかく、ご迷惑をおかけしました。"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "alexsmobs:roadrunner_feather"
+      },
+      "id": "quest_giver:gift",
+      "times": 2
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/advancement grant @p only custom:trade_fletcher",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 3
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+﻿{
+      "name": "攻撃ダメージ",
+    "icon": "minecraft:diamond_sword",
+    "category": "apotheosis:adventure/attributes",
+	"flag": "apotheosis:adventure",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+      "text": "$(9)攻撃ダメージ$() は、攻撃が与えるダメージの量を制御する属性です。$(p)通常、武器はこの統計を提供します。"
+        },
+		{
+			"type": "patchouli:text",
+      "text": "$(9)$(n)基本値:$() 1$(p)$(9)$(n)最大値:$() 1024"
+		}
+	]
+}

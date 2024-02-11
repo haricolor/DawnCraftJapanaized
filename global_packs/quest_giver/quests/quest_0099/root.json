@@ -1,0 +1,12 @@
+﻿{
+  "reputation": 0,
+  "icon": "minecraft:poppy",
+  "start": {
+    "title": {
+      "text": "やぁ！"
+    },
+    "description": {
+      "text": "もし見つけたら$(red)バラの球根アネモネ 1個$()をくれませんか？"
+    }
+  }
+}

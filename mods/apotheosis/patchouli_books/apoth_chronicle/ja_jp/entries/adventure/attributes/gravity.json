@@ -1,0 +1,17 @@
+﻿{
+      "name": "重力",
+    "icon": "minecraft:elytra",
+    "category": "apotheosis:adventure/attributes",
+	"flag": "apotheosis:adventure",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+      "text": "$(9)Gravity$() は、落下する速さを 1 秒あたりのブロック数の 2 乗で表したものです。$(p) どこにでも見つかる可能性があります。"
+        },
+		{
+			"type": "patchouli:text",
+      "text": "$(9)$(n)基本値:$() 0.08$(p)$(9)$(n)最大値:$() 8$(p)注: 重力は負になる可能性があります。負の重力があると、上向きに浮き上がります。"
+		}
+	]
+}

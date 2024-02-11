@@ -1,0 +1,12 @@
+﻿{
+  "reputation": 12,
+  "icon": "minecraft:blast_furnace",
+  "start": {
+    "title": {
+      "text": "そこの貴方！"
+    },
+    "description": {
+      "text": "そこの貴方！ああ、こんにちは、見知らぬ人、てあなたの力を貸してください!"
+    }
+  }
+}

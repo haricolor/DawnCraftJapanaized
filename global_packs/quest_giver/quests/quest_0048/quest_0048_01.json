@@ -1,0 +1,40 @@
+﻿{
+  "parent": "quest_giver:root",
+  "reputation": 25,
+  "icon": "minecraft:brewing_stand",
+  "start": {
+    "title": {
+      "text": "頼んだものは持ってきてくれましたか？"
+    },
+    "description": {
+      "text": "どんなものでもいいので魔女の帽子を取り戻すのに協力してほしいのです。 魔女がドロップすることはほとんどないので……"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "愚か者よ！ さあ、この村に破滅をもたらしましょう！ この村を滅ぼすためなら、 私はよろこんでこの身を差し出そう！"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "biomemakeover:witch_hat"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/advancement grant @p only custom:tricked/tricked",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/execute as @a[advancements={custom:tricked/tricked=true},sort=nearest,limit=1] run function witch:start_witch_raid",
+      "id": "quest_giver:command"
+    }
+  ]
+}

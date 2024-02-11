@@ -1,0 +1,22 @@
+﻿{
+      "name": "entity.lilwings.cloudy_puff_butterfly",
+  "icon": "lilwings:cloudy_puff_wings",
+  "category": "lilwings:butterflies",
+  "pages": [
+    {
+      "type": "lilwings:main_page_template",
+      "text": "book.lilwings.butterfly.cloudypuff",
+      "title": "クラウディーパフバタフライ",
+      "color": "f5d016"
+    },
+    {
+      "type": "lilwings:image_template",
+      "text": "Page 2",
+      "color": "f5d016",
+      "entity": "lilwings:cloudy_puff_butterfly",
+      "image": "lilwings:textures/item/cloudy_puff_wings.png",
+      "wings_caption": "book.lilwings.butterfly.cloudypuff.wings_caption",
+      "butterfly_caption": "book.lilwings.butterfly.cloudypuff.butterfly_caption"
+    }
+  ]
+}

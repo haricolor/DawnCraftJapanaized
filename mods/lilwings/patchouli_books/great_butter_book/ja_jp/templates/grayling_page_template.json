@@ -1,0 +1,35 @@
+{
+  "components": [
+    {
+      "type": "patchouli:header",
+      "text": "#title",
+      "x": -1,
+      "y": -1,
+      "color": "#color"
+    },
+    {
+      "type": "patchouli:separator",
+      "y": -1
+    },
+    {
+      "type": "patchouli:text",
+      "text": "#text",
+      "max_width": 110,
+      "x": 5,
+      "y": 18
+    },
+    {
+      "type": "patchouli:item",
+      "item": "lilwings:grayling_flowering_wings,lilwings:grayling_blooming_wings,lilwings:grayling_wings",
+      "x": 5,
+      "y": 125
+    },
+    {
+      "type": "patchouli:text",
+      "text": "#grayling_caption",
+      "max_width": 105,
+      "x": 27,
+      "y": 118
+    }
+  ]
+}

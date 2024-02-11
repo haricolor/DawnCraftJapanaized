@@ -1,0 +1,41 @@
+﻿{
+  "parent": "quest_giver:quest_0124_01b",
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "不可能な任務です！"
+    },
+    "description": {
+      "text": "もうオルカの祝福を受けましたか？"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "面白いですね…そういうことですか。 あなたは魅力的な人です。 出会えてよかったです！ 今私は行かなければなりません… 神があなたを導いてくれます。"
+    }
+  },
+  "tasks": [
+    {
+		"id": "afptweaks:advancement",
+		"advancement": "alexsmobs:alexsmobs/orcas_might"
+    }
+  ],
+  "rewards": [
+   {
+      "command": "/loot give @p loot minecraft:hunter1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 3",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p hunter1 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

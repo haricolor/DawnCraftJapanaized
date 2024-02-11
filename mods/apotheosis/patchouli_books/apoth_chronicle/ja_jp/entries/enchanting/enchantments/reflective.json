@@ -1,0 +1,17 @@
+﻿{
+      "name": "反射防御",
+    "icon": "minecraft:enchanted_book",
+    "category": "apotheosis:enchanting/enchantments",
+	"flag": "apotheosis:enchanting",
+	"sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+      "text": "$(9)反射防御$() はシールドのエンチャントです。$(p)ブロックされたすべての攻撃に対して、ダメージの一部を攻撃者に与えます。$(p)より具体的には、ブロックされたダメージの 15% が反射されます。戻る。"
+        },
+		{
+            "type": "patchouli:text",
+      "text": "反射ダメージは魔法ダメージに変換されます。$(p)十分に高いレベルの$(9)反射防御$()は、元のダメージを超えるダメージを与えます。"
+        }
+	]
+}

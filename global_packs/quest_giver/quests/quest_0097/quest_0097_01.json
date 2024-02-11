@@ -1,0 +1,40 @@
+﻿{
+  "parent": "quest_giver:root",
+  "reputation": 12,
+  "icon": "minecraft:redstone",
+  "start": {
+    "title": {
+      "text": "頼んだものは持ってきてくれましたか？"
+    },
+    "description": {
+      "text": "曖昧な説明で申し訳ありませんが...問題は、構造がどこにあるのか、どのように見えるのかがわからないことです。 クリエイト仕掛けのある村人の城です、見たら分かると思います。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "それは魅力的ですね！しかし、私はこれらの村人たちが自分たちでそれを建てたとは思わない、 彼らと一緒に技術者を持っていません...誰かがそれらをそこに保管しています。 いずれにせよ、どうもありがとうございました。こちらがクッキーです。"
+    }
+  },
+  "tasks": [
+	{
+	   "id": "afptweaks:advancement",
+	   "advancement": "custom:castle"
+	}
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:cookie"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    }
+  ]
+}

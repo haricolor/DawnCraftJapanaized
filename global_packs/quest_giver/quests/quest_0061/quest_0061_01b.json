@@ -1,0 +1,13 @@
+﻿{
+  "parent": "quest_giver:root",
+  "reputation": 0,
+  "icon": "minecraft:arrow",
+  "start": {
+    "title": {
+      "text": "矢作り"
+    },
+    "description": {
+      "text": "矢を作るための羽根が足りない…… $(red)羽 2枚$() 取ってきてくれませんか？終わったら矢を何本かお渡しします。"
+    }
+  }
+}

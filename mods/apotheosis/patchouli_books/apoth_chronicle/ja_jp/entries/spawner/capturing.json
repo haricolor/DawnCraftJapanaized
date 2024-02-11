@@ -1,0 +1,19 @@
+﻿{
+      "name": "捕獲中",
+    "icon": "minecraft:enchanted_book",
+    "category": "apotheosis:spawner/spawner",
+	"flag": "apotheosis:spawner",
+	"sortnum": 2,
+    "pages": [
+        {
+            "type": "patchouli:text",
+      "text": "モブ スポナーは、$(9)スポーン エッグ$().$(p)を使用してエンティティを変更できます。通常、これらは入手できません。これを解決するために、Apotheosis は剣に $(9)Capturing$() エンチャントを追加します。"
+        },
+		{
+            "type": "patchouli:spotlight",
+			"item": "minecraft:cow_spawn_egg",
+			"title": "Spawn Eggs",
+      "text": "$(9)Capturing$() エンチャントの各レベルでは、エンティティが死亡時にスポーン エッグをドロップする確率が 0.4% 与えられます。$(p) (JEI で見られるように) スポーン エッグ アイテムを持たないエンティティは、スポーン エッグ アイテムをドロップできません。"
+        }
+	]
+}

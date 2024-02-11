@@ -1,0 +1,14 @@
+﻿{
+      "name": "誘虫灯",
+  "icon": "lilwings:lantern_on_a_stick",
+  "category": "lilwings:items",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "誘虫灯",
+      "item": "lilwings:lantern_on_a_stick",
+      "link_recipe": true,
+      "text": "誘虫灯は、優れた鱗翅目専門医にとって便利なツールです。誘虫灯から発せられる光は自然に蝶の気を散らすので、蝶を持っているとすべての蝶が自然にあなたに向かって歩き回ります。 (将来的には) ランタンを棒に付けた状態で、乗れる蝶を簡単に誘導できるようになります"
+    }
+  ]
+}

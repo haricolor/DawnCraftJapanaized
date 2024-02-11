@@ -1,0 +1,12 @@
+﻿{
+  "reputation": 20,
+  "icon": "minecraft:redstone",
+  "start": {
+    "title": {
+      "text": "やぁ！"
+    },
+    "description": {
+      "text": "こんにちは、冒険者さん、あるものを手伝ってくれませんか？"
+    }
+  }
+}

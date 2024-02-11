@@ -1,0 +1,36 @@
+﻿{
+  "parent": "quest_giver:quest_0111_01",
+  "reputation": 13,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "頼んだものは持ってきてくれましたか？"
+    },
+    "description": {
+      "text": "洞窟の住人はもう退治しましたか？ もしそうなら、そのドロップアイテムを持ってきてください。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "よくやった！これはその片目だ。 よし、報酬として戦闘スキル「ガード」を教えてあげるよ。 それは、この次元で学ぶことができる最も重要なスキルの 1 つです。"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "simple_mobs:giant_eye_fragment"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/give @p epicfight:skillbook{skill:\"epicfight:guard\"}",
+      "id": "quest_giver:command"
+    }
+  ]
+}

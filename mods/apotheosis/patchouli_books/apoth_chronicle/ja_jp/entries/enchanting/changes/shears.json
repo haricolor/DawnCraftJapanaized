@@ -1,0 +1,13 @@
+﻿{
+      "name": "ハサミ",
+    "icon": "minecraft:shears",
+    "category": "apotheosis:enchanting/changes",
+	"flag": "apotheosis:enchanting",
+	"sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+      "text": "新しいエンチャントに加えて、ハサミは $(9)Unbreaking$()、$(9)Efficiency$()、$(9)Fortune$() も受け取ることができるようになりました。"
+        }
+	]
+}

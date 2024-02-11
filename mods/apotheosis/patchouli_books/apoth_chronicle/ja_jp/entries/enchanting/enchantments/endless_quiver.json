@@ -1,0 +1,17 @@
+﻿{
+      "name": "エンドレス・クイバー",
+    "icon": "minecraft:enchanted_book",
+    "category": "apotheosis:enchanting/enchantments",
+	"flag": "apotheosis:enchanting",
+	"sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+      "text": "$(2)Endless Quiver$() は、弓のマスターワーク エンチャントです。$(p) 弓を発射するとき、種類に関係なく、矢は消費されません。$(p) $(9) からの直接アップグレードとみなされます。無限$()。"
+        },
+		{
+            "type": "patchouli:text",
+      "text": "このエンチャントは他のMODの矢も無限にするはずです。"
+        }
+	]
+}

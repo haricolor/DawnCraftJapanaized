@@ -1,0 +1,12 @@
+﻿{
+  "reputation": 14,
+  "icon": "minecraft:book",
+  "start": {
+    "title": {
+      "text": "やぁ！"
+    },
+    "description": {
+      "text": "ごきげんよう。ご迷惑をおかけしたくないのですが、 手伝ってもらえませんか？"
+    }
+  }
+}

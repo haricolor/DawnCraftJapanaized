@@ -1,0 +1,6 @@
+﻿{
+      "name": "アドベンチャーモジュール",
+      "description": "以前は $(4)Deadly Module$() として知られていた Adventure Module を使用すると、強力なボーナスを持つ自動生成された戦利品アイテムを装備することができます。$(p)しかし、新しい敵も存在することに注意してください。",
+    "icon": "minecraft:netherite_sword",
+	"flag": "apotheosis:adventure"
+}

@@ -1,0 +1,13 @@
+﻿{
+      "name": "チェーンソー",
+    "icon": "minecraft:enchanted_book",
+    "category": "apotheosis:enchanting/enchantments",
+	"flag": "apotheosis:enchanting",
+	"sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+      "text": "$(2)チェーンソー$()は、斧に適用できるマスターワークのエンチャントです。$(p)木を壊すと、木全体が収穫されます。$(p)これは、斧の耐久性を使用します。"
+        }
+	]
+}

@@ -1,0 +1,47 @@
+﻿{
+  "parent": "quest_giver:root",
+  "reputation": 15,
+  "icon": "minecraft:ancient_debris",
+  "start": {
+    "title": {
+      "text": "ゴミ拾い"
+    },
+    "description": {
+      "text": "$(red)古代の残骸$()はもう持ってきましたか？"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "これは……これはすごいですね！ほら、私のエメラルドを受け取ってください。"
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "minecraft:ancient_debris"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+     }
+  ],
+  "rewards": [
+    {
+      "command": "/advancement grant @p only custom:trade_mason",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 6
+    }
+  ]
+}

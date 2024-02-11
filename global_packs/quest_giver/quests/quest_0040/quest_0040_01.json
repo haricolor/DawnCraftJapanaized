@@ -1,0 +1,40 @@
+﻿{
+  "parent": "quest_giver:quest_0040_01b",
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "難しいゾウ"
+    },
+    "description": {
+      "text": "象を飼い慣らしたらまた来てください… 実際のところ、難しいと思います。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "わぁ！ あなたは実際にやってのけたのですね！ そうですね、この巨大な生き物は アカシアの花が大好きだと聞きました。 なぜ私がそれらを持っているのかは聞かないでください。"
+    }
+  },
+  "tasks": [
+    {
+		"id": "afptweaks:advancement",
+		"advancement": "alexsmobs:alexsmobs/tame_elephant"
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "alexsmobs:acacia_blossom"
+      },
+      "id": "quest_giver:item",
+      "times": 10
+    },
+    {
+      "command": "/addreputation reputation:villager @p 1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

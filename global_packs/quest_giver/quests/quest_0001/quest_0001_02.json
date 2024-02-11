@@ -1,0 +1,40 @@
+﻿{
+  "parent": "quest_giver:quest_0001_02b",
+  "reputation": 5,
+  "icon": "minecraft:iron_helmet",
+  "start": {
+    "title": {
+      "text": "また会いましたね。"
+    },
+    "description": {
+      "text": "また会いましたね。 紙を持ってきてくれましたかい？ あなたに地図を描きたいんだ。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ここだよ。"
+    },
+    "description": {
+      "text": "ここに堕落したハンターたちの根城があります... 私の友人が彼らの場所を追跡し、 ここの地図にマークを付けました。 彼らは敵から得た戦利品を蓄えているに違いありません... やつらを倒して戦利品を手に入れましょう。 できれば、彼らが私から盗んだネックレスを探してください。 彼らはテーブルの下に物を隠すのが好きです。 見つかるかどうか試してみてください。 もしそのネックレスを返してくれたら、できる限りのお返しをします！"
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "minecraft:paper"
+      },
+      "id": "quest_giver:gift",
+      "amount": 1
+     }
+  ],
+  "rewards": [
+    {
+      "command": "/loot give @p loot minecraft:armorer1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p armorer1 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

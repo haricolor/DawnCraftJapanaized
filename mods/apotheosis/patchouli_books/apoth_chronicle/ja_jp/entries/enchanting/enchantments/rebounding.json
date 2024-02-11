@@ -1,0 +1,13 @@
+﻿{
+      "name": "リバウンド",
+    "icon": "minecraft:enchanted_book",
+    "category": "apotheosis:enchanting/enchantments",
+	"flag": "apotheosis:enchanting",
+	"sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+      "text": "$(9)リバウンド$() は、チェスト当てとレギンスのエンチャントです。$(p) すべての近接攻撃者をユーザーから遠ざけます。$(p) レベルが高くなると、距離が長くなります。"
+        }
+	]
+}

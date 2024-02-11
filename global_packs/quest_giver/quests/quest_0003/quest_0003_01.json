@@ -1,0 +1,50 @@
+﻿{
+  "parent": "quest_giver:root",
+  "reputation": 10,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "お願いがあるんだ。"
+    },
+    "description": {
+      "text": "そこの貴方！私が頼んでいたイカ墨の袋と紙は持ってきましたか？それぞれ 1 つだけ必要です。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "あなたは命の恩人です！ここで、この地図を探索して埋めてみましょう。"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:ink_sac"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    },
+    {
+      "item": {
+        "item": "minecraft:paper"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:map"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "command": "/addreputation reputation:villager @p 1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

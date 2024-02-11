@@ -1,0 +1,13 @@
+﻿{
+  "parent": "quest_giver:root",
+  "reputation": 0,
+  "icon": "minecraft:beef",
+  "start": {
+    "title": {
+      "text": "フレンドリーなチャット"
+    },
+    "description": {
+      "text": "まな板をナイフで使用すると、 ほとんどの食材を小さな食材に 切ることができることをご存知ですか？ 食べ物だけでなく、 丸太や装備品などの他のリソースも 少し試してみる価値があります。"
+    }
+  }
+}

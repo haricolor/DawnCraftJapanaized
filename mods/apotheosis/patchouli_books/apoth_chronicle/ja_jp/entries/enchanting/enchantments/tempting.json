@@ -1,0 +1,13 @@
+﻿{
+      "name": "魅力的な",
+    "icon": "minecraft:enchanted_book",
+    "category": "apotheosis:enchanting/enchantments",
+	"flag": "apotheosis:enchanting",
+	"sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+      "text": "$(9)Tempting$() は鍬のエンチャントです。$(p)このエンチャントが付いた鍬を持っていると、すべての動物が繁殖アイテムを持っているかのようにあなたについてきます。"
+        }
+	]
+}

@@ -1,0 +1,13 @@
+﻿{
+  "parent": "quest_giver:quest_0053_04",
+  "reputation": 0,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "頼んだものは持ってきてくれましたか？"
+    },
+    "description": {
+      "text": "ええと...なぜあなたはまだここにいるのですか？何らかのご褒美を期待しているのでしょうか？"
+    }
+  }
+}

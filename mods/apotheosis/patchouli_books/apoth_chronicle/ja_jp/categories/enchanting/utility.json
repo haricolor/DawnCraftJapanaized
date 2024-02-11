@@ -1,0 +1,7 @@
+﻿{
+      "name": "ユーティリティアイテム",
+      "description": "このセクションでは、エンチャントを容易にするために使用されるすべてのランダム ツールについて詳しく説明します。",
+    "icon": "apotheosis:library",
+	"flag": "apotheosis:enchanting",
+	"parent": "apotheosis:enchanting/enchanting"
+}

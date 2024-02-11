@@ -1,0 +1,17 @@
+﻿{
+      "name": "ノックバック耐性",
+    "icon": "minecraft:shulker_shell",
+    "category": "apotheosis:adventure/attributes",
+	"flag": "apotheosis:adventure",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+      "text": "$(9)ノックバック耐性$()は、攻撃によるノックバックに対する耐性です。最大値では、ノックバックの影響を受けません。$(p)通常は鎧または盾によって提供されます。"
+        },
+		{
+			"type": "patchouli:text",
+      "text": "$(9)$(n)基本値:$() 0$(p)$(9)$(n)最大値:$() 1$(p)注: この値を提供する修飾子は、その値の 10 倍を提供すると言います。実際に提供されるため、+1 ノックバック耐性は実際には +0.1 になります。"
+		}
+	]
+}

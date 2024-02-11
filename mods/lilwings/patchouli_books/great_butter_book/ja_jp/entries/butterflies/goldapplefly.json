@@ -1,0 +1,20 @@
+﻿{
+      "name": "entity.lilwings.gold_applefly_butterfly",
+  "icon": "lilwings:gold_applefly_wings",
+  "category": "lilwings:butterflies",
+  "pages": [
+    {
+      "type": "lilwings:main_page_template",
+      "text": "book.lilwings.butterfly.goldapplefly",
+      "title": "ゴールドアップルフライバタフライ",
+      "color": "e6b800"
+    },
+    {
+      "type": "lilwings:image_template",
+      "text": "Page 2",
+      "color": "e6b800",
+      "entity": "lilwings:gold_applefly_butterfly",
+      "image": "lilwings:textures/item/gold_applefly_wings.png"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+﻿{
+  "reputation": 10,
+  "icon": "minecraft:log",
+  "start": {
+    "title": {
+      "text": "やぁ！"
+    },
+    "description": {
+      "text": "おい、$(red)フロストブライトログ$() を持ってきてもらえませんか？それはエバーブライト次元で見つけることができます。"
+    }
+  }
+}

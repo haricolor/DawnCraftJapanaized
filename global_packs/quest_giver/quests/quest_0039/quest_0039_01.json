@@ -1,0 +1,40 @@
+﻿{
+  "parent": "quest_giver:root",
+  "reputation": 45,
+  "icon": "minecraft:paper",
+  "start": {
+    "title": {
+      "text": "外来の無法者"
+    },
+    "description": {
+      "text": "紙を一枚取ってきてくれませんか？地図を描きます。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ここです。"
+    },
+    "description": {
+      "text": "ここに、外来の無法者のグループが マーカーのある場所に拠点を建てました。 行ってリーダーを倒してきてください。"
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "minecraft:paper"
+      },
+      "id": "quest_giver:gift",
+      "amount": 1
+     }
+  ],
+  "rewards": [
+    {
+      "command": "/loot give @p loot minecraft:cartographer1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p cartographer1 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

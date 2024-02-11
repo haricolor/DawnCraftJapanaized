@@ -1,0 +1,12 @@
+﻿{
+  "reputation": 0,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "そこの貴方！"
+    },
+    "description": {
+      "text": "こんにちは、イカ墨と紙を買ってもらえますか？"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+﻿{
+      "name": "到達距離",
+    "icon": "minecraft:iron_pickaxe",
+    "category": "apotheosis:adventure/attributes",
+	"flag": "apotheosis:adventure",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+      "text": "$(9)Reach Distance$() は、オブジェクトに到達できる最大距離です。オブジェクトに到達できれば、それを操作したり、それがブロックの場合は破壊したりすることができます。$(p) 武器としては役に立たないため、通常はブロックを破壊するツールに使用されます。"
+        },
+		{
+			"type": "patchouli:text",
+      "text": "$(9)$(n)基本値:$() 4.5$(p)$(9)$(n)最大値:$() 1024$(p)"
+		}
+	]
+}

@@ -1,0 +1,18 @@
+﻿{
+      "name": "解体の書",
+    "icon": "apotheosis:scrap_tome",
+    "category": "apotheosis:enchanting/utility",
+	"flag": "apotheosis:enchanting",
+	"sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+      "text": "スクラップの書は、アイテムからエンチャントを取得する方法です。$(p)金床で一方を別のアイテムと組み合わせると、もう一方のアイテムが破壊され、エンチャントの一部がランダムに含まれた本が作成されます。"
+        },
+		{
+            "type": "patchouli:crafting",
+			"recipe": "apotheosis:scrap_tome",
+      "text": "あなたは常にエンチャントの半分 (切り上げ) を受け取ります。$(p)選択されたエンチャントは、$(l:apotheosis:enchanting/table/seed)Enchanting Seed$() に基づいています。"
+		}
+	]
+}

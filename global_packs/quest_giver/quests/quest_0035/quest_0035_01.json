@@ -1,0 +1,43 @@
+﻿{
+  "parent": "quest_giver:quest_0035_01b",
+  "reputation": 35,
+  "icon": "minecraft:beef",
+  "start": {
+    "title": {
+      "text": "ナイフ研ぎ"
+    },
+    "description": {
+      "text": "$(red)深層岩 5個$() はもう入手しましたか?刃が鈍くなってきました。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "終了した"
+    },
+    "description": {
+      "text": "よくできました！予想通り、これらの岩石には粗い粒子と細かい粒子の両方のレベルが含まれています。どうもありがとう！さあ、受け取ってください、それはあなたの報酬です。"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:deepslate"
+      },
+      "id": "quest_giver:gift",
+      "times": 5
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 2
+    },
+    {
+      "command": "/addreputation reputation:villager @p 1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+﻿{
+      "name": "モブスポナー",
+    "icon": "minecraft:spawner",
+    "category": "apotheosis:spawner/spawner",
+	"flag": "apotheosis:spawner",
+	"sortnum": -1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+      "text": "$(9)Mob Spawner$() は、虚空からエンティティを注ぎ込むことができる魔法のブロックです。$(p)しかし、それはすでに知っていたので、新しいことに移りましょう。$(p)Apotheosis では、スポナー$(9)Silk Touch$() で拾うことができます。"
+        },
+		{
+            "type": "patchouli:text",
+      "text": "この方法でスポナーを収穫すると、追加の耐久コストが発生します。$(p)Mob スポナーには、その機能を制御する一連の $(l:apotheosis:spawner/stats)Spawner Stats$() があります。$(p)これらの統計は、 $(l:apotheosis:spawner/modifiers)Spawner Modifiers$() を使用して変更できます。"
+        }
+	]
+}

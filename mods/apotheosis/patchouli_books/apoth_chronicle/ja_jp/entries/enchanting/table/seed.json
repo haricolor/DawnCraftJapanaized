@@ -1,0 +1,16 @@
+﻿{
+      "name": "魅惑の種",
+    "icon": "minecraft:wheat_seeds",
+    "category": "apotheosis:enchanting/table",
+	"flag": "apotheosis:enchanting",
+    "pages": [
+        {
+            "type": "patchouli:text",
+      "text": "エンチャント (およびその他の仕組み) のすべては、$(9)エンチャント シード$().$(p)エンチャント テーブルでアイテムをエンチャントするたびにシードが変更されます。"
+        },
+		{
+			"type": "patchouli:text",
+      "text": "シードが変更されない限り、シードベースのランダムな結果はすべて同じままになります。$(p)たとえば、特定のスロットに対してどのエンチャントが選択されるかは、シードベースのランダムな結果になります。"
+		}
+	]
+}

@@ -1,0 +1,12 @@
+﻿{
+  "reputation": 0,
+  "icon": "minecraft:bow",
+  "start": {
+    "title": {
+      "text": "やぁ！"
+    },
+    "description": {
+      "text": "$(red)弓$()を作ってくれませんか？私たちの武器鍛冶屋は最近忙しいです。"
+    }
+  }
+}

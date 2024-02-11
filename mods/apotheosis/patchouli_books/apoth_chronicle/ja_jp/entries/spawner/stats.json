@@ -1,0 +1,67 @@
+﻿{
+      "name": "スポナーの統計情報",
+    "icon": "minecraft:writable_book",
+    "category": "apotheosis:spawner/spawner",
+	"flag": "apotheosis:spawner",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+      "text": "各 Mob スポナーには、その動作を決定する $(9)Spawner Stats$() があります。$(p) スポーン間の時間、スポーンされる Mob の数など。$(p)この章では、それらすべてについて詳しく説明します。"
+        },
+		{
+            "type": "patchouli:text",
+			"title": "Spawn Delay",
+      "text": "Mob スポナーがエンティティをスポーンした後、次のスポーンまで遅延があります。$(p)その遅延は、$(9)Min Spawn Delay$() と $(9)Max Spawn Delay$( ).$(p) 最大遅延が最小遅延を下回った場合は、最小遅延が使用されます。"
+        },
+		{
+            "type": "patchouli:text",
+			"title": "Spawn Count",
+      "text": "$(9)Spawn Count$() は、一度にスポーンされる Mob の数を指定します。$(p) すべてのスポーンが成功するわけではないため、スポーンされるエンティティの数が少なくなる場合があります。$(p) スポーンは成功したものとしてカウントされます (遅延も発生します)。リセット) 1 つのエンティティが生成される限り。"
+        },
+		{
+            "type": "patchouli:text",
+			"title": "Max Entities",
+      "text": "Mob スポナーは近くにあるエンティティの数を追跡します。$(p)その数が $(9)Max Entities$() を超えると、スポーンは停止します。$(p)スポーンされたエンティティと同じタイプのエンティティのみがカウントされます。"
+        },
+		{
+            "type": "patchouli:text",
+			"title": "Activation Range",
+      "text": "Mob スポナーを操作するには、近くのプレイヤーが必要です。$(p)スポナーを実行するには、そのプレイヤーがブロック単位の半径である $(9) 起動範囲$() 内にいる必要があります。"
+        },
+		{
+            "type": "patchouli:text",
+			"title": "Spawn Range",
+      "text": "$(9)Spawn Range$() は、エンティティがスポーンできる範囲のブロック単位の半径です。$(p) このエリアがエンティティに適していることを確認してください。そうでない場合は、一部のスポーンが失敗する可能性があります。"
+        },
+		{
+            "type": "patchouli:text",
+			"title": "Ignores Players",
+      "text": "$(9)プレイヤーを無視$()するスポナーは、$(9)アクティブ化範囲$()内にプレイヤーを必要としません。$(p)プレイヤーがあってもなくても動作します。"
+        },
+		{
+            "type": "patchouli:text",
+			"title": "Ignores Conditions",
+      "text": "$(9)条件を無視する$() スポナーは、特定の Mob 固有のスポーン条件を必要としなくなりました。$(p)これには、動物の草の要件などが含まれます。$(p)必要なのは、十分なスペースと、近くに存在がないこと。"
+        },
+		{
+            "type": "patchouli:text",
+			"title": "Redstone Control",
+      "text": "$(9)Redstone Control$() を備えたスポナーは動作するためにレッドストーン信号を必要とします。$(p)これにより、スポナーがいつ動作するかを制御できます。"
+        },
+		{
+            "type": "patchouli:text",
+			"title": "Ignores Light",
+      "text": "$(9)Ignores Light$() のスポナーは、すべての明るさのレベルで機能します。$(p)これは、Mob が日中でもスポーンできることを意味します。$(p)すでに $(9)Ignores Conditions$() している場合は、次のようになります。修飾子は何もしません。"
+        },
+		{
+            "type": "patchouli:text",
+			"title": "No AI",
+      "text": "$(9)No AI$() が有効になっているスポナーは、AI なしでMob をスポーンします。$(p)通常、これらのMob は単にそこに浮かんで動かず、何もしません。$(p)ただし、Apotheosis によって作成されたスポナーは、まだ移動できます。"
+        },
+		{
+            "type": "patchouli:text",
+      "text": "大規模な Mob ファームを作成している場合は、常に $(9)No AI$() アップグレードを利用する必要があります。$(p) これにより、サーバーの負荷が大幅に軽減され、Mob の制御が容易になります。"
+        }
+	]
+}

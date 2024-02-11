@@ -1,0 +1,85 @@
+{
+	id: "0AAD6825AAAC8DAF"
+	group: ""
+	order_index: 9
+	filename: "brewing"
+	title: "醸造"
+	icon: "ars_nouveau:potion_flask"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "ポーション醸造"
+			x: 0.0d
+			y: 0.0d
+			description: ["ほとんどの場合、醸造はバニラのMinecraftと同じように機能します。ただし、クラフトできるポーションの種類は増えており、JEIで確認できます。さらに、プレイヤーはポーション・チャームをクラフトすることで、通常よりも長い時間、強力なポーション効果を得ることができます。"]
+			size: 2.0d
+			id: "4424AAAF4D8A945E"
+			tasks: [{
+				id: "5B174619510F5A0D"
+				type: "item"
+				item: "minecraft:brewing_stand"
+			}]
+			rewards: [{
+				id: "599741D31C4BF152"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			title: "ポーション・チャーム"
+			icon: {
+				id: "apotheosis:potion_charm"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Potion: "minecraft:leaping"
+				}
+			}
+			x: 2.0d
+			y: 0.0d
+			description: [
+				"プレイヤーは複数のポーションをブレイズパウダーと組み合わせてポーション・チャームを作ることができます。チャームは右クリックでON/OFFでき、インベントリかチャームスロットにある限りポーションの効果をプレイヤーに与えます。これらのチャームには耐久力や修繕をエンチャントして持続時間を延ばすことができます。"
+				""
+				"&b&lアンブレイカブル・チャーム"
+				"チャームはエンチャントテーブルを介してアンブレイカブルチャームに変換することができる。アンブレイカブル・チャームは永続的にその効果を発揮するが、オン・オフは可能である。チャームの注入には最大エテルナ、8.5%～13.5%のクアンタ、85%～95%のアルカナが必要。チャーム注入の詳細については、クエストタブの\"Enchanting\"を参照。"
+			]
+			dependencies: ["4424AAAF4D8A945E"]
+			size: 1.5d
+			id: "50A3AF120AA6375A"
+			tasks: [{
+				id: "4E2A1D32B612F8EC"
+				type: "checkmark"
+				title: "読む"
+			}]
+			rewards: [{
+				id: "3CC09383FD379788"
+				type: "xp"
+				auto: "enabled"
+				xp: 10
+			}]
+		}
+		{
+			title: "ポーションジャー、メルダー、フラスコ"
+			icon: "ars_nouveau:potion_jar"
+			x: 0.0d
+			y: -2.0d
+			description: ["プレイヤーは「1種類のポーションを大量に貯蔵するためのポーションジャー」「ポーションの効果を組み合わせるためのポーションメルダー」「1つのボトルに多くの量のポーションを貯蔵し、強度や持続時間を増加させるためのポーションフラスコ」などをクラフトすることができます。これらの道具やアイテムの詳細については、クエスト \"Magic\"タブを参照。"]
+			dependencies: ["4424AAAF4D8A945E"]
+			size: 1.5d
+			id: "5238E383D811ED28"
+			tasks: [{
+				id: "1B1BBC8DD3E22900"
+				type: "checkmark"
+				title: "読む"
+			}]
+			rewards: [{
+				id: "3EFB277FCE02CC46"
+				type: "xp"
+				auto: "enabled"
+				xp: 10
+			}]
+		}
+	]
+	quest_links: [ ]
+}

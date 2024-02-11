@@ -1,0 +1,12 @@
+﻿{
+  "reputation": 3,
+  "icon": "minecraft:redstone",
+  "start": {
+    "title": {
+      "text": "やぁ！"
+    },
+    "description": {
+      "text": "こんにちは。マシンを修理するための部品がいくつか不足しています。 $(red)レバーと銅レンチ$()をもらえますか？"
+    }
+  }
+}

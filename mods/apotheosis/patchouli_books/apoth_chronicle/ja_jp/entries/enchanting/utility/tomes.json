@@ -1,0 +1,41 @@
+﻿{
+      "name": "書物",
+    "icon": "apotheosis:other_tome",
+    "category": "apotheosis:enchanting/utility",
+	"flag": "apotheosis:enchanting",
+    "pages": [
+        {
+            "type": "patchouli:text",
+      "text": "書物は特別な種類の本です。$(p)書物は本と同じようにエンチャントできますが、特定のエンチャントのみを受け取ることができます。$(p)例外は $(l:apotheosis:enchanting/utility/scrapping)Tome ですScrapping$() には別の目的があります。"
+        },
+		{
+            "type": "patchouli:crafting",
+			"recipe": "apotheosis:other_tome",
+      "text": "本にエンチャントを施すと、エンチャントされた本に変わります。"
+		},
+		{
+            "type": "patchouli:crafting",
+			"recipe": "apotheosis:helmet_tome",
+			"recipe2": "apotheosis:chestplate_tome",
+      "text": ""
+		},
+		{
+            "type": "patchouli:crafting",
+			"recipe": "apotheosis:leggings_tome",
+			"recipe2": "apotheosis:boots_tome",
+      "text": ""
+		},
+		{
+            "type": "patchouli:crafting",
+			"recipe": "apotheosis:weapon_tome",
+			"recipe2": "apotheosis:pickaxe_tome",
+      "text": ""
+		},
+		{
+            "type": "patchouli:crafting",
+			"recipe": "apotheosis:fishing_tome",
+			"recipe2": "apotheosis:bow_tome",
+      "text": ""
+		}
+	]
+}

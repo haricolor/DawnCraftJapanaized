@@ -1,0 +1,13 @@
+﻿{
+  "parent": "quest_giver:root",
+  "reputation": 7,
+  "icon": "minecraft:arrow",
+  "start": {
+    "title": {
+      "text": "先端の矢"
+    },
+    "description": {
+      "text": "先が尖った矢を作ろうとしています。グロウストーンダストを1ダースもらえますか？"
+    }
+  }
+}

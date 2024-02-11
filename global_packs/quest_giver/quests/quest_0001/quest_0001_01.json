@@ -1,0 +1,30 @@
+﻿{
+  "parent": "quest_giver:quest_0001_01b",
+  "reputation": 5,
+  "icon": "minecraft:iron_ingot",
+  "start": {
+    "title": {
+      "text": "持って来てほしい物があるんだ"
+    },
+    "description": {
+      "text": "そこの貴方！ $(red)4 鉄インゴット $() はもう入手しましたか?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "ありがとう！ これでやっとあの衛兵の鎧を作ることができる…… 催促の声が強くてね！ 今は何もあげられないけど、 いつか必ずお返しするよ！"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:iron_ingot"
+      },
+      "id": "quest_giver:gift",
+      "times": 4
+    }
+  ]
+}

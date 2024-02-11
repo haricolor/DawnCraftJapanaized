@@ -1,0 +1,44 @@
+﻿{
+	"parent": "quest_giver:quest_0054_01",
+	"reputation": 5,
+	"icon": "minecraft:wheat_seeds",
+	"start": {
+		"title": {
+      "text": "頼んだものは持ってきてくれましたか？"
+		},
+		"description": {
+      "text": "$(red)パン 2個$() ができたら教えてください。 でも急ぐ必要はありません！"
+		}
+	},
+	"complete": {
+		"title": {
+      "text": "ありがとう！"
+		},
+		"description": {
+      "text": "どうもありがとう！これを受け入れてください。 大した額ではありませんが…… 現時点で私に余裕のあるのはこれだけです。"
+		}
+	},
+	"tasks": [{
+		"item": {
+			"item": "minecraft:bread"
+		},
+		"id": "quest_giver:gift",
+		"times": 2
+	}],
+	"rewards": [{
+			"command": "/advancement grant @p only custom:trade_farmer",
+			"id": "quest_giver:command"
+		},
+		{
+			"command": "/addreputation reputation:villager @p 2",
+			"id": "quest_giver:command"
+		},
+		{
+			"item": {
+				"item": "minecraft:emerald"
+			},
+			"id": "quest_giver:item",
+			"times": 2
+		}
+	]
+}

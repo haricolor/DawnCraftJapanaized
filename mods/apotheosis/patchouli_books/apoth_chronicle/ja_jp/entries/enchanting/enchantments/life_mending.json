@@ -1,0 +1,17 @@
+﻿{
+      "name": "人生を修復する",
+    "icon": "minecraft:enchanted_book",
+    "category": "apotheosis:enchanting/enchantments",
+	"flag": "apotheosis:enchanting",
+	"sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+      "text": "$(4)Life Mending$() は、すべてのダメージを受けやすいアイテムに適用できる破損したエンチャントです。$(p)$(9)Mending$() は受け取った経験値を耐久性に変換しますが、$(4)Life Mending$() は受け取った回復力を変換します。 $(p)ヘルス ポイントあたりの耐久性はレベルとともに増加します。"
+        },
+		{
+            "type": "patchouli:text",
+      "text": "さらに、このエンチャントはエンチャントテーブルにあります。"
+        }
+	]
+}

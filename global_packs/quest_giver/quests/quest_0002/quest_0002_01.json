@@ -1,0 +1,43 @@
+﻿{
+  "parent": "quest_giver:quest_0002_01b",
+  "reputation": 0,
+  "icon": "minecraft:rabbit_foot",
+  "start": {
+    "title": {
+      "text": "お願いがあるんだ。"
+    },
+    "description": {
+      "text": "さて、ウサギの足は持ってきてくれたかい？"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "おぉ素晴らしい！"
+    },
+    "description": {
+      "text": "ありがとう！ お金はあまりありませんが… 焼きたての羊肉をぜひ受け取ってください！"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:rabbit_foot"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+      	"item": "minecraft:cooked_mutton"
+	},
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    }
+  ]
+}

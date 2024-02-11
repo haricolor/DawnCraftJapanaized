@@ -1,0 +1,13 @@
+﻿{
+  "parent": "quest_giver:root",
+  "reputation": 13,
+  "icon": "minecraft:arrow",
+  "start": {
+    "title": {
+      "text": "助けてください！"
+    },
+    "description": {
+      "text": "あなたの評判を聞きました。 エキゾチックな商品、 具体的には $(red)ライオンの皮$() を集めてもらいたいのです。 それが4つ必要です。 商品を手に入れたらまた来てね。"
+    }
+  }
+}

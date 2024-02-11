@@ -1,0 +1,18 @@
+﻿{
+      "name": "entity.lilwings.swallow_tail_butterfly",
+  "icon": "lilwings:swallow_tail_wings",
+  "category": "lilwings:butterflies",
+  "pages": [
+    {
+      "type": "lilwings:main_page_template",
+      "text": "book.lilwings.butterfly.swallowtail",
+      "title": "アゲハチョウ"
+    },
+    {
+      "type": "lilwings:image_template",
+      "text": "Page 2",
+      "entity": "lilwings:swallow_tail_butterfly",
+      "image": "lilwings:textures/item/swallow_tail_wings.png"
+    }
+  ]
+}

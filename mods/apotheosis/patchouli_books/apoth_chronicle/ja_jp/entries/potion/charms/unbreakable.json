@@ -1,0 +1,17 @@
+﻿{
+      "name": "壊れないお守り",
+    "icon": "minecraft:enchanting_table",
+    "category": "apotheosis:potion/charms",
+	"flag": "&apotheosis:potion,apotheosis:enchanting",
+	"sortnum": -1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+      "text": "$(l:apotheosis:enchanting/table/infusion)Infusion Enchanting$() を通じて、チャームを Unbreakable にすることができます。$(p)これを通じて、ポーションの効果を無制限に持続させることができます。"
+        },
+		{
+            "type": "patchouli:text",
+      "text": "アンブレイカブルチャームの注入レシピはかなり難しいです。$(p)それを完了するには、$(l:apotheosis:enchanting/table/stats)Enchanting Stats$() をしっかりと理解する必要があります。"
+        }
+	]
+}

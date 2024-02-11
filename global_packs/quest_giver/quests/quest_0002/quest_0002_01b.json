@@ -1,0 +1,13 @@
+﻿{
+  "parent": "quest_giver:root",
+  "reputation": 0,
+  "icon": "minecraft:beef",
+  "start": {
+    "title": {
+      "text": "お願いがあるんだ。"
+    },
+    "description": {
+      "text": "そこの優しいお方！ ハンターたちがウサギを捕まえてからしばらく経ちました… $(red)ウサギの足$() が残っていれば譲ってもらえませんか？"
+    }
+  }
+}

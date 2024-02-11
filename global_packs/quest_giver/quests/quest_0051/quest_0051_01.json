@@ -1,0 +1,43 @@
+﻿{
+  "parent": "quest_giver:quest_0051_01b",
+  "reputation": 0,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "頼んだものは持ってきてくれましたか？"
+    },
+    "description": {
+      "text": "$(red)カボチャの種$()はもう持ってきましたか？"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "ありがとうございます。 これで家の裏に小さなカボチャ農場を作り、 勉強を始めることができます！"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:pumpkin_seeds"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/addreputation reputation:villager @p 3",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

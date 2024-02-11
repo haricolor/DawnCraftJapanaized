@@ -1,0 +1,30 @@
+﻿{
+  "parent": "quest_giver:quest_0053_01",
+  "reputation": 0,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "頼んだものは持ってきてくれましたか？"
+    },
+    "description": {
+      "text": "$(red)メロンの種 2個$()を持ってきましたか？"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "スイートベリー4つを持ってきましたか？ 私のような村人は、危険を冒して森に行って これらを集めるわけにはいきません。  *村人が言い終えたときのくすくす笑い声が聞こえます。*"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:melon_seeds"
+      },
+      "id": "quest_giver:gift",
+      "times": 2
+    }
+  ]
+}

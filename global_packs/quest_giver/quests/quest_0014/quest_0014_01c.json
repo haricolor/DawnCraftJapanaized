@@ -1,0 +1,40 @@
+﻿{
+	"parent": "quest_giver:quest_0014_01b",
+	"reputation": 5,
+	"icon": "minecraft:crossbow",
+	"start": {
+		"title": {
+      "text": "略奪者を見つける"
+		},
+		"description": {
+      "text": "冒険に出たかと思ったら…しょうがない。紙を持ってきてください。私たちが知っている中で最も近い略奪者のキャンプの場所を教えてあげましょう。"
+		}
+	},
+	"complete": {
+		"title": {
+      "text": "マップを取得しました"
+		},
+		"description": {
+      "text": "どうぞ。ただし、近くのどこかで別のピリジャーが見つかるかもしれません。それらのならず者はどこにでもはびこっています。"
+		}
+	},
+	"tasks": [
+        {
+          "item": {
+             "item": "minecraft:paper"
+           },
+           "id": "quest_giver:gift",
+           "times": 1
+    	  }
+	],
+	"rewards": [
+    {
+      "command": "/loot give @p loot minecraft:pillager1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p guildmaster1 true",
+      "id": "quest_giver:command"
+    }
+]
+}

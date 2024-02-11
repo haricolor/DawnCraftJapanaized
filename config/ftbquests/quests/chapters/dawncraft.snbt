@@ -1,0 +1,1687 @@
+{
+	id: "3EE7B887A0FC6FCD"
+	group: ""
+	order_index: 2
+	filename: "dawncraft"
+	title: "まずはじめに"
+	icon: "minecraft:writable_book"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "自分の目的を決めよう"
+			icon: {
+				id: "antiqueatlas:antique_atlas"
+				Count: 1b
+				tag: { }
+			}
+			x: -3.75d
+			y: -5.25d
+			description: ["アンティーク・アトラスはこのMODパックのマップ機能です。プレイヤーはデフォルトで地図を持ってスタートします。紛失した場合はクラフトしなおすことができます。興味のあるポイントを示すマーカーを追加でき、死亡マーカーは自動的に追加されます。プレイヤーの向きや方角はバニラのマップと同じなので、ボスなどこのMODパックの多くの場所を探すときに、自分の向きを確認するために活用しましょう。"]
+			dependencies: ["6A377E0BD0B45BC5"]
+			size: 1.5d
+			id: "2E56DF35467BE295"
+			tasks: [{
+				id: "3AF5CCBA45F6DC78"
+				type: "checkmark"
+				title: "読む"
+			}]
+			rewards: [{
+				id: "55079C6539007C92"
+				type: "xp"
+				auto: "enabled"
+				xp: 1
+			}]
+		}
+		{
+			title: "村人とクエスト"
+			icon: "minecraft:filled_map"
+			x: -1.5d
+			y: -5.25d
+			description: [
+				"村は非常に重要です。各村にいるギルドマスターNPCは、プレイヤーをこのMODパックのメインクエストに案内してくれます。このメインクエストは、エンチャントや鍛冶、その他の装備のアップグレードや自動化をアンロックするために必要です。これらのクエストでは、プレイヤーはボスを狩って神秘の目を手に入れることができるかもしれません。また、ギルドマスターの小屋では村人の評判を確認したり（評判ブックから）、エメラルドを寄付したり（寄付ボックスから）できます。評判については次のセクションで詳しく説明します。"
+				""
+				""
+			]
+			dependencies: ["6A377E0BD0B45BC5"]
+			size: 1.5d
+			id: "49AF23C212917B34"
+			tasks: [{
+				id: "0C802152D8EA3267"
+				type: "checkmark"
+				title: "読む"
+			}]
+			rewards: [{
+				id: "15E44BAE1B24BC74"
+				type: "xp"
+				auto: "enabled"
+				xp: 1
+			}]
+		}
+		{
+			title: "評判（そしてそれを回復する方法）"
+			x: -1.5d
+			y: -3.0d
+			description: ["エメラルドの束は、村のギルドマスターに寄付することで評判を回復することができます。エメラルの束はエメラルド8個と革1枚で作ることができます。寄付するには、ギルドマスター（赤い屋根の小屋に住んでいる青い服の村人）を見つけ、彼のカウンターにある寄付箱を右クリックし、寄付する束を置きましょう。寄付を有効にするには、プレイヤーは１度眠る必要があります。評判を完全に回復させるには複数回必要な場合があります。村人の前でチェストや樽を略奪したり、村人に危害を加えたりすると評判が下がります。評判が低くなると、村人からクエストやトレードを受けることができなくなり、既存のクエストを請け負うこともできなくなります。"]
+			dependencies: ["49AF23C212917B34"]
+			id: "257D44B8882C8937"
+			tasks: [{
+				id: "0112D4788B97E2CF"
+				type: "item"
+				item: "simple_mobs:bundled_emerald"
+			}]
+			rewards: [{
+				id: "41D3DABF7AA2424E"
+				type: "item"
+				item: "minecraft:cookie"
+			}]
+		}
+		{
+			title: "取引契約"
+			icon: "quest_giver:trading_contract_armorer"
+			x: -1.5d
+			y: -1.5d
+			description: ["村人との交易には交易契約が必要です。契約書を使用する前に、プレイヤーは契約書を手にしたままShift+クリックして契約書にサインし、サインした契約書を持って該当する村人を右クリックして取引する必要があります。契約書を持ったまま死亡した場合、再契約が必要になります。契約書はクエスト報酬として村人から直接受け取るか、以下のクエストでアンロックすることができる。以下のクエストはクリアするのに非常にお金がかかるが、その代わりに村人クエストのランダム性がなくなります。"]
+			dependencies: ["257D44B8882C8937"]
+			id: "58CD06935381272E"
+			tasks: [{
+				id: "588DE458E9165C5C"
+				type: "checkmark"
+				title: "読む"
+			}]
+			rewards: [{
+				id: "115B9E78CBA9C892"
+				type: "xp"
+				auto: "enabled"
+				xp: 1
+			}]
+		}
+		{
+			title: "防具鍛冶取引契約"
+			icon: {
+				id: "magistuarmory:wingedhussar_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -2.5d
+			y: -2.5d
+			dependencies: ["58CD06935381272E"]
+			dependency_requirement: "one_completed"
+			id: "734B9A955AD79147"
+			tasks: [
+				{
+					id: "0EBAEA377712A3C9"
+					type: "item"
+					item: {
+						id: "minecraft:iron_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "18654BE8C4BDBDF7"
+					type: "item"
+					item: {
+						id: "minecraft:iron_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "4C0E6D4FF6E99229"
+					type: "item"
+					item: {
+						id: "minecraft:iron_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "777655C59705BBFB"
+					type: "item"
+					item: {
+						id: "minecraft:iron_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "3A7BA1022D007F5A"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "3DF5355168BC064B"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 20L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "2DD17758B701B4FC"
+				type: "command"
+				title: "契約書作成"
+				icon: "quest_giver:trading_contract_toolsmith"
+				command: "/advancement grant @p only custom:trade_armorer"
+				player_command: false
+			}]
+		}
+		{
+			title: "精肉屋取引契約"
+			icon: "minecraft:beef"
+			x: -3.0d
+			y: -1.5d
+			dependencies: ["58CD06935381272E"]
+			dependency_requirement: "one_completed"
+			id: "76DE84BC4E0A3B7C"
+			tasks: [
+				{
+					id: "7BA3117DAEECDAC7"
+					type: "item"
+					item: "minecraft:cooked_beef"
+					count: 30L
+					consume_items: true
+				}
+				{
+					id: "2D4997C8008DFFB0"
+					type: "item"
+					item: "minecraft:egg"
+					count: 16L
+					consume_items: true
+				}
+				{
+					id: "1BBBF9660DC96346"
+					type: "item"
+					item: "minecraft:cooked_porkchop"
+					count: 30L
+					consume_items: true
+				}
+				{
+					id: "57183F11F7F38AE9"
+					type: "item"
+					item: "minecraft:cooked_mutton"
+					count: 30L
+					consume_items: true
+				}
+				{
+					id: "206EA451FBA5DFC4"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 20L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "5492946DB1DDE5EA"
+				type: "command"
+				title: "契約書作成"
+				icon: "quest_giver:trading_contract_cartographer"
+				command: "/advancement grant @p only custom:trade_butcher"
+				player_command: false
+			}]
+		}
+		{
+			title: "地図家取引契約"
+			icon: "minecraft:filled_map"
+			x: -2.5d
+			y: -0.5d
+			dependencies: ["58CD06935381272E"]
+			dependency_requirement: "one_completed"
+			id: "70BD0F71C71F930C"
+			tasks: [
+				{
+					id: "008607AFC1F470A5"
+					type: "item"
+					item: "minecraft:ink_sac"
+					count: 32L
+					consume_items: true
+				}
+				{
+					id: "7D404077140E3D07"
+					type: "item"
+					item: "minecraft:map"
+					count: 10L
+					consume_items: true
+				}
+				{
+					id: "177944DEEF781BD1"
+					type: "item"
+					item: "minecraft:paper"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "2F0E964609E2FA01"
+					type: "item"
+					item: "minecraft:glow_ink_sac"
+					count: 16L
+					consume_items: true
+				}
+				{
+					id: "7F7A1C5585DA4F69"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 20L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "280B1951564FE37C"
+				type: "command"
+				title: "契約書作成"
+				icon: "quest_giver:trading_contract_cartographer"
+				command: "/advancement grant @p only custom:trade_cartographer"
+				player_command: false
+			}]
+		}
+		{
+			title: "聖職者取引契約"
+			icon: "minecraft:brewing_stand"
+			x: -1.5d
+			y: 0.0d
+			dependencies: ["58CD06935381272E"]
+			dependency_requirement: "one_completed"
+			id: "21A348D2D60920F4"
+			tasks: [
+				{
+					id: "0E417AA6BBFDA12F"
+					type: "item"
+					item: "minecraft:blaze_powder"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "265CC53AC61037AF"
+					type: "item"
+					item: "minecraft:glass_bottle"
+					count: 16L
+					consume_items: true
+				}
+				{
+					id: "745E80B81BBA5D13"
+					type: "item"
+					item: "minecraft:brewing_stand"
+					consume_items: true
+				}
+				{
+					id: "2104F2CFC02A2F26"
+					type: "item"
+					item: "minecraft:spider_eye"
+					count: 32L
+					consume_items: true
+				}
+				{
+					id: "2DF5465A55304193"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 20L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "72B10BBF2C498725"
+				type: "command"
+				title: "契約書作成"
+				icon: "quest_giver:trading_contract_armorer"
+				command: "/advancement grant @p only custom:trade_cleric"
+				player_command: false
+			}]
+		}
+		{
+			title: "農夫取引契約"
+			icon: "minecraft:wheat"
+			x: -0.5d
+			y: -0.5d
+			dependencies: ["58CD06935381272E"]
+			dependency_requirement: "one_completed"
+			id: "4F05A048DDC9B952"
+			tasks: [
+				{
+					id: "67F7DE7DB3AC0E17"
+					type: "item"
+					item: "minecraft:wheat"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "0F659F94639F01C0"
+					type: "item"
+					item: "farmersdelight:tomato"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "01833FABD153A05F"
+					type: "item"
+					item: "minecraft:beetroot"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "57EBA590AE59CA43"
+					type: "item"
+					item: "farmersdelight:cabbage"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "42EEE95E2A460203"
+					type: "item"
+					item: "minecraft:potato"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "1CF080D9A46AA3D9"
+					type: "item"
+					item: "minecraft:carrot"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "2C3CA37A998C4904"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 20L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "75629351AA1174D7"
+				type: "command"
+				title: "契約書作成"
+				icon: "quest_giver:trading_contract_armorer"
+				command: "/advancement grant @p only custom:trade_farmer"
+				player_command: false
+			}]
+		}
+		{
+			title: "釣り人取引契約"
+			icon: {
+				id: "minecraft:fishing_rod"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 0.0d
+			y: -1.5d
+			dependencies: ["58CD06935381272E"]
+			dependency_requirement: "one_completed"
+			id: "1669E876420E6334"
+			tasks: [
+				{
+					id: "0C8CFF60477DE9D8"
+					type: "item"
+					item: "minecraft:cod"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "364D08486A5EDB1E"
+					type: "item"
+					item: "minecraft:salmon"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "2461F14608B83F17"
+					type: "item"
+					item: "minecraft:tropical_fish"
+					count: 5L
+					consume_items: true
+				}
+				{
+					id: "3672E3DBABFACBA4"
+					type: "item"
+					item: "minecraft:pufferfish"
+					count: 5L
+					consume_items: true
+				}
+				{
+					id: "1B83946686F2EF7C"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 20L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "4A4AD406EF8E16E6"
+				type: "command"
+				title: "契約書作成"
+				icon: "quest_giver:trading_contract_armorer"
+				command: "/advancement grant @p only custom:trade_angler"
+				player_command: false
+			}]
+		}
+		{
+			title: "矢師取引契約"
+			icon: "minecraft:spectral_arrow"
+			x: -0.5d
+			y: -2.5d
+			dependencies: ["58CD06935381272E"]
+			dependency_requirement: "one_completed"
+			id: "16EBE1531DFDB056"
+			tasks: [
+				{
+					id: "250968064CF3CE8D"
+					type: "item"
+					item: "minecraft:arrow"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "687BB7F1FD1572FF"
+					type: "item"
+					item: {
+						id: "minecraft:bow"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					count: 10L
+					consume_items: true
+				}
+				{
+					id: "76118F003E5D0B65"
+					type: "item"
+					item: {
+						id: "minecraft:crossbow"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					count: 10L
+					consume_items: true
+				}
+				{
+					id: "4E64674D09D3AFB9"
+					type: "item"
+					item: "minecraft:flint"
+					count: 32L
+					consume_items: true
+				}
+				{
+					id: "406A2A72C5447737"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 20L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "4E936AD991C6DF38"
+				type: "command"
+				title: "契約書作成"
+				icon: "quest_giver:trading_contract_armorer"
+				command: "/advancement grant @p only custom:trade_fletcher"
+				player_command: false
+			}]
+		}
+		{
+			title: "革細工士取引契約"
+			icon: "minecraft:leather"
+			x: -2.5d
+			y: 0.5d
+			dependencies: ["58CD06935381272E"]
+			dependency_requirement: "one_completed"
+			id: "7872115113F983CC"
+			tasks: [
+				{
+					id: "76E0AADD8073A6F4"
+					type: "item"
+					item: "minecraft:leather"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "7FC26951B604D88A"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					count: 32L
+					consume_items: true
+				}
+				{
+					id: "233D040CAF68AA22"
+					type: "item"
+					item: "minecraft:water_bucket"
+				}
+				{
+					id: "6D7F4440266E5F72"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 20L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "562E3BBEF3358F4D"
+				type: "command"
+				title: "契約書作成"
+				icon: "quest_giver:trading_contract_armorer"
+				command: "/advancement grant @p only custom:trade_leatherworker"
+				player_command: false
+			}]
+		}
+		{
+			title: "司書取引契約"
+			icon: "minecraft:book"
+			x: -0.5d
+			y: 0.5d
+			dependencies: ["58CD06935381272E"]
+			dependency_requirement: "one_completed"
+			id: "39144289C1A60D80"
+			tasks: [
+				{
+					id: "572C086AB16F4C6E"
+					type: "item"
+					item: "minecraft:bookshelf"
+					count: 32L
+					consume_items: true
+				}
+				{
+					id: "2C720F67D320F52E"
+					type: "item"
+					item: "minecraft:writable_book"
+					count: 10L
+					consume_items: true
+				}
+				{
+					id: "4A8E59DD6361C620"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+					count: 32L
+					consume_items: true
+				}
+				{
+					id: "2158CDBE932B4790"
+					type: "item"
+					item: "minecraft:diamond"
+					count: 10L
+					consume_items: true
+				}
+				{
+					id: "1B8A65DB7F1CA619"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 20L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "199333E8368F50FE"
+				type: "command"
+				title: "契約書作成"
+				icon: "quest_giver:trading_contract_armorer"
+				command: "/advancement grant @p only custom:trade_librarian"
+				player_command: false
+			}]
+		}
+		{
+			title: "石工取引契約"
+			icon: "minecraft:stonecutter"
+			x: 0.5d
+			y: -0.5d
+			dependencies: ["58CD06935381272E"]
+			dependency_requirement: "one_completed"
+			id: "26E989448A8E3607"
+			tasks: [
+				{
+					id: "112471E993C6DD8C"
+					type: "item"
+					item: "minecraft:stone"
+					count: 200L
+					consume_items: true
+				}
+				{
+					id: "6636C4A13F2C27AD"
+					type: "item"
+					item: "minecraft:obsidian"
+					count: 10L
+					consume_items: true
+				}
+				{
+					id: "610D6A953D487182"
+					type: "item"
+					item: "minecraft:deepslate"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "34F20D005C76CD7E"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 20L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "02EC6E6E3EA0FE54"
+				type: "command"
+				title: "契約書作成"
+				icon: "quest_giver:trading_contract_butcher"
+				command: "/advancement grant @p only custom:trade_mason"
+				player_command: false
+			}]
+		}
+		{
+			title: "羊飼い取引契約"
+			icon: {
+				id: "minecraft:shears"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 0.5d
+			y: -2.5d
+			dependencies: ["58CD06935381272E"]
+			dependency_requirement: "one_completed"
+			id: "56EE6F1B96B115B2"
+			tasks: [
+				{
+					id: "52BDC17FDE2A139D"
+					type: "item"
+					item: "minecraft:white_wool"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "2644BCC4C3012D5F"
+					type: "item"
+					item: {
+						id: "minecraft:shears"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					count: 10L
+					consume_items: true
+				}
+				{
+					id: "18DACA14A26E756F"
+					type: "item"
+					item: "minecraft:mutton"
+					count: 32L
+					consume_items: true
+				}
+				{
+					id: "7CA9F521A72A189D"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 20L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "4CE7B90D24F795E6"
+				type: "command"
+				title: "契約書作成"
+				icon: "quest_giver:trading_contract_armorer"
+				command: "/advancement grant @p only custom:trade_shepherd"
+				player_command: false
+			}]
+		}
+		{
+			title: "道具鍛冶取引契約"
+			icon: {
+				id: "minecraft:diamond_shovel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -3.5d
+			y: -0.5d
+			dependencies: ["58CD06935381272E"]
+			dependency_requirement: "one_completed"
+			id: "436E4C659B58E55D"
+			tasks: [
+				{
+					id: "71EF5D1E574048C3"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "544799F00E56BCB4"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "679CB1F6B100AFCC"
+					type: "item"
+					item: {
+						id: "minecraft:golden_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "605264E46B886E34"
+					type: "item"
+					item: {
+						id: "minecraft:iron_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6C2FA5FEA57B1F75"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 20L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "224712D630BBECBD"
+				type: "command"
+				title: "契約書作成"
+				icon: "quest_giver:trading_contract_butcher"
+				command: "/advancement grant @p only custom:trade_toolsmith"
+				player_command: false
+			}]
+		}
+		{
+			title: "エンダー取引契約"
+			icon: "minecraft:ender_pearl"
+			x: -3.5d
+			y: -2.5d
+			dependencies: ["58CD06935381272E"]
+			dependency_requirement: "one_completed"
+			id: "57542FC7B59FCB1A"
+			tasks: [
+				{
+					id: "5ED7BB5FE42BB220"
+					type: "item"
+					item: "minecraft:ender_pearl"
+					count: 24L
+					consume_items: true
+				}
+				{
+					id: "70F1A671FBE3A6EF"
+					type: "item"
+					item: "minecraft:grass_block"
+					count: 5L
+					consume_items: true
+				}
+				{
+					id: "73B11EA0BF7DE102"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 20L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "66A352FA29523680"
+				type: "command"
+				title: "契約書作成"
+				icon: "quest_giver:trading_contract_cartographer"
+				command: "/advancement grant @p only custom:trade_enderian"
+				player_command: false
+			}]
+		}
+		{
+			title: "エンジニア取引契約"
+			icon: "create:cogwheel"
+			x: -2.5d
+			y: -3.5d
+			dependencies: ["58CD06935381272E"]
+			dependency_requirement: "one_completed"
+			id: "606B4B6C22F2E205"
+			tasks: [
+				{
+					id: "33CD226B9C9CBFB8"
+					type: "item"
+					item: "create:large_cogwheel"
+					count: 10L
+					consume_items: true
+				}
+				{
+					id: "1E134D911C379A6A"
+					type: "item"
+					item: "create:iron_sheet"
+					count: 32L
+					consume_items: true
+				}
+				{
+					id: "3C9C15D58B97C259"
+					type: "item"
+					item: "create:andesite_alloy"
+					count: 10L
+					consume_items: true
+				}
+				{
+					id: "37EAF2E91CD52939"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 20L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "6754EE64FC4B32A7"
+				type: "command"
+				title: "契約書作成"
+				icon: "quest_giver:trading_contract_butcher"
+				command: "/advancement grant @p only custom:trade_engineer"
+				player_command: false
+			}]
+		}
+		{
+			title: "花屋取引契約"
+			icon: "minecraft:cornflower"
+			x: -0.5d
+			y: -3.5d
+			dependencies: ["58CD06935381272E"]
+			dependency_requirement: "one_completed"
+			id: "6B5E4E64D71F73F7"
+			tasks: [
+				{
+					id: "4DC0C7D7992087A2"
+					type: "item"
+					item: "minecraft:cornflower"
+					count: 10L
+					consume_items: true
+				}
+				{
+					id: "3F9485BB353822D5"
+					type: "item"
+					item: "hexerei:mugwort_flowers"
+					count: 10L
+					consume_items: true
+				}
+				{
+					id: "4319DE2DE3A4D773"
+					type: "item"
+					item: "hexerei:yellow_dock_flowers"
+					count: 10L
+					consume_items: true
+				}
+				{
+					id: "6292AC22FA01C637"
+					type: "item"
+					item: "hexerei:belladonna_flowers"
+					count: 10L
+					consume_items: true
+				}
+				{
+					id: "1F61A4298117DA7D"
+					type: "item"
+					item: "hexerei:mandrake_flowers"
+					count: 10L
+					consume_items: true
+				}
+				{
+					id: "690FAD0D37FB4244"
+					type: "item"
+					item: "minecraft:rose_bush"
+					count: 10L
+					consume_items: true
+				}
+				{
+					id: "5C36D70F54B0A026"
+					type: "item"
+					item: "minecraft:dandelion"
+					count: 10L
+					consume_items: true
+				}
+				{
+					id: "761876D83D3BD113"
+					type: "item"
+					item: "minecraft:poppy"
+					count: 10L
+					consume_items: true
+				}
+				{
+					id: "0A98554CC902FECB"
+					type: "item"
+					item: "minecraft:azure_bluet"
+					count: 10L
+					consume_items: true
+				}
+				{
+					id: "751B2F5F802B8765"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 20L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "2F78A6D4D40AC92F"
+				type: "command"
+				title: "契約書作成"
+				icon: "quest_giver:trading_contract_armorer"
+				command: "/advancement grant @p only custom:trade_florist"
+				player_command: false
+			}]
+		}
+		{
+			title: "狩人取引契約"
+			icon: {
+				id: "minecraft:bow"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -1.5d
+			y: 1.0d
+			dependencies: ["58CD06935381272E"]
+			dependency_requirement: "one_completed"
+			id: "59D310C364609E04"
+			tasks: [
+				{
+					id: "0C1F100CD4CF90F8"
+					type: "item"
+					item: "ars_nouveau:wilden_horn"
+					count: 5L
+					consume_items: true
+				}
+				{
+					id: "01E7D5BC4277EF50"
+					type: "item"
+					item: "minecraft:bone"
+					count: 32L
+					consume_items: true
+				}
+				{
+					id: "51B97160577A9B53"
+					type: "item"
+					item: "minecraft:leather"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "556EA1A76F5B2ED3"
+					type: "item"
+					item: "minecraft:feather"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "7FF649BE9EF10C79"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 20L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "4F8105978561C3F2"
+				type: "command"
+				title: "契約書作成"
+				icon: "quest_giver:trading_contract_armorer"
+				command: "/advancement grant @p only custom:trade_hunter"
+				player_command: false
+			}]
+		}
+		{
+			title: "ネザー取引契約"
+			icon: "minecraft:nether_wart_block"
+			x: 1.0d
+			y: -1.5d
+			dependencies: ["58CD06935381272E"]
+			dependency_requirement: "one_completed"
+			id: "231F33F8E56E16C1"
+			tasks: [
+				{
+					id: "518A699901FAEAD0"
+					type: "item"
+					item: "minecraft:netherite_scrap"
+				}
+				{
+					id: "17073B0928EEC015"
+					type: "item"
+					item: "minecraft:nether_bricks"
+					count: 64L
+				}
+				{
+					id: "300B450A205C5CCE"
+					type: "item"
+					item: "minecraft:quartz"
+					count: 200L
+					consume_items: true
+				}
+				{
+					id: "2985D1601A6DA868"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 20L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "36C0B6E99A563254"
+				type: "command"
+				title: "契約書作成"
+				icon: "quest_giver:trading_contract_armorer"
+				command: "/advancement grant @p only custom:trade_netherian"
+				player_command: false
+			}]
+		}
+		{
+			title: "海洋学者取引契約"
+			icon: "minecraft:tropical_fish"
+			x: -4.0d
+			y: -1.5d
+			dependencies: ["58CD06935381272E"]
+			dependency_requirement: "one_completed"
+			id: "7E9B40E4AE6BCC89"
+			tasks: [
+				{
+					id: "6F388FA581871AE2"
+					type: "item"
+					item: "minecraft:prismarine_shard"
+					count: 10L
+					consume_items: true
+				}
+				{
+					id: "1D6A2CD6508CDBE4"
+					type: "item"
+					item: "minecraft:cod"
+					count: 10L
+					consume_items: true
+				}
+				{
+					id: "1A3329098BEC8FC0"
+					type: "item"
+					item: "minecraft:spruce_boat"
+				}
+				{
+					id: "285B6128FC70E883"
+					type: "item"
+					item: "minecraft:sea_lantern"
+					count: 2L
+					consume_items: true
+				}
+				{
+					id: "0F282799DBBAA06D"
+					type: "item"
+					item: "minecraft:sea_pickle"
+					count: 10L
+				}
+				{
+					id: "0A2C6F6CD7D9006F"
+					type: "item"
+					item: "minecraft:seagrass"
+					count: 10L
+					consume_items: true
+				}
+				{
+					id: "1E8FDD13A0B1017B"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 20L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "11D8F8F81C6EDC24"
+				type: "command"
+				title: "契約書作成"
+				icon: "quest_giver:trading_contract_cleric"
+				command: "/advancement grant @p only custom:trade_oceanographer"
+				player_command: false
+			}]
+		}
+		{
+			title: "木こり取引契約"
+			icon: {
+				id: "minecraft:diamond_axe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 0.5d
+			y: -3.5d
+			dependencies: ["58CD06935381272E"]
+			dependency_requirement: "one_completed"
+			id: "671AA6B11F92DC15"
+			tasks: [
+				{
+					id: "0C3E89A9B86F035F"
+					type: "item"
+					item: "minecraft:oak_log"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "31FD701B206B71FD"
+					type: "item"
+					item: "minecraft:birch_log"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "11EB7D320C3C5009"
+					type: "item"
+					item: {
+						id: "minecraft:iron_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "7DDD397D5F8C19E6"
+					type: "item"
+					item: "minecraft:stripped_spruce_log"
+					count: 16L
+					consume_items: true
+				}
+				{
+					id: "0172ADD25BF645E3"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 20L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "405D1CDE2535D2DA"
+				type: "command"
+				title: "契約書作成"
+				icon: "quest_giver:trading_contract_armorer"
+				command: "/advancement grant @p only custom:trade_woodworker"
+				player_command: false
+			}]
+		}
+		{
+			title: "鉱夫取引契約"
+			icon: {
+				id: "minecraft:diamond_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -3.5d
+			y: -3.5d
+			dependencies: ["58CD06935381272E"]
+			dependency_requirement: "one_completed"
+			id: "759D0FF12CDF12DB"
+			tasks: [
+				{
+					id: "5BB05F44A24B249B"
+					type: "item"
+					item: "minecraft:raw_iron"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "7864BB7068B55F26"
+					type: "item"
+					item: "minecraft:raw_gold"
+					count: 32L
+					consume_items: true
+				}
+				{
+					id: "25150A8D4F789287"
+					type: "item"
+					item: "minecraft:redstone"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "12DDD4E7BDB78D4C"
+					type: "item"
+					item: "minecraft:diamond"
+					consume_items: true
+				}
+				{
+					id: "6F231C239988FD6F"
+					type: "item"
+					item: "minecraft:tnt"
+					consume_items: true
+				}
+				{
+					id: "3B25D96BA9E697B7"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 20L
+					consume_items: true
+					only_from_crafting: false
+				}
+			]
+			rewards: [{
+				id: "165DAF1EB8D63AD1"
+				type: "command"
+				title: "契約書作成"
+				icon: "quest_giver:trading_contract_cartographer"
+				command: "/advancement grant @p only custom:trade_miner"
+				player_command: false
+			}]
+		}
+		{
+			title: "養蜂家取引契約"
+			icon: "minecraft:honeycomb"
+			x: 0.0d
+			y: -4.5d
+			dependencies: ["58CD06935381272E"]
+			dependency_requirement: "one_completed"
+			id: "6414A16FB710B8DE"
+			tasks: [
+				{
+					id: "667A32CE331DE475"
+					type: "item"
+					item: "minecraft:honeycomb"
+					count: 32L
+					consume_items: true
+				}
+				{
+					id: "1A89AF14E538A72C"
+					type: "item"
+					item: "minecraft:honey_bottle"
+					count: 10L
+					consume_items: true
+				}
+				{
+					id: "58B9E3CF79073742"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 20L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "63EC80BB59C9FD0F"
+				type: "command"
+				title: "契約書作成"
+				icon: "quest_giver:trading_contract_armorer"
+				command: "/advancement grant @p only custom:trade_beekeeper"
+				player_command: false
+			}]
+		}
+		{
+			title: "この世界の移動方法"
+			icon: {
+				id: "minecraft:leather_boots"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 1.5d
+			y: -5.25d
+			description: [
+				"このMODパックでは、重要な建造物、ボス、バイオームなどを見つけるために、数千、さらには数万のブロックを移動する必要があります。このタスクを支援するために、以下のクエストで詳しく説明されている便利な移動方法がいくつかあります。"
+				"多くのMODは追加の移動方法を追加します。これについてはそれぞれのクエストタブで説明されているので確認してください。また、速度ボーナスのある装備を見つけることも役立ちます。"
+			]
+			dependencies: ["6A377E0BD0B45BC5"]
+			size: 1.5d
+			id: "5165327673FA3C3A"
+			tasks: [{
+				id: "6283927290D3C7E3"
+				type: "checkmark"
+				title: "読む"
+			}]
+			rewards: [{
+				id: "261360F8E570AB79"
+				type: "xp"
+				auto: "enabled"
+				xp: 1
+			}]
+		}
+		{
+			x: 2.0d
+			y: -3.0d
+			description: ["グライダーはでこぼこした地形を横断するのに最適な手段です。 どこか高いところを見つけて飛び降りてください。 グライダーを使うとスタミナを消費するので、空中で落下しないようにスタミナ切れに注意しましょう。 スタミナが低い場合は、低い崖からの滑空を検討してください。"]
+			dependencies: ["5165327673FA3C3A"]
+			id: "5F8E6856198022AB"
+			tasks: [{
+				id: "24BD29A64D572082"
+				type: "item"
+				item: "paraglider:paraglider"
+			}]
+			rewards: [{
+				id: "62BF1A01EBAA2CA3"
+				type: "item"
+				item: "untamedwilds:food_bear_cooked"
+				count: 5
+			}]
+		}
+		{
+			title: "スタミナ"
+			icon: "paraglider:spirit_orb"
+			x: 2.0d
+			y: -1.5d
+			description: ["スタミナを増やす唯一の方法は、スピリットオーブまたはエッセンスを使用することです。 これらは、パズルダンジョン (完了するためのパズルを含む、黄色または青色の大きな構造物) または一部のクエストで見つけることができます。 エッセンスは、野生でスポーンするオーガや教会の医師などの一部のMobや一部のクエストからドロップすることがあります。 入手したら、アイテムを右クリックして消費します。 4 つのオーブまたは 6 つのエッセンスを入手したら、任意の村にある適切な像に話しかけて、より多くの体力またはスタミナと交換してください。"]
+			dependencies: ["5F8E6856198022AB"]
+			id: "1C144F8F242A570F"
+			tasks: [{
+				id: "4382A321D9130B3D"
+				type: "checkmark"
+				title: "読む"
+			}]
+			rewards: [{
+				id: "61F5F77070CF6EF8"
+				type: "item"
+				item: "paraglider:essence"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			description: ["探索すると、いくつかの村でウェイストーンを見つけることができます。 これらを右クリックして (または、最初に壊して再配置して新しい名前を設定し)、位置を保存します。 ウェイストーンは経験値を消費してワープできますが、ワープ ストーンを作成すると、どこからでも保存した場所に無制限に (クールダウンで) テレポートできます。"]
+			dependencies: ["1C144F8F242A570F"]
+			id: "55A2F317B39F413E"
+			tasks: [{
+				id: "5E57594EE69E1505"
+				type: "item"
+				item: {
+					id: "waystones:warp_stone"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "67886399BDDA5533"
+					type: "item"
+					item: "minecraft:ender_pearl"
+				}
+				{
+					id: "24778DF39497F0B0"
+					type: "xp"
+					xp: 3
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 1.5d
+			description: ["ウェイストーンは世界中で見つかるだけでなく、作成することもできます。 これは、拠点にワープ場所を追加するのに最適な方法です。また、長旅の際にワープ場所を持って行き、設置してから家に戻って準備を整え、戻って冒険を再開するなど効率的に利用しましょう"]
+			dependencies: ["55A2F317B39F413E"]
+			id: "679E0992FAE07E57"
+			tasks: [{
+				id: "1946D897ED5D5DFA"
+				type: "item"
+				item: "waystones:waystone"
+			}]
+			rewards: [{
+				id: "05DB1F2646D68683"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			title: "強者への道"
+			icon: {
+				id: "minecraft:diamond_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 3.75d
+			y: -5.25d
+			description: [
+				"最初に始めたとき、あなたは敵に数で圧倒され、力も及ばないでしょう。 大丈夫です。それが本来あるべき姿です。ゲームの初期では装備を漁らなければならないことは間違いなく、その過程でおそらく死に遭遇することになるでしょう。 忍耐強く、探索し、採掘し、作成し、以下の手順に従って、最も恐ろしいボスを倒すためにキャラクターを軌道に乗せていきましょう。"
+				""
+				"死んでも、ほとんどのアイテムは手元に残ります。 ただし、いくつかのアイテム (鉱石、一部の材料、通貨など) をドロップすると、これらはプレイヤーの死体に保管され、7 分後にデスポーンします。 死は経験レベルの一部を喪失するだけでなく、一定期間経験値の損失をさらに増加させるデバフを与えます。"
+			]
+			dependencies: ["6A377E0BD0B45BC5"]
+			size: 1.5d
+			id: "60154554DCD1D411"
+			tasks: [{
+				id: "3D8CC03207E45A7D"
+				type: "checkmark"
+				title: "読む"
+			}]
+			rewards: [{
+				id: "3545B0608C2397E2"
+				type: "xp"
+				auto: "enabled"
+				xp: 1
+			}]
+		}
+		{
+			title: "改善する"
+			icon: {
+				id: "minecraft:leather_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 3.5d
+			y: -1.5d
+			description: ["次のステップは、より良いステータスを持つ装備を見つけることです。 これは、宝箱を略奪したり、モンスターと戦ったり、一部のクエストによって達成できます。 それらの装備は強力ですが、一度壊れると永久に失われるため、追加の装備が手元に残るまでは慎重に使用してください。"]
+			dependencies: ["648C999659850F11"]
+			id: "52D8E61B177F4493"
+			tasks: [{
+				id: "7A99F7892E18E3E6"
+				type: "checkmark"
+				title: "読む"
+			}]
+			rewards: [{
+				id: "14F07029B11EA30C"
+				type: "xp"
+				auto: "enabled"
+				xp: 1
+			}]
+		}
+		{
+			title: "恐怖と孤独"
+			icon: "apotheosis:boss_summoner"
+			x: 3.5d
+			y: -3.0d
+			description: ["パワーアップへの最初のステップは、慎重に行動することです。採掘したり、クラフトしたり、軽い探索を行いましょう。 作成された装備はダンジョンなどで見つけられる装備ほど強力ではありませんが、より良いものに到達するまでは役割をこなす事ができます。"]
+			dependencies: ["60154554DCD1D411"]
+			id: "648C999659850F11"
+			tasks: [{
+				id: "73AA03CFF11003B6"
+				type: "checkmark"
+				title: "読む"
+			}]
+			rewards: [{
+				id: "2F9053F2874FF327"
+				type: "xp"
+				auto: "enabled"
+				xp: 1
+			}]
+		}
+		{
+			title: "食生活"
+			icon: "minecraft:apple"
+			x: 5.0d
+			y: -1.5d
+			description: ["戦闘で成功するための最も重要な要素の1つは食事です。モンスターの攻撃は激しく、速く、あなたの体力は間違いなく打撃を受けます。 満足度の高い食事をするとHP回復の持続時間が長くなり、生死を分けることになります。 黄金の食品は、高価ではありますが、この点でさらに役立ちます。 さらに、食生活の多様性により、生き残るのに役立つバフが適用されます。 食事のオプションについては、「料理と農業」クエスト タブをご覧ください。 Food Book (作成可能、このクエストから入手可能) には、現在および可能性のある食事バフが表示されます。"]
+			dependencies: ["52D8E61B177F4493"]
+			id: "56A78445B3458AE9"
+			tasks: [{
+				id: "6CE1624597E3D440"
+				type: "checkmark"
+				title: "読む"
+			}]
+			rewards: [{
+				id: "0C27B0DE094838F0"
+				type: "item"
+				item: "solapplepie:food_book"
+			}]
+		}
+		{
+			title: "回避とスキル"
+			icon: "minecraft:feather"
+			x: 5.0d
+			y: -3.0d
+			description: ["スキルにより生存可能性が大幅に向上します。 「ドッジロール」能力はギルドマスターの最初のクエストを通じて取得でき、他の戦闘スキルは村人の衛兵クエストから学ぶことができます。 これらの便利なスキルを取得するには、村を探してください。 「回避」キーバインドは、コントロール設定で設定および編集できます。 スキルを保持したまま右クリックするとスキルを学習し、「スキルエディター」メニュー(コンフィグから開くキーを変更できます) から装備できます。"]
+			dependencies: ["648C999659850F11"]
+			id: "76CA9142CEA54D1F"
+			tasks: [{
+				id: "22A5B0ED0BF90AA2"
+				type: "checkmark"
+				title: "読む"
+			}]
+			rewards: [{
+				id: "6DDD88CEF8F2AA85"
+				type: "xp"
+				auto: "enabled"
+				xp: 1
+			}]
+		}
+		{
+			title: "戦闘モード"
+			icon: {
+				id: "blue_skies:crushing_hammer"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 5.5d
+			y: -6.5d
+			description: ["このMODパックの戦闘システムは Epic Fight Mod に基づいています。「R」（設定可能）を押して戦闘モードを有効にすると、スキルを使用したり特別な攻撃をしたりできるようになります。 ただし、エバードーンディメンションから来たアラクナークに掴まれている場合など、バニラ攻撃を使用したい場合もあります。 バニラの攻撃は戦闘モードの半分のダメージしか与えないことに注意してください。これは単に攻撃に専念していないためです。"]
+			dependencies: ["60154554DCD1D411"]
+			id: "601DF1F35CF01A0A"
+			tasks: [{
+				id: "0E3D3998B4E7CCFE"
+				type: "checkmark"
+				title: "読む"
+			}]
+			rewards: [{
+				id: "7511E16D93F3625B"
+				type: "xp"
+				auto: "enabled"
+				xp: 1
+			}]
+		}
+		{
+			title: "DawnCraft"
+			icon: "minecraft:clock"
+			x: 1.0d
+			y: -7.5d
+			subtitle: "DawnCraft に関する情報はこの本で見つけることができます"
+			size: 2.0d
+			id: "6A377E0BD0B45BC5"
+			tasks: [{
+				id: "6BCEB5011E1496FB"
+				type: "checkmark"
+				title: "さぁ始めよう!"
+			}]
+		}
+		{
+			title: "アクセサリーなどの装備品"
+			icon: "ars_nouveau:ring_of_greater_discount"
+			x: 3.75d
+			y: -7.5d
+			description: [
+				"プレイヤーは、特別な装備スロットに多数の追加アイテムを装備できます。"
+				""
+				"&b&lCurios"
+				"Curiosで追加されるメニューには、インベントリ メニューのプレイヤーのポートレートの左上にあるボタンを押すとアクセスできます。 これにより、リング、チャームなどの利用可能な追加装備スロットがすべて表示されます。アイテムによってはスロットを追加できるものもあります。"
+				""
+				"&b&lArcs"
+				"ArcsはBlue Skies MOD によって追加された次元で見つけることができます。このメニューには、インベントリ画面の左側にある Arcsタブからアクセスできます。"
+			]
+			dependencies: ["6A377E0BD0B45BC5"]
+			size: 1.5d
+			id: "43D08D9E4A7AE9B9"
+			tasks: [{
+				id: "4C8FA1F14597A638"
+				type: "checkmark"
+				title: "読む"
+			}]
+			rewards: [{
+				id: "2E3EF9A19A511910"
+				type: "xp"
+				xp: 1
+			}]
+		}
+		{
+			title: "カメラとホットキー"
+			icon: "mimic:mimic_key"
+			x: -1.5d
+			y: -7.5d
+			description: [
+				"この MODパックは主に三人称視点でプレイすることを目的としています。 デフォルトでは、F5 キーを使用して視点を切り替えることができますが、～キーなど使いやすいキーに設定しなおして素早く切り替えができるようになると良いです。"
+				"プレーヤーに対する十字線の位置は左右の矢印キーで調整でき、カメラは上下でズームインおよびズームアウトできます。 好みに応じてこれらを調整してください。"
+				"戦闘モートはデフォルトで R で有効にできますが、別のキー (利用可能な場合は追加のマウス ボタンなど) に再バインドすることもできます。"
+			]
+			dependencies: ["6A377E0BD0B45BC5"]
+			size: 1.5d
+			id: "0EACC613F198A412"
+			tasks: [{
+				id: "7DC460964D5D9D24"
+				type: "checkmark"
+				title: "読む"
+			}]
+			rewards: [{
+				id: "5EDFAB5C16E23052"
+				type: "xp"
+				auto: "enabled"
+				xp: 1
+			}]
+		}
+		{
+			title: "戦い方のヒント"
+			icon: "habitat:fairy_spore_lantern"
+			x: 5.0d
+			y: -4.5d
+			description: [
+				"1) 「S」を押し続けると、攻撃中に前進をキャンセルできます。"
+				""
+				"2) スタミナバーがなくなると弱体化効果が発生します。スタミナは控えめに使いましょう。"
+				"\\n3) ジャンプ攻撃は敵により多くのダメージを与えます。"
+			]
+			dependencies: ["601DF1F35CF01A0A"]
+			id: "0AB45BDD23F2E85A"
+			tasks: [{
+				id: "14B632E87C7DA8DA"
+				type: "checkmark"
+				title: "読む"
+			}]
+			rewards: [{
+				id: "3F0FE4919A0EC5D6"
+				type: "xp"
+				xp: 3
+			}]
+		}
+	]
+	quest_links: [ ]
+}

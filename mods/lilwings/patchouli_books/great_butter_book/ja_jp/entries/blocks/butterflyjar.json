@@ -1,0 +1,19 @@
+﻿{
+      "name": "蝶の入った瓶",
+  "icon": "minecraft:glass_bottle",
+  "category": "lilwings:blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "蝶の入った瓶",
+      "item": "minecraft:glass_bottle",
+      "link_recipe": true,
+      "text": "蝶の入った瓶は、優れた蝶愛好家にとって機能の中心です。虫取り網またはエンダー虫取り網を使用して蝶を捕獲し、それが入っている瓶を右クリックして蝶を瓶の中に入れます。瓶に入ると、蝶があなたを助け始めます。それぞれの蝶は、瓶の中にいるときに独自の機能を果たします。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "蝶の入った瓶",
+      "text": "蝶の瓶を壊すと蝶が逃げて瓶を取り戻します。それぞれの蝶が瓶の中に入ると何をするかを知るには、蝶すごい本の蝶のセクションでその蝶のページを確認してください。"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+﻿{
+  "parent": "quest_giver:quest_0001_01",
+  "reputation": 5,
+  "icon": "minecraft:wooden_sword",
+  "start": {
+    "title": {
+      "text": "良く考えると..."
+    },
+    "description": {
+      "text": "考えてみれば…私にはあなたに恩返しする方法があるのです。地図を描くので紙を持ってきてくれませんか。"
+    }
+  }
+}

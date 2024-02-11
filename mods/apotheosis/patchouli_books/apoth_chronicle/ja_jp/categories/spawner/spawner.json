@@ -1,0 +1,6 @@
+﻿{
+      "name": "スポナーモジュール",
+      "description": "Spawner モジュールを使用すると、$(9)Mob Spawners$() を移動および変更できます。",
+    "icon": "minecraft:spawner",
+	"flag": "apotheosis:spawner"
+}

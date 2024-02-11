@@ -1,0 +1,17 @@
+﻿{
+      "name": "クモの巣",
+    "icon": "minecraft:cobweb",
+    "category": "apotheosis:enchanting/utility",
+	"flag": "apotheosis:enchanting",
+    "pages": [
+        {
+            "type": "patchouli:text",
+      "text": "クモの巣を金床内のアイテムと組み合わせると、すべてのエンチャントを取り除くことができます。$(p)角柱状のクモの巣を金床内のアイテムと組み合わせると、すべての呪いを取り除くことができます。"
+        },
+		{
+            "type": "patchouli:crafting",
+			"recipe": "apotheosis:cobweb",
+			"recipe2": "apotheosis:prismatic_web"
+		}
+	]
+}

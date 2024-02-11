@@ -1,0 +1,13 @@
+﻿{
+  "parent": "quest_giver:root",
+  "reputation": 0,
+  "icon": "minecraft:cod",
+  "start": {
+    "title": {
+      "text": "船作り"
+    },
+    "description": {
+      "text": "素晴らしい。釣り用の船を作るのを手伝ってくれませんか？ 通常、マホガニーが最高の木材ですが、 この世界では次に最高のもの、 $(red)枯れたバルサ$() があります。 これで船を作って渡してほしいです。"
+    }
+  }
+}

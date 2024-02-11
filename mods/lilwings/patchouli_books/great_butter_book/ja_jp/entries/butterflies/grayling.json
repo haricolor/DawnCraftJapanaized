@@ -1,0 +1,23 @@
+﻿{
+      "name": "entity.lilwings.grayling_butterfly",
+  "icon": "lilwings:grayling_wings",
+  "category": "lilwings:butterflies",
+  "pages": [
+    {
+      "type": "lilwings:grayling_page_template",
+      "text": "book.lilwings.butterfly.grayling",
+      "grayling_caption": "The grayling comes in 3 colors depending on its environment",
+      "title": "グレイリングバタフライ",
+      "color": "777777"
+    },
+    {
+      "type": "lilwings:image_template",
+      "text": "Page 2",
+      "color": "777777",
+      "entity": "lilwings:grayling_butterfly",
+      "image": "lilwings:textures/item/grayling_wings.png",
+      "wings_caption": "book.lilwings.butterfly.grayling.wings_caption",
+      "butterfly_caption": "book.lilwings.butterfly.grayling.butterfly_caption"
+    }
+  ]
+}

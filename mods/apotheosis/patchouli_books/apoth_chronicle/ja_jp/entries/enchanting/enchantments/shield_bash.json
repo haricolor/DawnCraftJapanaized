@@ -1,0 +1,13 @@
+﻿{
+      "name": "シールドバッシュ",
+    "icon": "minecraft:enchanted_book",
+    "category": "apotheosis:enchanting/enchantments",
+	"flag": "apotheosis:enchanting",
+	"sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+      "text": "$(9)Shield Bash$() はシールドのエンチャントです。$(p)そのシールドによる近接攻撃に追加のダメージを与えます。$(p)ただし、$(9)Shield Bash$() で攻撃すると追加の耐久ダメージが発生します。 。"
+        }
+	]
+}

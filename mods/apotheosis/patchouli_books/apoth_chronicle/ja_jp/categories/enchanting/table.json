@@ -1,0 +1,8 @@
+﻿{
+      "name": "魅惑のテーブル",
+      "description": "このセクションでは、エンチャントテーブルの変更について説明します。",
+    "icon": "minecraft:enchanting_table",
+	"flag": "apotheosis:enchanting",
+	"parent": "apotheosis:enchanting/enchanting",
+	"sortnum": -1
+}

@@ -1,0 +1,12 @@
+﻿{
+  "reputation": 10,
+  "icon": "minecraft:white_wool",
+  "start": {
+    "title": {
+      "text": "やぁ！"
+    },
+    "description": {
+      "text": "そこの貴方！バケツ一杯の牛乳を持ってきてくれませんか"
+    }
+  }
+}

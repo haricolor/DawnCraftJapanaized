@@ -1,0 +1,12 @@
+﻿{
+  "reputation": 19,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "おい"
+    },
+    "description": {
+      "text": "もう少ししたら鉱山につく… 少し話す時間はあるか?"
+    }
+  }
+}

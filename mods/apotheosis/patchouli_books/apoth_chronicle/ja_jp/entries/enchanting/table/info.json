@@ -1,0 +1,64 @@
+﻿{
+      "name": "情報メニュー",
+    "icon": "apotheosis:textures/gui/book/question_mark.png",
+    "category": "apotheosis:enchanting/table",
+	"flag": "apotheosis:enchanting",
+    "pages": [
+        {
+            "type": "patchouli:text",
+      "text": "エンチャント テーブルには、利用可能なエンチャントを知るための便利な画面があります。$(p)それにアクセスするには、エンチャント テーブルにアイテムを置き、右上の疑問符をクリックします。"
+        },
+		{
+			"type": "patchouli:text",
+      "text": "この章の目的は、この画面を紹介し、画面の操作を支援することです。$(p) この画面を完全に理解していれば、エンチャントに再び混乱することはなくなります。"
+		},
+		{
+            "type": "patchouli:image",
+			"title": "The Slot Selector",
+			"images": [
+				"apotheosis:textures/gui/book/slot_selector.png"
+			],
+      "text": "これにより、検査するエンチャント スロットを選択できます。"
+        },
+		{
+			"type": "patchouli:text",
+      "text": "現在選択されているスロットはハイライト表示され、使用できないスロットはグレー表示されます。$(p)スロットにマウスを置くと、レベル、$(4)最小パワー$()、$(9)最大パワーが表示されます。 $()。"
+		},
+		{
+            "type": "patchouli:image",
+			"title": "Enchantments Window",
+			"images": [
+				"apotheosis:textures/gui/book/enchantments_window.png"
+			],
+      "text": "これにより、利用可能なエンチャントが表示されます。"
+        },
+		{
+			"type": "patchouli:text",
+      "text": "現在のアイテムと現在選択されているパワー レベルを考慮すると、特定のエンチャントの配列が利用可能です。$(p)このウィンドウには、各エンチャント、そのレベル、レア度、選択される確率が表示されます。$(p)また、どのエンチャントが相互に排他的であるか。"
+		},
+		{
+            "type": "patchouli:image",
+			"title": "The Power Slider",
+			"images": [
+				"apotheosis:textures/gui/book/power_slider.png"
+			],
+      "text": "これにより、シミュレートされた電力レベルを変更できます。"
+        },
+		{
+			"type": "patchouli:text",
+      "text": "スロットを選択すると、パワー スライダは、パワー範囲の中央にあるパワー レベルを自動的に選択します。$(p)スライダは、$(4)Min Power$() までと $( までしか下げることができません。 9) 現在のスロットの最大パワー$()。"
+		},
+		{
+            "type": "patchouli:image",
+			"title": "Rarity Weights",
+			"images": [
+				"apotheosis:textures/gui/book/weights.png"
+			],
+      "text": "これは各レアリティの重さを示しています。"
+        },
+		{
+			"type": "patchouli:text",
+      "text": "すべてのエンチャントにはレアリティがあり、各レアリティには重みがあります。$(p) エンチャントが選択される確率は、その個別の重みを (利用可能なすべてのエンチャントの重さの) 合計プールで割った値です。$(p)$(arcana)レアリティの重みを変更できます。"
+		}
+	]
+}

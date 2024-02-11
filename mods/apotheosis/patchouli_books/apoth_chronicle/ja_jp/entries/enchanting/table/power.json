@@ -1,0 +1,24 @@
+﻿{
+      "name": "魅惑的な力",
+    "icon": "minecraft:experience_bottle",
+    "category": "apotheosis:enchanting/table",
+	"flag": "apotheosis:enchanting",
+    "pages": [
+        {
+            "type": "patchouli:text",
+      "text": "エンチャントのプロセスでは、アイテムをエンチャントするために経験値とラピスラズリを消費します。$(p)しかし、エンチャントはどのように選択されるのでしょうか?$(p)その答えはエンチャントの力です。"
+        },
+		{
+            "type": "patchouli:text",
+      "text": "まず、エンチャントがどのように選択されるかを説明します。$(p)各エンチャントには $(5)Power Function$() があり、特定のレベルを利用可能にする $(fpower) を制御します。$(p)一度すべて利用可能なエンチャントが集められ、一部は重みに基づいてランダムに選択されます。"
+        },
+		{
+			"type": "patchouli:text",
+      "text": "しかし、$(fpower) はどのように計算されるのでしょうか?そうですね、少し計算が必要です。$(p)最初は、エンチャント中に費やしたレベルである $(bpower) を持っています。$(p)その後、$(quanta) と Rectification が $(bpower) を修正して生成します。あなたの$(fpower)。"
+		},
+		{
+			"type": "patchouli:text",
+      "text": "各ステータスが $(bpower) をどのように変更するかの詳細は、$(l:apotheosis:enchanting/table/stats#quanta)$(quanta) と $(l:apotheosis:enchanting/table/stats#rectification) で確認できます。 Rectification$() エントリ。$(p)通常、$(fpower) が高くなると、より高いレベルのエンチャントにアクセスできるようになります。"
+		}
+	]
+}

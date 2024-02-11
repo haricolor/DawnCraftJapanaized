@@ -1,0 +1,43 @@
+﻿{
+  "parent": "quest_giver:quest_0025_01b",
+  "reputation": 10,
+  "icon": "minecraft:iron_axe",
+  "start": {
+    "title": {
+      "text": "殲滅任務"
+    },
+    "description": {
+      "text": "グリフィンを殺してください。 十分な報酬を支払います...でも、どうか安全に気を付けてください。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "ああ、領主たちに感謝します、戻ってきましたね！ あまりにも長い時間がかかったので、 最悪の考えが頭に浮かびました… あなたが元気でよかったです。 これは報酬です。再度、感謝します。"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "simple_mobs:griffin_feather"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+      	"item": "minecraft:emerald"
+	},
+      "id": "quest_giver:item",
+      "times": 5
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    }
+  ]
+}

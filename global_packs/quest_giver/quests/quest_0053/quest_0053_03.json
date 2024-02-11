@@ -1,0 +1,30 @@
+﻿{
+  "parent": "quest_giver:quest_0053_02",
+  "reputation": 0,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "頼んだものは持ってきてくれましたか？"
+    },
+    "description": {
+      "text": "それで、$(red)スイートベリー 4個$() を持ってきましたか？"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "君は素晴らしかったよ、若者。もう一つお願いがありますか？ビートルートが2個必要です...それは私が尋ねる最後のことだと約束します。"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:sweet_berries"
+      },
+      "id": "quest_giver:gift",
+      "times": 4
+    }
+  ]
+}

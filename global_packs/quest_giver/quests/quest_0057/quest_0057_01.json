@@ -1,0 +1,43 @@
+﻿{
+  "parent": "quest_giver:quest_0057_01b",
+  "reputation": 0,
+  "icon": "minecraft:cod",
+  "start": {
+    "title": {
+      "text": "釣り竿を作る"
+    },
+    "description": {
+      "text": "$(red)釣り竿$()は持ってきましたか？"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "ありがとう、あなたにあげられるものはあまりない。 ええと...このタラを食べてください、新鮮です。"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:fishing_rod"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/addreputation reputation:villager @p 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "minecraft:cod"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

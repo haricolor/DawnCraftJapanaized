@@ -1,0 +1,12 @@
+﻿{
+  "reputation": 2,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "そこの貴方！"
+    },
+    "description": {
+      "text": "冒険家を名乗るならコンパスを持たなければなりません！ $(red)compass$() を作って私のところに戻ってください。"
+    }
+  }
+}

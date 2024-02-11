@@ -1,0 +1,13 @@
+﻿{
+      "name": "ボルトのクレッシェンド",
+    "icon": "minecraft:enchanted_book",
+    "category": "apotheosis:enchanting/enchantments",
+	"flag": "apotheosis:enchanting",
+	"sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+      "text": "$(2)クレッシェンド オブ ボルト$() はクロスボウ用のマスターワーク エンチャントです。$(p)このエンチャントの各レベルで、リロードごとに追加のショットが得られます。$(p)追加のショットには弾薬はかかりません。"
+        }
+	]
+}

@@ -1,0 +1,35 @@
+﻿{
+      "name": "動物向け商品",
+  "icon": "lilwings:butter",
+  "category": "lilwings:items",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "バター",
+      "item": "lilwings:butter,lilwings:butter_block",
+      "link_recipe": true,
+      "text": "バターは、バターゴールドの蝶が入った蝶瓶があれば、大釜の中に牛乳を入れて待つだけで作れます。バターはかなり早くかき混ぜられるので、このバターはケーキのレシピで牛乳の代わりに重ねて使用できます。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "スワンプミール",
+      "item": "lilwings:swamp_meal",
+      "link_recipe": true,
+      "text": "スワンプミールは、作業台でスワンプホッパーの蝶の羽を作成するだけで作成できます。骨粉と同じように肥料として利用できます。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "真紅のカカオ豆",
+      "item": "lilwings:crimson_cocoa_beans",
+      "link_recipe": true,
+      "text": "この製品は本物のカカオ豆から作られています。ペイントされたヒョウが蝶の瓶の中に入っていて、近くにカカオの実があるのを見つけると、それを成長させて助け、最終的には弾けて深紅色のカカオ豆を落とします。これらの甘い赤いカカオ豆は、新しいチョコレート ケーキを作るために使用できます。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "クラウディパフ ゼリー バケツ",
+      "item": "lilwings:jelly_bucket",
+      "link_recipe": true,
+      "text": "クラウディパフ ゼリーは、右クリックしてバケツでクラウディパフバタフライからゼリーをそっと収穫することで得られる特別で栄養価の高いゼリーです。空腹感と満腹感を補給するために食べることができ、栄養価が高く癒しのゴールデンケーキを作るために使用することもできます。"
+    }
+  ]
+}

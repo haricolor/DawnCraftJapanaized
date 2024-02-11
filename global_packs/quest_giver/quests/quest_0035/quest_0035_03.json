@@ -1,0 +1,33 @@
+﻿{
+	"parent": "quest_giver:quest_0035_03b",
+	"reputation": 35,
+	"icon": "minecraft:beef",
+	"start": {
+		"title": {
+      "text": "インセンジウム"
+		},
+		"description": {
+      "text": "$(light_blue)Chilling Sword$()を灰の不毛の城で見つけたら知らせてください。"
+		}
+	},
+	"complete": {
+		"title": {
+      "text": "終了した"
+		},
+		"description": {
+      "text": "それで...彼は本当にいなくなってしまったのですね。 終わりにしてくれてありがとう。 剣はそのまま持っていてください。 他にお返しするものは何もありません。"
+		}
+	},
+	"tasks": [{
+		"item": {
+			"item": "minecraft:diamond_sword",
+			"forge:nbt": "{CustomModelData:1450003,incendium:{item:'chilling_blade'}}"
+		},
+		"id": "quest_giver:item_pickup",
+		"times": 1
+	}],
+	"rewards": [{
+		"command": "/addreputation reputation:villager @p 3",
+		"id": "quest_giver:command"
+	}]
+}

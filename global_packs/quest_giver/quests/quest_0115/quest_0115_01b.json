@@ -1,0 +1,13 @@
+﻿{
+  "parent": "quest_giver:root",
+  "reputation": 5,
+  "icon": "minecraft:iron_axe",
+  "start": {
+    "title": {
+      "text": "提案"
+    },
+    "description": {
+      "text": "ネザー次元に行ったとき、 内部に巨大なゴーレムが棲む奇妙な建造物を発見したんだ。 エメラルドを6個くれたら地図上の場所を教えてあげるよ。"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+﻿{
+      "name": "安定した足場",
+    "icon": "minecraft:enchanted_book",
+    "category": "apotheosis:enchanting/enchantments",
+	"flag": "apotheosis:enchanting",
+	"sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+      "text": "$(9)Stable Footing$() はブーツのエンチャントです。$(p)これにより、飛行時のブレイク スピード ペナルティが逆転します。$(p)これには、地面に立っていない場合のすべてのペナルティが含まれます。"
+        },
+		{
+			"type": "patchouli:text",
+      "text": "$(9)Aqua Affinity$() と組み合わせると、水泳時にフルブレイク スピードを実現できます。"
+		}
+	]
+}

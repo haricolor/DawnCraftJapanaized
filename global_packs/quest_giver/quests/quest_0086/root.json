@@ -1,0 +1,12 @@
+﻿{
+  "reputation": 37,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "やぁ！"
+    },
+    "description": {
+      "text": "やあ、同志。重要なことであなたの助けが必要です。"
+    }
+  }
+}

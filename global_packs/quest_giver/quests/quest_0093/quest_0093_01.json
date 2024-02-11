@@ -1,0 +1,13 @@
+﻿{
+  "parent": "quest_giver:root",
+  "reputation": 50,
+  "icon": "minecraft:ender_pearl",
+  "start": {
+    "title": {
+      "text": "助けてください！"
+    },
+    "description": {
+      "text": "エンド次元の深きに隠れた生き物、 ヴォイドワームが住んでいます。幼虫を最深部に投げ込むと召喚できます。 幼虫は、深紅色の蚊の幼虫をenderiophage's capsidに投げ込むことによって作成できます。"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+﻿{
+	"parent": "quest_giver:quest_0071_01",
+	"reputation": 40,
+	"icon": "minecraft:book",
+	"start": {
+		"title": {
+      "text": "頼んだものは持ってきてくれましたか？"
+		},
+		"description": {
+      "text": "本を見つけたらまた私に戻ってきてください。"
+		}
+	},
+	"complete": {
+		"title": {
+      "text": "ありがとう！"
+		},
+		"description": {
+      "text": "この本には...感情的な価値観があります。 あなたのサービスにどれほど感謝しているか、 言葉では言い表せません。 ほら、これを取ってください。 冒険者も魔法を使うと聞いたのですが、 そうなんですか？"
+		}
+	},
+	"tasks": [{
+		"item": {
+			"item": "minecraft:written_book",
+			"forge:nbt": "{tag:\"librarian\"}"
+		},
+		"id": "quest_giver:gift",
+		"times": 1
+	}],
+	"rewards": [{
+			"command": "/addreputation reputation:villager @p 1",
+			"id": "quest_giver:command"
+		},
+		{
+			"item": {
+				"item": "ars_nouveau:source_gem"
+			},
+			"id": "quest_giver:item",
+			"times": 3
+		},
+		{
+			"item": {
+				"item": "minecraft:emerald"
+			},
+			"id": "quest_giver:item",
+			"times": 8
+		}
+	]
+}

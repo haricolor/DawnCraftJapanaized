@@ -1,0 +1,43 @@
+﻿{
+  "parent": "quest_giver:quest_0014_08",
+  "reputation": 10,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "道の終わり"
+    },
+    "description": {
+      "text": "火の巨人は何ヶ月も前に私たちの世界から姿を消しました。 私たちは彼が帰る前に 彼の髪の毛の結び目を取り除くことができました。 偉大な聖職者がそのアイテムに魔法を加えたので、 理論的にはそのアイテムを祭壇に捧げれば巨人を召喚できるはずです。 髪の結び目を失った場合は、 醸造スタンドでファイアチャージと基本的な耐火ポーションを 組み合わせてアイテムを再召喚します。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "道の終わり"
+    },
+    "description": {
+      "text": "うーん、言葉が出ない……これが冒険者だ。 あなたはすべてのアイホルダーを倒しました。 すでに 12 の目を取得している場合は、 ジ エンドへの入り口を探してください。"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "endrem:corrupted_eye"
+      },
+      "id": "quest_giver:item_pickup",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/addreputation reputation:village @p 10",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "simple_mobs:giant_knot"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

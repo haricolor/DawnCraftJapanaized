@@ -1,0 +1,42 @@
+﻿{
+  "parent": "quest_giver:quest_0086_02b",
+  "reputation": 37,
+  "icon": "minecraft:iron_axe",
+  "start": {
+    "title": {
+      "text": "殲滅契約"
+    },
+    "description": {
+      "text": "殲滅契約を完了したら戻ってきてください - $(red)ピリジャー 5 人を討伐$()。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "その時が来たようです。 略奪者たちがここにいます。 同志よ、私はこのような時のためにこの大剣を鍛えたのだ。 ぜひ有効にご活用いただき、 ご協力をお願いいたします。 私たちの人生は今、すべてあなたにかかっています。"
+    }
+  },
+  "tasks": [
+    {
+      "entity": "minecraft:pillager",
+      "id": "quest_giver:kill",
+      "times": 5
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/effect give @p minecraft:bad_omen 10 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/give @p epicfight:iron_greatsword{Enchantments:[{id:\"apotheosis:bane_of_illagers\",lvl:3}]}",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

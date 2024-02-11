@@ -1,0 +1,13 @@
+﻿{
+  "parent": "quest_giver:root",
+  "reputation": 15,
+  "icon": "minecraft:paper",
+  "start": {
+    "title": {
+      "text": "討伐する"
+    },
+    "description": {
+      "text": "この世界に新たなモンスターが現れています。 この半人半獣のことを$(red)銀の獣$()と呼びます。 夜に徘徊しているのを見かけることがあります。 この不浄な生き物を2匹退治して、 私のところに戻ってきてください。"
+    }
+  }
+}

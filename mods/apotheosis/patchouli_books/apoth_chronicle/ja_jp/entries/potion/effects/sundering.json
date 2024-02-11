@@ -1,0 +1,17 @@
+﻿{
+      "name": "サンダーリング",
+    "icon": "apotheosis:textures/mob_effect/sundering.png",
+    "category": "apotheosis:potion/effects",
+	"flag": "apotheosis:potion",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+      "text": "$(c)Sundering$() のポーションはマイナスの効果です。$(p)その効果中、受けるすべてのダメージはレベルごとに 20% 増加します。"
+        },
+		{
+            "type": "patchouli:text",
+      "text": "それは抵抗に対する直接的なカウンターとして機能し、抵抗と加算されます。$(p)サンダーリング II と抵抗 II を持っていた場合、あなたは通常のダメージを受けるでしょう。"
+        }
+	]
+}

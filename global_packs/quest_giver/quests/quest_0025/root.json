@@ -1,0 +1,12 @@
+﻿{
+  "reputation": 12,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "殲滅任務"
+    },
+    "description": {
+      "text": "冒険者... 殲滅任務に興味がありますか?"
+    }
+  }
+}

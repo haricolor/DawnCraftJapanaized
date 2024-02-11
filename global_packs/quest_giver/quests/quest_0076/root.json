@@ -1,0 +1,12 @@
+﻿{
+  "reputation": 28,
+  "icon": "minecraft:stone",
+  "start": {
+    "title": {
+      "text": "やぁ！"
+    },
+    "description": {
+      "text": "エバードーン次元から $(red)月の石$() を入手してもらえませんか?その品質に興味があります。"
+    }
+  }
+}

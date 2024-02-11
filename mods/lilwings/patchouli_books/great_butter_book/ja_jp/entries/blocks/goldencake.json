@@ -1,0 +1,21 @@
+﻿{
+      "name": "ケーキ",
+  "icon": "lilwings:crimson_cake",
+  "category": "lilwings:blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "クリムゾンケーキ",
+      "item": "lilwings:crimson_cake",
+      "link_recipe": true,
+      "text": "このケーキの特徴はあまりない。ペイントされたパンサーバタフライから得られる特別なココアを使用したこのケーキは、平均的なケーキよりも空腹感と満腹感を補い、オンデマンドの食事に最適です。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "ゴールデンケーキ",
+      "item": "lilwings:golden_cake",
+      "link_recipe": true,
+      "text": "バターゴールド蝶の金色のバターとクラウディパフ蝶のゼリーから作られた特に特別なケーキで、このケーキは真紅のケーキよりもさらに空腹感と満腹感を満たします。空腹感と満腹感を補充するだけでなく、一時的な再生と吸収効果も適用するため、戦闘前の軽食として最適です。"
+    }
+  ]
+}

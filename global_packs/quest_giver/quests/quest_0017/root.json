@@ -1,0 +1,12 @@
+﻿{
+  "reputation": 0,
+  "icon": "minecraft:poppy",
+  "start": {
+    "title": {
+      "text": "やぁ！"
+    },
+    "description": {
+      "text": "$(red)1 Soul Weed$() をもらえますか?それはネザーディメンションで見つけることができます。"
+    }
+  }
+}

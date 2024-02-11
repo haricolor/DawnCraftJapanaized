@@ -1,0 +1,17 @@
+﻿{
+      "name": "鉱夫の熱意",
+    "icon": "minecraft:enchanted_book",
+    "category": "apotheosis:enchanting/enchantments",
+	"flag": "apotheosis:enchanting",
+	"sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+      "text": "$(5)Miner's Fervor$() は、すべてのツールに適用できる Twisted エンチャントです。$(p) これにより、ブロックが非常に早く破壊されますが、瞬間的に破壊されることはありません。$(p) $(9) と排他的です。効率$()。"
+        },
+		{
+            "type": "patchouli:text",
+      "text": "速度制限があるにもかかわらず、レベルごとのブーストは $(9)Efficiency$().$(p) よりもはるかに高いため、基本速度が遅いツールにとって理想的な選択肢となります。"
+        }
+	]
+}

@@ -1,0 +1,254 @@
+{
+	id: "456CFF8FE8F8BFAB"
+	group: ""
+	order_index: 12
+	filename: "サーバーで使い道のあるコマンド"
+	title: "Useful Info"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: -2.5d
+			y: -8.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "ftbteams:textures/accept.png"
+			hover: ["In-game Info"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.5d
+			y: -8.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "ftbteams:textures/accept.png"
+			hover: ["Multiplayer Info"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 3.5d
+			y: -8.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "orcz:textures/aaquestionmark.png"
+			hover: ["Misc."]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			x: 0.5d
+			y: -7.0d
+			subtitle: "サーバー上でフレンドリーファイアを無効にするにはどうすればよいですか?"
+			description: [
+				"1) /team add [team] \\n2) /team modify [team] friendlyfire false"
+				"3) /team join [team] [player]"
+			]
+			id: "59F404BFA55005EA"
+			tasks: [{
+				id: "01CE05960FF752C1"
+				type: "checkmark"
+				title: "フレンドリーファイア無効"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -5.0d
+			subtitle: "知っておきたいキーバインド一覧！"
+			description: [
+				"   Press \"i\" for your last death info"
+				"       Press \"h\" to call your horse"
+				"       Press \"j\" to save your horse"
+				"    Press \"r\" to enable combat mode"
+				"     Press \"b\" to open your backpack \\n                 (if equipped)"
+				"      Press \"n\" to open your quiver\\n                 (if equipped)"
+				"          Press \"k\" to check and\\n            select enabled skills"
+			]
+			id: "726F1FFCA2697CF6"
+			tasks: [{
+				id: "79E1E37E279C39DE"
+				type: "checkmark"
+				title: "知っておきたいキーバインド一覧"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -4.0d
+			subtitle: "欲しいかもしれない情報本のリスト。 個々の製作レシピについては、在庫検索バーで確認してください。"
+			description: [
+				"    Chronicle of Shadows (Apotheosis)"
+				"  Encyclopedia of life (Untamed Wilds)"
+				"      Animal Dictionary (Alex's Mobs)"
+				"    The Great Butter Book (Lil' Wings)"
+				"         Book of Shadows (Hexerei)"
+				"       Worn Notebook (Ars Nouveau)"
+				"Cloud Storage and You (Cloud Storage)"
+				"              Paladin's Furniture"
+				"          Food Book (Spice of Life)"
+			]
+			id: "5540C43EFDAE8E3B"
+			tasks: [{
+				id: "484069119F39A90C"
+				type: "checkmark"
+				title: "Info Books"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -6.0d
+			subtitle: "ギルドマスターはどこで見つけられますか？"
+			description: [
+				"ギルドマスターは村人にとって別個の存在ではありません。むしろ、それは職業であり、村人なら誰でも（雑魚を除く）達成できます。\\n"
+				"職業ブロック (POI) は、ギルドハウスや屋台でよく見られるベルです。ギルドマスターのいない屋台のある村を見つけた場合は、村人が仕事を獲得し始める正午まで待つようにしてください。\\n"
+				"Minecraft の領域内で可能なあらゆる手段を使って、村人を鐘まで\"誘導\"することもできます。"
+			]
+			id: "63F0B07D20E74D61"
+			tasks: [{
+				id: "3900DF3E47ADF564"
+				type: "checkmark"
+				title: "ギルドマスター"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -7.0d
+			subtitle: "なぜ村人たちは私に話しかけようとしないのですか？"
+			description: [
+				"情報は wiki で入手できます。 しかし、よくある間違いの 1 つは、プレイヤーが村人の前に置かなかったコンテナを略奪してしまうことです。 これは村内のチェストだけに当てはまります。 世界中のどこにいても、あなたが「犯罪」を犯しているところを村人が目撃した場合、あなたの評判は低下します。 \\n\\n評判を向上させるために必要なバンドル通貨の最大量は 8 です。しかし、村を虐殺しない限り、それが起こる可能性は非常に低いです。 ほとんどの場合、1 ～ 2 つのバンドル通貨で十分です。"
+				"\\nただし、自分の低い評判が誤って判断されていると感じ、0 の評判から始めたい場合は、チートをオンにして \\n/setreputation 評判:villager @p 0 を実行してください。"
+				"\\n村人と取引するのに十分な評判を得るために、取引の巻物も必要になることに注意してください。 取引スクロールは村人のクエストを完了することで入手できます。"
+			]
+			id: "1B36858C66C3C77F"
+			tasks: [{
+				id: "3FA502DE4B61335E"
+				type: "checkmark"
+				title: "Reputation #1"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -3.0d
+			subtitle: "メインクエストの完了はどのように検出されますか?"
+			description: [
+				"Besides killing pillagers and Goblin King, all the other main quests are detected through the player picking up the ender eyes."
+				"\\nSo if you have killed one of the bosses (Eye Holders) beforehand and obtained the eye. All you have to do is drop the eye the Eye Holder held, then pick it up again. With that you should be able to complete the guildmaster's quest."
+			]
+			id: "08F5174D848D7DF0"
+			tasks: [{
+				id: "62A75C3AC8B180D6"
+				type: "checkmark"
+				title: "クエストの検出"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -6.0d
+			subtitle: "どのシェーダを使用すればよいですか?"
+			description: [
+				"             ベストパフォーマンス:\\n           - Sildurs Vibrant Lite\\n"
+				"      見た目的に一番推奨:\\n        - Complimentary Reimagined"
+				"\\n         そうでない場合は他のものを試してください \\n           それはあなたの好みです！"
+			]
+			id: "7644BDD80B6EDA44"
+			tasks: [{
+				id: "43CC8096AA6E2C33"
+				type: "checkmark"
+				title: "シェーダーの推奨事項"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -6.0d
+			subtitle: "サーバー内の自分のプロパティを保護するにはどうすればよいですか?"
+			description: [
+				"MOD 'Claim Chunks' を調べてください。この MOD は新しいブロック、Claim Block をゲームに追加します。\\n\\nチャンクの権限をカスタマイズする方法については、CurseForge ページを確認してください。"
+				"\\n*デフォルトでは、プレーヤーが要求できるチャンクの最大量は 8 です。"
+			]
+			id: "2294C358D1153CAE"
+			tasks: [{
+				id: "6C26B3CB7B7B5B78"
+				type: "checkmark"
+				title: "チャンクの要求"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -5.0d
+			subtitle: "バニラのグラフィック設定メニューを有効にするにはどうすればよいですか?"
+			description: ["         Press \"Shift\" + \"P\" in the\\n               Graphics Menu"]
+			id: "0E4410A648272A97"
+			tasks: [{
+				id: "79729BB3AB3E564D"
+				type: "checkmark"
+				title: "バニラのグラフィック設定"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -4.0d
+			subtitle: "ProjectMMO が動作しないのはなぜですか?"
+			description: [
+				" このパックでは、\\n そのMOD が別の方法で使用されています。このMODの存在は忘れてください。"
+				"\\n PMMO の高度なカスタマイズ性を利用して、\\n 知識などの特別なスキルを作成し、\\n アイテムの要件を設定しています。"
+			]
+			id: "217D8862894AE01D"
+			tasks: [{
+				id: "4882C70BB6EEE851"
+				type: "checkmark"
+				title: "ProjectMMO"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -2.0d
+			subtitle: "探検家の地図を読むにはどうすればよいですか?"
+			description: [
+				"地図の端の小さな点に注目してください。それがあなたです。地図の上部は北を指し、地図の左は西を指します。など..."
+				"\\nバニラの Minecraft では、マップに十字が表示されないというバグが発生することがあります。このような場合は、マップがあるエリアを見回す必要があります。"
+			]
+			id: "10180D525A3F3D4F"
+			tasks: [{
+				id: "11DFA820F8B8E6FF"
+				type: "checkmark"
+				title: "マップの読み方"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -7.0d
+			subtitle: "コマンドを有効にするにはどうすればよいですか?"
+			description: ["/gamerule sendCommandFeedback true"]
+			id: "2E679597791BF6B8"
+			tasks: [{
+				id: "68056F1A3F76B35D"
+				type: "checkmark"
+				title: "コマンドを有効にする"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -5.0d
+			subtitle: "サーバーでアイホルダーのボスのリスポーンを有効にする方法は?"
+			description: [
+				"  /gamerule doDCBossesRespawn true"
+				"\\n     Note that only players who are\\n     progressing through the main\\n  quest-line can re-summon the boss."
+			]
+			id: "1708A5D4E536662D"
+			tasks: [{
+				id: "4708BF5BBA73E19F"
+				type: "checkmark"
+				title: "ボスのリスポーンを有効にする"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

@@ -1,0 +1,51 @@
+﻿{
+  "parent": "quest_giver:root",
+  "reputation": 3,
+  "icon": "minecraft:white_wool",
+  "start": {
+    "title": {
+      "text": "バケツ一杯の牛乳を頂戴！"
+    },
+    "description": {
+      "text": "急いで！  $(red)バケツ一杯の牛乳$() が必要なんだ!"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "うーん！ありがとう、友人。"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:milk_bucket"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/playsound minecraft:entity.generic.drink ambient @p ~ ~ ~ 3",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only custom:trade_toolsmith",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "minecraft:bucket"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

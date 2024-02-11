@@ -1,0 +1,43 @@
+﻿{
+  "parent": "quest_giver:quest_0103_01b",
+  "reputation": 3,
+  "icon": "minecraft:bow",
+  "start": {
+    "title": {
+      "text": "頼んだものは持ってきてくれましたか？"
+    },
+    "description": {
+      "text": "$(red)ヘムロック のパッチ 2 つ$() を入手しましたか?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "ありがとう。これでルアーが作れます。"
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "untamedwilds:flora_hemlock"
+      },
+      "id": "quest_giver:gift",
+      "times": 2
+     }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "command": "/addreputation reputation:villager @p 1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

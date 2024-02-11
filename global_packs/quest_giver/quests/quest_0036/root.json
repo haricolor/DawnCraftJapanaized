@@ -1,0 +1,12 @@
+﻿{
+  "reputation": 0,
+  "icon": "minecraft:beef",
+  "start": {
+    "title": {
+      "text": "やぁ"
+    },
+    "description": {
+      "text": "そうだ、ヒントをもらったよ！"
+    }
+  }
+}

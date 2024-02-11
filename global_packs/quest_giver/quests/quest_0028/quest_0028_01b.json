@@ -1,0 +1,13 @@
+﻿{
+  "parent": "quest_giver:root",
+  "reputation": 0,
+  "icon": "minecraft:wooden_sword",
+  "start": {
+    "title": {
+      "text": "素晴らしい！"
+    },
+    "description": {
+      "text": "彼らは、この次元内には沸騰した湧き水の上を蒸気が流れ、魔法の霧が山全体を覆うバイオームがあると言います。勇敢な冒険者よ、もしそんな場所に出会ったら、ぜひまた戻ってきて、本当の様子を教えてください！"
+    }
+  }
+}

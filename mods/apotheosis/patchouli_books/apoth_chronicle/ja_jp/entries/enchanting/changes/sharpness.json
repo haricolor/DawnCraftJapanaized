@@ -1,0 +1,13 @@
+﻿{
+      "name": "切れ味",
+    "icon": "minecraft:netherite_sword",
+    "category": "apotheosis:enchanting/changes",
+	"flag": "apotheosis:enchanting",
+	"sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+      "text": "$(9)Sharpness$() は他のダメージ エンチャントと排他的ではなくなりました。$(p)つまり、$(9)Sharpness$() と、通常は排他的である他の 1 つのダメージ エンチャントを使用できるようになりました。"
+        }
+	]
+}

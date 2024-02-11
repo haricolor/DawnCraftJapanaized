@@ -1,0 +1,12 @@
+﻿{
+  "reputation": 10,
+  "icon": "minecraft:bow",
+  "start": {
+    "title": {
+      "text": "やぁ！"
+    },
+    "description": {
+      "text": "やあ、地元のフレッチャーから $(red)矢 16本$() をもらえますか?代金はお返しします。"
+    }
+  }
+}

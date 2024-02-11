@@ -1,0 +1,17 @@
+﻿{
+      "name": "古代の知識",
+    "icon": "minecraft:experience_bottle",
+    "category": "apotheosis:potion/effects",
+	"flag": "apotheosis:potion",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+      "text": "$(9)古代の知識$()のポーションは有益な効果があります。$(p)その効果中、殺したMobから生成される経験値は何倍にもなります。"
+        },
+		{
+            "type": "patchouli:text",
+      "text": "レベル I では、経験値ドロップが 4 倍になります。$(p)レベル II では、8 倍になります。"
+        }
+	]
+}

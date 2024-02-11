@@ -1,0 +1,17 @@
+﻿{
+      "name": "攻撃ノックバック",
+    "icon": "minecraft:piston",
+    "category": "apotheosis:adventure/attributes",
+	"flag": "apotheosis:adventure",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+      "text": "$(9)攻撃ノックバック$() は、攻撃したときに敵をノックバックする距離です。$(p)各ポイントにより、攻撃を受けた敵は半ブロック離れたところに押し出されます。$(p)武器と盾がこの統計を提供する場合があります。"
+        },
+		{
+			"type": "patchouli:text",
+      "text": "$(9)$(n)基本値:$() 0$(p)$(9)$(n)最大値:$() 5$(p)注: ノックバック エンチャントは、このステータスと同等のボーナスを提供します。 , ただし、最大値の上限にはカウントされません。"
+		}
+	]
+}

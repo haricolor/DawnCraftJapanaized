@@ -1,0 +1,12 @@
+﻿{
+  "reputation": 52,
+  "icon": "minecraft:ender_pearl",
+  "start": {
+    "title": {
+      "text": "やぁ！"
+    },
+    "description": {
+      "text": "冒険者さん、あなたにしか作れないと思う料理があります。それなりの金額は払いますよ、どう思いますか？"
+    }
+  }
+}

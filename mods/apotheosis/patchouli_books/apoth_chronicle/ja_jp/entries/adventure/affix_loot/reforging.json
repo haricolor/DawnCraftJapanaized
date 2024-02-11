@@ -1,0 +1,49 @@
+﻿{
+      "name": "再鍛造",
+    "icon": "apotheosis:reforging_table",
+    "category": "apotheosis:adventure/affix_loot",
+	"flag": "apotheosis:adventure",
+	"sortnum": 4,
+    "pages": [
+        {
+            "type": "patchouli:crafting",
+			"recipe": "apotheosis:reforging_table",
+      "text": "$(9)Reforging Table$() は、アイテムに新しい命を吹き込み、接辞をすべて消去してまったく新しい接辞を付与するために使用されます。"
+		},
+		{
+            "type": "patchouli:text",
+      "text": "$(9)Rarity Materials$() の潜在能力と $(9)Gem Dust$() の多用途性により、アイテムを新しい付加物で再鍛造できるようになりました。$(p)再鍛造は次のものに限定されません。すでに接辞が付いている項目であり、任意の有効な項目で実行できます。"
+        },
+		{
+            "type": "patchouli:image",
+			"title": "Input Slots",
+			"images": [
+				"apotheosis:textures/gui/book/reforge_slots.png"
+			],
+      "text": "再鍛造テーブルには 3 つの入力スロットがあります。"
+        },
+		{
+			"type": "patchouli:text",
+			"title": "Input Slots",
+      "text": "上のスロットには再鍛造したいアイテムが入っています。$(p)左側のスロットは$(9)レアリティ素材$()を受け入れます。$(p)右側のスロットはジェムダスト用です。$(p)すべてのスロットを埋める必要があります再鍛造を成功させるために。"
+		},
+		{
+            "type": "patchouli:image",
+			"title": "Reforging",
+			"images": [
+				"apotheosis:textures/gui/book/reforge_menu.png"
+			],
+      "text": "エンチャントテーブルと同様に、3 つの選択肢があります。"
+        },
+		{
+			"type": "patchouli:text",
+			"title": "Reforging",
+      "text": "それぞれの選択肢は、再鍛造されるアイテムの潜在的な新しい形式を表します。コストは選択肢によって異なり、それぞれ 2/4/6 のジェムダスト、レアリティマテリアル、経験レベルが必要です。$(p)アイテムを再鍛造するには、目的の選択肢をクリックするだけです。"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Notes",
+      "text": "アイテムは複数回再鍛造できますが、最初にアイテムを拾って交換する必要があります。$(p)本質的に他の選択肢よりも強い選択肢はありません。$(p)再鍛造テーブルはエンチャント シードを使用して選択肢を決定します。"
+		}
+	]
+}

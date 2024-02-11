@@ -1,0 +1,43 @@
+﻿{
+  "parent": "quest_giver:quest_0063_01b",
+  "reputation": 0,
+  "icon": "minecraft:arrow",
+  "start": {
+    "title": {
+      "text": "矢の職人技"
+    },
+    "description": {
+      "text": "$(red)スプルース原木 4 本 $() はもう入手しましたか?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "よくやった。あなたの作品にエメラルドを贈ります。"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:spruce_log"
+      },
+      "id": "quest_giver:gift",
+      "times": 4
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/addreputation reputation:villager @p 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+﻿{
+  "parent": "quest_giver:quest_0055_01b",
+  "reputation": 4,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "頼んだものは持ってきてくれましたか？"
+    },
+    "description": {
+      "text": "ネザーへ旅行して、$(red)ゴーストペッパー$() をもう取りに行きましたか?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "ああ、手が火傷しそう！ これはゴーストペッパーです！ これがご褒美です。"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "nourished_nether:ghost_pepper"
+      },
+      "id": "quest_giver:gift",
+      "times": 3
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/advancement grant @p only custom:trade_farmer",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 5
+    }
+  ]
+}

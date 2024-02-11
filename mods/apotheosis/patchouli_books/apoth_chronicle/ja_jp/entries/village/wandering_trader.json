@@ -1,0 +1,21 @@
+﻿{
+      "name": "放浪のトレーダー",
+    "icon": "minecraft:emerald",
+    "category": "apotheosis:village/village",
+	"flag": "apotheosis:village",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+      "text": "芝生の上に突然現れる怪しげな商人に会ったことがありますか?$(p)それらは $(9)放浪商人$() と呼ばれています。$(p)通常、彼らは熱いゴミだけを販売します。"
+        },
+		{
+            "type": "patchouli:text",
+      "text": "ただし、Apotheosis はテーブルに大量の新しい取引を追加するため、実際に対話する価値があります。$(p)これらの取引には、$(9)Beacons$() や $(9)Totems of Undying$() などのアイテムが含まれます。強化されたダイヤモンド装備。"
+        },
+		{
+            "type": "patchouli:text",
+      "text": "また、神格化により放浪商人のスポーン率も向上し、地表だけでなく地下にもスポーンできるようになります。"
+        }
+	]
+}

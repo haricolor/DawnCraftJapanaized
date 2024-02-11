@@ -1,0 +1,845 @@
+{
+	id: "255FE9E1034D0E95"
+	group: ""
+	order_index: 11
+	filename: "bossesminibosses_in_this_realm"
+	title: "この世界における悪名高き生き物達..."
+	icon: "apotheosis:boss_summoner"
+	subtitle: ["あなたの価値を証明するためにこれらの生き物を倒しましょう"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "炎の巨人"
+			icon: "simple_mobs:giant_knot"
+			x: -4.5d
+			y: -9.0d
+			shape: "square"
+			id: "232BCBAFD1BCDD94"
+			tasks: [{
+				id: "445F7648DEA3E68E"
+				type: "kill"
+				icon: "simple_mobs:giant_knot"
+				entity: "simple_mobs:fire_giant"
+				value: 1L
+			}]
+		}
+		{
+			title: "センチネルナイト"
+			icon: "simple_mobs:sentinelkey"
+			x: -6.5d
+			y: -9.0d
+			shape: "square"
+			id: "1F511C4B84DEB0CD"
+			tasks: [{
+				id: "4C5EFE238F3FD770"
+				type: "kill"
+				icon: "simple_mobs:sentinelkey"
+				entity: "simple_mobs:sentinel_knight"
+				value: 1L
+			}]
+		}
+		{
+			title: "火星人"
+			x: -7.5d
+			y: -11.0d
+			shape: "square"
+			id: "5347DB3655BAC44D"
+			tasks: [{
+				id: "7BDEC0C40EDA1E6C"
+				type: "kill"
+				icon: "simple_mobs:gem_item"
+				entity: "simple_mobs:martian"
+				value: 1L
+			}]
+		}
+		{
+			title: "堕落したオーガ"
+			x: -6.5d
+			y: -10.0d
+			shape: "square"
+			id: "19AB0A53440F58E3"
+			tasks: [{
+				id: "26621AD360C172EF"
+				type: "kill"
+				icon: {
+					id: "endrem:lost_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				entity: "simple_mobs:corrupted_ogre"
+				value: 1L
+			}]
+		}
+		{
+			x: -7.5d
+			y: -10.0d
+			shape: "square"
+			id: "6E3145FBF5DC7E5A"
+			tasks: [{
+				id: "7001FA74512AAD19"
+				type: "kill"
+				title: "九尾"
+				icon: "alexsmobs:lobster_tail"
+				entity: "simple_mobs:nine_tails"
+				value: 1L
+			}]
+		}
+		{
+			x: -7.5d
+			y: -9.0d
+			shape: "square"
+			id: "27A79E9E56494551"
+			tasks: [{
+				id: "4D745F7EB67EBF7F"
+				type: "kill"
+				title: "ロード・オブ・ソーサリー&スケルトン・オーバーロード"
+				icon: {
+					id: "ars_nouveau:archmage_robes"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				entity: "simple_mobs:skeletonlord"
+				value: 1L
+			}]
+		}
+		{
+			x: -5.5d
+			y: -9.0d
+			shape: "square"
+			id: "3F3ED8C432582996"
+			tasks: [{
+				id: "3FC7DF131BFEA5D1"
+				type: "kill"
+				title: "火竜"
+				icon: "simple_mobs:fire_dragon_essence"
+				entity: "simple_mobs:fire_dragon"
+				value: 1L
+			}]
+		}
+		{
+			x: -3.5d
+			y: -8.0d
+			shape: "square"
+			id: "467C581554F45E4E"
+			tasks: [{
+				id: "7383CB2F9C46BDE2"
+				type: "kill"
+				title: "氷竜"
+				icon: "simple_mobs:ice_dragon_essence"
+				entity: "simple_mobs:ice_dragon"
+				value: 1L
+			}]
+		}
+		{
+			x: -4.5d
+			y: -12.0d
+			shape: "square"
+			id: "75D0D080AEC02E9A"
+			tasks: [{
+				id: "79AED0F6F54CE809"
+				type: "kill"
+				title: "ノッチ"
+				icon: "apotheosis:mythic_material"
+				entity: "simple_mobs:elemental_deity"
+				value: 1L
+			}]
+			rewards: [{
+				id: "533C5E2EAC9A9A9F"
+				type: "item"
+				item: "scattered_weapons:soulium_ingot"
+				count: 64
+			}]
+		}
+		{
+			x: -4.5d
+			y: -10.0d
+			shape: "square"
+			id: "1D4D66A4666640C0"
+			tasks: [{
+				id: "4A44B3D3E93B316A"
+				type: "kill"
+				title: "ゴブリン・キング"
+				icon: {
+					id: "goblinsanddungeons:goblin_crown"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				entity: "goblinsanddungeons:goblin_king"
+				value: 1L
+			}]
+		}
+		{
+			x: -8.5d
+			y: -11.0d
+			shape: "square"
+			id: "7279CC337EDCA3C4"
+			tasks: [{
+				id: "7656A203BA9099CF"
+				type: "kill"
+				title: "名無しの王"
+				icon: {
+					id: "darkersouls:crown_of_tempest"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				entity: "darkersouls:nameless_king"
+				value: 1L
+			}]
+		}
+		{
+			x: -3.5d
+			y: -10.0d
+			shape: "square"
+			id: "2680E2C671E5E738"
+			tasks: [{
+				id: "447DB75056CBD118"
+				type: "kill"
+				title: "ガスコイン神父"
+				icon: "bloodandmadness:eggs/father_gascoigne_spawn_egg"
+				entity: "bloodandmadness:gascoigne_beast"
+				value: 1L
+			}]
+		}
+		{
+			x: -5.5d
+			y: -8.0d
+			shape: "square"
+			id: "4F33DC71CFC4F30D"
+			tasks: [{
+				id: "74327929D1B8DF51"
+				type: "kill"
+				title: "呪術師"
+				icon: {
+					id: "conjurer_illager:conjurer_hat"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				entity: "conjurer_illager:conjurer"
+				value: 1L
+			}]
+		}
+		{
+			x: -9.5d
+			y: -7.0d
+			shape: "square"
+			hide: false
+			id: "30E6359CC2E8F7A6"
+			tasks: [{
+				id: "30A060BFE3C678AE"
+				type: "kill"
+				title: "フロストモー"
+				icon: {
+					id: "mowziesmobs:ice_crystal"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				entity: "mowziesmobs:frostmaw"
+				value: 1L
+			}]
+		}
+		{
+			x: -8.5d
+			y: -10.0d
+			shape: "square"
+			id: "40DCCF1C61855F27"
+			tasks: [{
+				id: "5281E7E360880255"
+				type: "kill"
+				title: "太陽族長バラコ"
+				icon: "mowziesmobs:barako_mask"
+				entity: "mowziesmobs:barako"
+				value: 1L
+			}]
+		}
+		{
+			x: -5.5d
+			y: -10.0d
+			shape: "square"
+			id: "436D5FDF800C6D94"
+			tasks: [{
+				id: "5F2D3A4E907757BC"
+				type: "kill"
+				title: "原初の騎士、ロベルト"
+				icon: {
+					id: "magistuarmory:ceremonialarmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				entity: "simple_mobs:knight_4"
+				value: 1L
+			}]
+		}
+		{
+			x: -2.5d
+			y: -9.0d
+			shape: "square"
+			id: "17DE8DC2807E6C29"
+			tasks: [{
+				id: "04B8D048411FF640"
+				type: "kill"
+				title: "独裁者"
+				icon: {
+					id: "epicfight:katana"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				entity: "simple_mobs:samurai_4"
+				value: 1L
+			}]
+		}
+		{
+			x: -8.5d
+			y: -9.0d
+			shape: "square"
+			id: "1B2B39B68B8DCB37"
+			tasks: [{
+				id: "7E7FA56730460C7A"
+				type: "kill"
+				title: "ナーガ"
+				icon: "mowziesmobs:naga_fang"
+				entity: "mowziesmobs:naga"
+				value: 1L
+			}]
+		}
+		{
+			x: -2.5d
+			y: -10.0d
+			shape: "square"
+			id: "2C6EA0A390BD703F"
+			tasks: [{
+				id: "734F4844D5C53EEE"
+				type: "kill"
+				title: "鉄の錬金術師"
+				icon: "mowziesmobs:wrought_helmet"
+				entity: "mowziesmobs:ferrous_wroughtnaut"
+				value: 1L
+			}]
+		}
+		{
+			x: -3.5d
+			y: -11.0d
+			shape: "square"
+			id: "73108E762D8A3C88"
+			tasks: [{
+				id: "561CB5790BBC3C58"
+				type: "kill"
+				title: "イグニス"
+				icon: {
+					id: "cataclysm:ignitium_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				entity: "cataclysm:ignis"
+				value: 1L
+			}]
+		}
+		{
+			x: -3.5d
+			y: -9.0d
+			shape: "square"
+			id: "3F3E14D8B56AB9DC"
+			tasks: [{
+				id: "54D44DF2F5B4D01A"
+				type: "kill"
+				title: "エンダーガーディアン"
+				icon: "minecraft:shulker_box"
+				entity: "cataclysm:ender_guardian"
+				value: 1L
+			}]
+		}
+		{
+			x: -1.5d
+			y: -10.0d
+			shape: "square"
+			id: "343FD5BF6B3AB0B1"
+			tasks: [{
+				id: "63CB7D304B4A5E62"
+				type: "kill"
+				title: "エンダーゴーレム"
+				icon: "cataclysm:ender_guardian_spawner"
+				entity: "cataclysm:ender_golem"
+				value: 1L
+			}]
+		}
+		{
+			x: -1.5d
+			y: -11.0d
+			shape: "square"
+			id: "4E1536B87DDD7AF2"
+			tasks: [{
+				id: "1615F156D8868175"
+				type: "kill"
+				title: "魔唱士"
+				icon: "illageandspillage:totem_of_banishment"
+				entity: "illageandspillage:magispeller"
+				value: 1L
+			}]
+		}
+		{
+			x: -9.5d
+			y: -8.0d
+			shape: "square"
+			id: "48C10A799E93C0FB"
+			tasks: [{
+				id: "220EE68C5C6457C4"
+				type: "kill"
+				title: "亡霊を呼ぶもの"
+				icon: {
+					id: "illageandspillage:spellbound_book"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				entity: "illageandspillage:spiritcaller"
+				value: 1L
+			}]
+		}
+		{
+			x: -5.5d
+			y: -12.0d
+			shape: "square"
+			hide: false
+			id: "7DC5F1EFE3DE5709"
+			tasks: [{
+				id: "5E3B11AE09EDA3EF"
+				type: "kill"
+				title: "エンダードラゴン"
+				icon: "minecraft:dragon_head"
+				entity: "minecraft:ender_dragon"
+				value: 1L
+			}]
+		}
+		{
+			x: -4.5d
+			y: -11.0d
+			shape: "square"
+			id: "5A0440D6663A685F"
+			tasks: [{
+				id: "5DB69F4160B98336"
+				type: "kill"
+				title: "ウィザー"
+				icon: "minecraft:wither_skeleton_skull"
+				entity: "minecraft:wither"
+				value: 1L
+			}]
+		}
+		{
+			x: -0.5d
+			y: -9.0d
+			shape: "square"
+			id: "1383DC854742EF6C"
+			tasks: [{
+				id: "1A57FD426D56A8AC"
+				type: "kill"
+				title: "ネザライトの怪物"
+				icon: {
+					id: "cataclysm:infernal_forge"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				entity: "cataclysm:netherite_monstrosity"
+				value: 1L
+			}]
+		}
+		{
+			x: -2.5d
+			y: -8.0d
+			shape: "square"
+			id: "31A7864C2279439C"
+			tasks: [{
+				id: "37132D5156C12E97"
+				type: "kill"
+				title: "幽霊船の船長、コーネリア"
+				icon: {
+					id: "aquamirae:three_bolt_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				entity: "aquamirae:captain_cornelia"
+				value: 1L
+			}]
+		}
+		{
+			x: -0.5d
+			y: -8.0d
+			shape: "square"
+			id: "0BF852B15581A857"
+			tasks: [{
+				id: "4B8BB374C630CA51"
+				type: "kill"
+				title: "ヴォイド・ワーム"
+				icon: "alexsmobs:mysterious_worm"
+				entity: "alexsmobs:void_worm"
+				value: 1L
+			}]
+		}
+		{
+			x: -1.5d
+			y: -9.0d
+			shape: "square"
+			id: "7D499166477745E4"
+			tasks: [{
+				id: "63C65D7821ADD9B5"
+				type: "kill"
+				title: "歪んだモスコ"
+				icon: "alexsmobs:warped_muscle"
+				entity: "alexsmobs:warped_mosco"
+				value: 1L
+			}]
+		}
+		{
+			x: -9.5d
+			y: -10.0d
+			shape: "square"
+			id: "51C4FD876FE465ED"
+			tasks: [{
+				id: "7A847CC5B58645A8"
+				type: "kill"
+				title: "エルダー・ガーディアン"
+				icon: "minecraft:heart_of_the_sea"
+				entity: "minecraft:elder_guardian"
+				value: 1L
+			}]
+		}
+		{
+			x: -2.5d
+			y: -11.0d
+			shape: "square"
+			id: "2CB9D4F9C95D2BBB"
+			tasks: [{
+				id: "4BF011179CDF0597"
+				type: "kill"
+				title: "カルト信者"
+				icon: {
+					id: "simple_mobs:plaguemask_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				entity: "simple_mobs:cultist"
+				value: 1L
+			}]
+		}
+		{
+			x: -5.5d
+			y: -11.0d
+			shape: "square"
+			id: "43D987FDB9ABB3BD"
+			tasks: [{
+				id: "0746611D8AB4D874"
+				type: "kill"
+				title: "巨人"
+				icon: "simple_mobs:giant_eye_fragment"
+				entity: "simple_mobs:giant"
+				value: 1L
+			}]
+		}
+		{
+			x: -6.5d
+			y: -11.0d
+			shape: "square"
+			hide: false
+			id: "0CE38C187D08EA00"
+			tasks: [{
+				id: "2ECE5BFDEBD7969E"
+				type: "kill"
+				title: "洞窟に住むもの"
+				icon: {
+					id: "simple_mobs:dweller_core"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				entity: "simple_mobs:cave_dweller"
+				value: 1L
+			}]
+		}
+		{
+			x: -8.5d
+			y: -8.0d
+			shape: "square"
+			id: "7DE3F1C0DDCACC6D"
+			tasks: [{
+				id: "53B0061130E1FEEA"
+				type: "kill"
+				title: "星に照らされた破壊者"
+				icon: "blue_skies:starlit_leaves"
+				entity: "blue_skies:starlit_crusher"
+				value: 1L
+			}]
+		}
+		{
+			x: -6.5d
+			y: -8.0d
+			shape: "square"
+			id: "387628D157DB14C6"
+			tasks: [{
+				id: "3C5CFB7BFDCAAE24"
+				type: "kill"
+				title: "召喚士"
+				icon: "ars_nouveau:summon_focus"
+				entity: "blue_skies:summoner"
+				value: 1L
+			}]
+		}
+		{
+			x: -0.5d
+			y: -11.0d
+			shape: "square"
+			id: "26A81FA8D7FD065E"
+			tasks: [{
+				id: "147168466A3409F7"
+				type: "kill"
+				title: "アルケミスト"
+				icon: {
+					id: "blue_skies:alchemy_scroll"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				entity: "blue_skies:alchemist"
+				value: 1L
+			}]
+		}
+		{
+			x: -1.5d
+			y: -8.0d
+			shape: "square"
+			id: "01CF56DCE8E72465"
+			tasks: [{
+				id: "186BD8407FB7B253"
+				type: "kill"
+				title: "アルカナの者"
+				icon: "blue_skies:spider_webbing"
+				entity: "blue_skies:arachnarch"
+				value: 1L
+			}]
+		}
+		{
+			x: -7.5d
+			y: -8.0d
+			shape: "square"
+			id: "0919AFEDD3744060"
+			tasks: [{
+				id: "3B5D132011FD1BCA"
+				type: "kill"
+				title: "騎士・フォルトゥナ"
+				icon: "meetyourfight:devils_ante"
+				entity: "meetyourfight:dame_fortuna"
+				value: 1L
+			}]
+		}
+		{
+			x: -4.5d
+			y: -8.0d
+			shape: "square"
+			id: "1FA5378CB756CDEF"
+			tasks: [{
+				id: "456A4E1435763196"
+				type: "kill"
+				title: "スワンプジョー"
+				icon: "meetyourfight:mossy_tooth"
+				entity: "meetyourfight:swampjaw"
+				value: 1L
+			}]
+		}
+		{
+			x: -9.5d
+			y: -9.0d
+			shape: "square"
+			id: "3D1EF85D04AABC1E"
+			tasks: [{
+				id: "762F9E96314FEA44"
+				type: "kill"
+				title: "鐘を鳴らすもの"
+				icon: "meetyourfight:haunted_bell"
+				entity: "meetyourfight:bellringer"
+				value: 1L
+			}]
+		}
+		{
+			x: -9.5d
+			y: -11.0d
+			shape: "square"
+			id: "719637BCE966A8B3"
+			tasks: [{
+				id: "0977648E905A20ED"
+				type: "kill"
+				title: "埋葬されし者、バーリンムール"
+				icon: "ba_bt:guardian_eye_land"
+				entity: "ba_bt:land_golem"
+				value: 1L
+			}]
+		}
+		{
+			x: -0.5d
+			y: -10.0d
+			shape: "square"
+			id: "492ADAA956CF49F0"
+			tasks: [{
+				id: "2540B51253A76D43"
+				type: "kill"
+				title: "堕ちたる偶像、モライズン"
+				icon: "ba_bt:guardian_eye_ocean"
+				entity: "ba_bt:ocean_golem"
+				value: 1L
+			}]
+		}
+		{
+			x: -8.5d
+			y: -7.0d
+			shape: "square"
+			id: "6DBE392A143B7359"
+			tasks: [{
+				id: "59B1CCF6F6547781"
+				type: "kill"
+				title: ウィルデン・キマイラ"
+				icon: "ars_nouveau:wilden_tribute"
+				entity: "ars_nouveau:wilden_boss"
+				value: 1L
+			}]
+		}
+		{
+			x: -7.5d
+			y: -7.0d
+			shape: "square"
+			id: "6A59230529DD338B"
+			tasks: [{
+				id: "20D3FCC31F49242B"
+				type: "kill"
+				title: "悪夢の宿主、ミコラーシュ"
+				icon: "bloodandmadness:eggs/micolash_spawn_egg"
+				entity: "bloodandmadness:micolash"
+				value: 1L
+			}]
+		}
+		{
+			x: -6.5d
+			y: -7.0d
+			shape: "square"
+			description: ["希少な森の洋館に現れるだろう。"]
+			id: "34035B17673778E8"
+			tasks: [{
+				id: "28BE20573EDAA7EC"
+				type: "kill"
+				title: "裁定者"
+				icon: "biomemakeover:adjudicator_tapestry"
+				entity: "biomemakeover:adjudicator"
+				value: 1L
+			}]
+		}
+		{
+			x: -5.5d
+			y: -7.0d
+			shape: "square"
+			description: ["地獄の砂丘バイオームにある地獄の祭壇の中央にある講壇にネザースターを投げると召喚できる。"]
+			id: "6292500CB25FD6CC"
+			tasks: [{
+				id: "4FD0E363E24B98EB"
+				type: "advancement"
+				title: "ホバリング・インフェルノ"
+				icon: {
+					id: "minecraft:shield"
+					Count: 1b
+					tag: {
+						RepairCost: 1
+						CustomModelData: 1450300
+						affix_data: {
+							name: "{\"color\":\"#808080\",\"translate\":\"%s %s\",\"with\":[{\"translate\":\"affix.apotheosis:ironforged\"},\"\",\"\"]}"
+							affixes: {
+								"apotheosis:ironforged": 0.058177173f
+							}
+							rarity: "common"
+						}
+						HideFlags: 32
+						incendium: {
+							item: "necrotic_shield"
+						}
+						BlockEntityTag: {
+							Patterns: [
+								{
+									Pattern: "rud"
+									Color: 14
+								}
+								{
+									Pattern: "ld"
+									Color: 14
+								}
+								{
+									Pattern: "sc"
+									Color: 14
+								}
+								{
+									Pattern: "sku"
+									Color: 15
+								}
+								{
+									Pattern: "cbo"
+									Color: 15
+								}
+								{
+									Pattern: "ts"
+									Color: 15
+								}
+							]
+							Base: 15
+						}
+						display: {
+							Lore: [
+								"{\"italic\":true,\"color\":\"#884444\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Reacts to attacks with\",{\"translate\":\"incendium.item.necrotic_shield.desc1\"}]}"
+								"{\"italic\":true,\"color\":\"#884444\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"an explosion of death\",{\"translate\":\"incendium.item.necrotic_shield.desc2\"}]}"
+								"{\"text\":\"\"}"
+								"{\"italic\":true,\"color\":\"#FF8000\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Incendium\",{\"translate\":\"incendium\"}]}"
+							]
+							Name: "{\"italic\":false,\"color\":\"#993333\",\"translate\":\"%1$s%4733088$s\",\"with\":[\"Necrotic Shield\",{\"translate\":\"incendium.item.necrotic_shield.name\"}]}"
+						}
+						Damage: 0
+						AttributeModifiers: [{
+							Amount: -0.029904954135417938d
+							Slot: "offhand"
+							AttributeName: "minecraft:generic.attack_damage"
+							Operation: 1
+							UUID: [I;
+								112035901
+								1134379090
+								-1220404660
+								-221377395
+							]
+							Name: "weaken"
+						}]
+					}
+				}
+				advancement: "incendium:infernal_dunes/inferno/kill"
+				criterion: ""
+			}]
+		}
+	]
+	quest_links: [ ]
+}

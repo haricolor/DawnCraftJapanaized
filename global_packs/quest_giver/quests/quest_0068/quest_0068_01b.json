@@ -1,0 +1,13 @@
+﻿{
+  "parent": "quest_giver:root",
+  "reputation": 8,
+  "icon": "minecraft:leather",
+  "start": {
+    "title": {
+      "text": "助けてください！"
+    },
+    "description": {
+      "text": "素晴らしい。 $(red)はちみつ掛けハム$() という料理を作ってくれませんか?私と私の友達は、この料理をもう一度味わいたいと思っています。"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+﻿{
+  "reputation": 12,
+  "icon": "minecraft:log",
+  "start": {
+    "title": {
+      "text": "やぁ！"
+    },
+    "description": {
+      "text": "やあ若者、戦闘スキルを学びたいですか?"
+    }
+  }
+}

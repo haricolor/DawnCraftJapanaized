@@ -1,0 +1,17 @@
+﻿{
+      "name": "スカベンジャー",
+    "icon": "minecraft:enchanted_book",
+    "category": "apotheosis:enchanting/enchantments",
+	"flag": "apotheosis:enchanting",
+	"sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+      "text": "$(2)スカベンジャー$() は剣のマスターワーク エンチャントです。$(p)Mob を倒すと、レベルごとに 2.5% の確率で戦利品ドロップを 2 回ロールします。$(p)成功すると、次のようになります。同じエンティティを 2 つ殺したところです。"
+        },
+		{
+            "type": "patchouli:text",
+      "text": "このエンチャントは、$(8)Withers$() のようなボスを含むすべてのエンティティに作用します。$(p)$(9)Looting$() ともスタックします。"
+        }
+	]
+}

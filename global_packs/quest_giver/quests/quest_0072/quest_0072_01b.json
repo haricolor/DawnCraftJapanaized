@@ -1,0 +1,13 @@
+﻿{
+  "parent": "quest_giver:root",
+  "reputation": 5,
+  "icon": "minecraft:book",
+  "start": {
+    "title": {
+      "text": "フレンドリーなチャット"
+    },
+    "description": {
+      "text": "ars nouveauの使い魔を使用すると、 農業や採掘などの特定のプロセスを自動化できることをご存知ですか?  Createの収穫期を使用してこれを行うこともできます… ただし、使用方法を学ぶにはエンジニアに相談する必要があるかもしれません。"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+﻿{
+  "parent": "quest_giver:root",
+  "reputation": 0,
+  "icon": "minecraft:beef",
+  "start": {
+    "title": {
+      "text": "少しの援助"
+    },
+    "description": {
+      "text": "やぁ！私の使っているものが壊れてしまったので、何とか$(red)鉄のナイフ$()を入手してもらえませんか？"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+﻿{
+  "parent": "quest_giver:quest_0020_01b",
+  "reputation": 16,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "頼んだものは持ってきてくれましたか？"
+    },
+    "description": {
+      "text": "紙を持ってきてくれませんか？地図を描きます。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "どうぞ。私の代わりに彼にお礼を伝えてください。"
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "minecraft:paper"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+     }
+  ],
+  "rewards": [
+    {
+      "command": "/loot give @p loot minecraft:netherian1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p netherian1 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

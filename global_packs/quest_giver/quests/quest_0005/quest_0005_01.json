@@ -1,0 +1,43 @@
+﻿{
+  "parent": "quest_giver:quest_0005_01b",
+  "reputation": 4,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "頼んだものは持ってきてくれましたか？"
+    },
+    "description": {
+      "text": "$(red)骨 8個 $() は入手できましたか?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "素晴らしい！これで、私の作物は他の農家よりも早く成長します。あはは！ありがとうございます、エメラルドです。"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:bone"
+      },
+      "id": "quest_giver:gift",
+      "times": 8
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/addreputation reputation:villager @p 3",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

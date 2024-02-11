@@ -1,0 +1,60 @@
+﻿{
+  "parent": "quest_giver:quest_0014_03",
+  "reputation": 10,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "アイホルダーへの道"
+    },
+    "description": {
+      "text": "オーガはゴブリンキングとはレベルが違います。 慎重に準備を進めてください。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "アイホルダーへの道"
+    },
+    "description": {
+      "text": "よくやりました。おそらく、今なら $(red)放浪騎士$() と戦えるでしょう。 彼はかつての彼よりもはるかに弱くなっていますが、 彼が保持している目の力をまだ抑えることができるので、彼はまだ非常に危険だと思います。これが彼の現在の居場所への地図です。"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "endrem:lost_eye"
+      },
+      "id": "quest_giver:item_pickup",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/loot give @p loot minecraft:guildmaster2",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/dc enableInvasions @p",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/pmmo admin @p add endurance level 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/pmmo admin @p add cooking level 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p AdvancedSmelting true",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only simple_mobs:corrupt_ogre_quest_complete",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p guildmaster4 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

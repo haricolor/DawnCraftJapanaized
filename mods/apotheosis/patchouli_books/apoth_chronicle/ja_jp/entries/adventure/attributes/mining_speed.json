@@ -1,0 +1,17 @@
+﻿{
+      "name": "マイニング速度",
+    "icon": "minecraft:netherite_pickaxe",
+    "category": "apotheosis:adventure/attributes",
+	"flag": "apotheosis:adventure",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+      "text": "$(9)Mining Speed$() を上げると、ブロックを壊す速度が上がります。基本値 1.0 では、通常のようにブロックを壊します。$(p)つるはしやシャベルで見つかります。"
+        },
+		{
+			"type": "patchouli:text",
+      "text": "$(9)$(n)基本値:$() 1$(p)$(9)$(n)最大値:$() 1024$(p)"
+		}
+	]
+}

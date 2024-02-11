@@ -1,0 +1,47 @@
+﻿{
+  "parent": "quest_giver:root",
+  "reputation": 24,
+  "icon": "minecraft:iron_axe",
+  "start": {
+    "title": {
+      "text": "原木収集"
+    },
+    "description": {
+      "text": "$(red)深紅色の木$() は持ってきましたか？"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "ありがとう！今エメラルドを持っていないんですが… このダイヤのツルハシを受け取ってもらえますか？ 数時間前に作ったばかりです。"
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "minecraft:crimson_stem"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+     }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:diamond_pickaxe"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only custom:trade_toolsmith",
+      "id": "quest_giver:command"
+    }
+  ]
+}

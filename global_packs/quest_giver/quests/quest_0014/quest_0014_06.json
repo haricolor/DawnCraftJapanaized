@@ -1,0 +1,52 @@
+﻿{
+  "parent": "quest_giver:quest_0014_05",
+  "reputation": 10,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "アイホルダーへの道"
+    },
+    "description": {
+      "text": "うーん...九尾は正確には人間ではありません。 まあ、彼を見ればわかりますよ。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "アイホルダーへの道"
+    },
+    "description": {
+      "text": "うーん…もはや驚くことも無くなってきました。 よくやりました。 九尾は悪名高い凶暴な精霊でした… なぜ放棄された納屋で引退することになったのか私にはわかりません。 とにかく、次の目玉の所在はここにあります。 注意してください、 これはあなたがこれまでに直面したものとはまったく異なります。"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "endrem:exotic_eye"
+      },
+      "id": "quest_giver:item_pickup",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/loot give @p loot minecraft:guildmaster4",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/pmmo admin @p add magic level 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/pmmo admin @p add smithing level 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only simple_mobs:nine_tails_quest_complete",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p guildmaster6 true",
+      "id": "quest_giver:command"
+    }    
+  ]
+}

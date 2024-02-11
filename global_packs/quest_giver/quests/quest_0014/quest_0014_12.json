@@ -1,0 +1,29 @@
+﻿{
+  "parent": "quest_giver:quest_0014_11",
+  "reputation": 10,
+  "icon": "minecraft:ender_pearl",
+  "start": {
+    "title": {
+      "text": "終わりは始まりに過ぎない??"
+    },
+    "description": {
+      "text": "エンダードラゴンを堕落させた神...彼はまだ生きている。 しかし、その存在はあなたにとってさえもあまりにも強力です。 彼に辿り着くための地図はエンダーガーディアンが持っている。 エンダーガーディアンの行方については… 我らのエンダー愛好家が手がかりを持っているかもしれない。 これを追求することはお勧めしません。あなたは十分以上のことをやりました。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "トゥルーエンディング"
+    },
+    "description": {
+      "text": "私は...ごめんなさい、あなたを疑ってしまいました。 あなたは本当に、唯一無二の存在です。 -対話終了-"
+    }
+  },
+  "tasks": [
+    {
+		"id": "afptweaks:advancement",
+		"advancement": "simple_mobs:killelementaldeity"
+    }
+  ],
+  "rewards": [
+  ]
+}

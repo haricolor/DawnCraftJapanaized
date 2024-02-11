@@ -1,0 +1,13 @@
+﻿{
+  "parent": "quest_giver:root",
+  "reputation": 20,
+  "icon": "minecraft:iron_ingot",
+  "start": {
+    "title": {
+      "text": "精霊狩り"
+    },
+    "description": {
+      "text": "精霊はさまざまな形で次元に現れます。時にはアイテムや剣、さらには鎧を所持していることもあります。 $(red)5体のpossessed armor またhollow armor $() を倒してほしい。その勇気に見合った褒美をあげましょう。"
+    }
+  }
+}

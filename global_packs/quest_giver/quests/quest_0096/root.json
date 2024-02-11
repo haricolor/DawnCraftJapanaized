@@ -1,0 +1,12 @@
+﻿{
+  "reputation": 6,
+  "icon": "minecraft:redstone",
+  "start": {
+    "title": {
+      "text": "やぁ！"
+    },
+    "description": {
+      "text": "$(red)レッドストーンダスト 10個$() をくれませんか？もちろん報酬は支払います。"
+    }
+  }
+}

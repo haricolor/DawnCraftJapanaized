@@ -1,0 +1,12 @@
+﻿{
+  "reputation": 48,
+  "icon": "minecraft:stone",
+  "start": {
+    "title": {
+      "text": "やぁ！"
+    },
+    "description": {
+      "text": "もしも終末次元に到達できたら。 $(red)エンドストーン$()を買ってもらえませんか？"
+    }
+  }
+}

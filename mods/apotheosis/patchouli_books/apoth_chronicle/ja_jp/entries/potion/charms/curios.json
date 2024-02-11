@@ -1,0 +1,13 @@
+﻿{
+      "name": "骨董品",
+    "icon": "curios:textures/item/empty_charm_slot.png",
+    "category": "apotheosis:potion/charms",
+	"flag": "&apotheosis:potion,apotheosis:curiosloaded",
+	"sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+      "text": "$(9)Curios$() がインストールされている場合、ポーション チャームを $(9)Charm$() スロットに装備できます。$(p)それらはインベントリ内で行うのと同じように機能します。"
+        }
+	]
+}

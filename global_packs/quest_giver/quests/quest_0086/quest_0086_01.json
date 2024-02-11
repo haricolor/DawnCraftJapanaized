@@ -1,0 +1,43 @@
+﻿{
+  "parent": "quest_giver:quest_0086_01b",
+  "reputation": 37,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "緊急のリクエスト"
+    },
+    "description": {
+      "text": "$(red)鉄インゴット 16個$() を持ってきましたか？急いでください。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "ありがとう、冒険者に資源採取を手伝ってもらうべき ではないのはわかっているが…… 仕方がない。 略奪軍が迫っています。 もうすぐこの村にやって来ます…  殲滅契約が必要な場合はお知らせください。 喜んで申し出ます。"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:iron_ingot"
+      },
+      "id": "quest_giver:gift",
+      "times": 16
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 3
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    }
+  ]
+}

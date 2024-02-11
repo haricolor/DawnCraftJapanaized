@@ -1,0 +1,43 @@
+﻿{
+  "parent": "quest_giver:quest_0056_01b",
+  "reputation": 14,
+  "icon": "minecraft:cod",
+  "start": {
+    "title": {
+      "text": "奇妙なリクエスト"
+    },
+    "description": {
+      "text": "$(red)エルダーガーディアン$() は見つかりましたか? もしそうなら、彼らのスパイクを私にください。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "これは...異常です。 海は謎に満ちている… ダイオウイカの話も聞いたことがありますが、 それもそうなのでしょうね。 とにかく、 ご褒美はこれです。 ありがとうございます。"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "progressivebosses:elder_guardian_spike"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 5
+    }
+  ]
+}

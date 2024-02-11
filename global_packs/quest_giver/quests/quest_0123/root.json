@@ -1,0 +1,12 @@
+﻿{
+  "reputation": 7,
+  "icon": "minecraft:brewing_stand",
+  "start": {
+    "title": {
+      "text": "やぁ！"
+    },
+    "description": {
+      "text": "旅人さん！冒険に出かけませんか？"
+    }
+  }
+}

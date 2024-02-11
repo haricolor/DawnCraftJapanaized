@@ -1,0 +1,43 @@
+﻿{
+  "parent": "quest_giver:root",
+  "reputation": 8,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "バーガーに憧れているんだ"
+    },
+    "description": {
+      "text": "ハンバーガーを作って来てくれたかい？"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "それは素晴らしいですね！後でおしくいただくよ。どうもありがとう。"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "farmersdelight:hamburger"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 2
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    }
+  ]
+}

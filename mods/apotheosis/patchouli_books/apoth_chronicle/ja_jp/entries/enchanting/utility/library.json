@@ -1,0 +1,36 @@
+﻿{
+      "name": "エンチャントライブラリ",
+    "icon": "apotheosis:library",
+    "category": "apotheosis:enchanting/utility",
+	"flag": "apotheosis:enchanting",
+	"sortnum": 2,
+    "pages": [
+        {
+            "type": "patchouli:text",
+      "text": "エンチャント ライブラリはエンチャントの保管システムです。$(p)エンチャントされた本を挿入するだけで、本にあるすべてのエンチャントがポイントとして保存されます。"
+        },
+		{
+			"type": "patchouli:text",
+      "text": "各ライブラリには、保存できるエンチャントの最高レベルを表す $(6)レベル容量$() があります。$(p)超過したエンチャントは無効になります。"
+		},
+		{
+			"type": "patchouli:text",
+      "text": "保存されたエンチャントをクリックすると、そのエンチャントの 1 レベルが抽出されます。$(p)Shift キーを押しながら保存されたエンチャントをクリックすると、できるだけ多くのレベルが抽出されます。$(p)本は、必要に応じて出力スロットに生成されます。"
+		},
+		{
+			"type": "patchouli:text",
+      "text": "出力スロットに本を置いてエンチャントを追加することもできます。$(p) ライブラリは各エンチャントに対してこれまでに挿入された最大レベルを記録し、そのレベルまでしか抽出できません。"
+		},
+		{
+            "type": "patchouli:crafting",
+			"recipe": "apotheosis:library",
+      "text": "標準の $(9)Enchantment Library$() の $(6)Level Capacity$() は 16 (XVI) です。"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "apotheosis:ender_library",
+			"link_recipe": true,
+      "text": "$(9)アレクサンドリア図書館$() の $(6)レベル容量$() は 31 (XXXI) です。$(p)直接作成することはできず、$(l:apotheosis を使用して作成する必要があります) :enchanting/table/infusion)Infusion Enchanting$()。"
+		}
+	]
+}

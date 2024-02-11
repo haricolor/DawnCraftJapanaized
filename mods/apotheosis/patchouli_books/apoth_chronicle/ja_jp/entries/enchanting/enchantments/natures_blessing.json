@@ -1,0 +1,13 @@
+﻿{
+      "name": "自然の恵み",
+    "icon": "minecraft:enchanted_book",
+    "category": "apotheosis:enchanting/enchantments",
+	"flag": "apotheosis:enchanting",
+	"sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+      "text": "$(9)自然の祝福$() は、鍬のエンチャントです。$(p) 耐久性コストを支払うために、鍬を骨粉として使用できるようにします。$(p) エンチャント レベルが高いほど、耐久性コストが減ります。"
+        }
+	]
+}

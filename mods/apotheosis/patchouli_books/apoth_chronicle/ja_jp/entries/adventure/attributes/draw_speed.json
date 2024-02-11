@@ -1,0 +1,17 @@
+﻿{
+      "name": "描画速度",
+    "icon": "minecraft:bow",
+    "category": "apotheosis:adventure/attributes",
+	"flag": "apotheosis:adventure",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+      "text": "$(9)Draw Speed$() は、元の速度と比較して、遠距離武器を引き抜くことができる速度です。 1 = 100%、2 = 200%など。$(p)弓またはクロスボウで見つかります。"
+        },
+		{
+			"type": "patchouli:text",
+      "text": "$(9)$(n)基本値:$() 1$(p)$(9)$(n)最大値:$() 4$(p)"
+		}
+	]
+}

@@ -1,0 +1,12 @@
+﻿{
+  "reputation": 10,
+  "icon": "minecraft:log",
+  "start": {
+    "title": {
+      "text": "やぁ！"
+    },
+    "description": {
+      "text": "おい、$(red)ダスクログ$() をくれないか?それはエバードーン次元で見つけることができます。"
+    }
+  }
+}

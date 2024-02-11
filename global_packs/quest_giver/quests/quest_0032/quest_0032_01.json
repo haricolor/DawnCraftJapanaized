@@ -1,0 +1,40 @@
+﻿{
+  "parent": "quest_giver:quest_0032_01b",
+  "reputation": 0,
+  "icon": "minecraft:beef",
+  "start": {
+    "title": {
+      "text": "少しの援助"
+    },
+    "description": {
+      "text": "ねえ、ナイフ持ってる？鉄で作る必要があることに注意してください。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "終わり"
+    },
+    "description": {
+      "text": "うまくいきました！素晴らしいナイフですね、ありがとう。"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "farmersdelight:iron_knife"
+      },
+      "id": "quest_giver:gift",
+      "amount": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/advancement grant @p only custom:trade_butcher",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    }
+  ]
+}

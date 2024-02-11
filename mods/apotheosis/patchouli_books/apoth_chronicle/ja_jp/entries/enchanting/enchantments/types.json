@@ -1,0 +1,28 @@
+﻿{
+      "name": "エンチャントの種類",
+    "icon": "minecraft:emerald",
+    "category": "apotheosis:enchanting/enchantments",
+	"flag": "apotheosis:enchanting",
+	"sortnum": -1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+      "text": "一部のエンチャントには異なる色の名前が付けられていることに気づくかもしれません。$(p)これは、Apotheosis がエンチャントの 3 つの新しいサブカテゴリを導入しているためです。$(p)各サブカテゴリには、いくつかのルールが課されています。"
+        },
+		{
+            "type": "patchouli:text",
+			"title": "Masterwork",
+      "text": "$(2)マスターワーク$() エンチャントは、最も強力で希少なエンチャントを表します。$(p) これらを受け取るには、常に少なくとも 55 $(fpower) が必要です。"
+        },
+		{
+            "type": "patchouli:text",
+			"title": "Twisted",
+      "text": "$(5)Twisted$() エンチャントには、常に良い効果と悪い効果が 1 つずつあります。$(p)それらを受け取るには常に少なくとも 45 $(fpower) が必要です。"
+        },
+		{
+            "type": "patchouli:text",
+			"title": "Corrupted",
+      "text": "$(4)Corrupted$() エンチャントには、その効果に関連した体力コストがあります。$(p) エンチャントを受け取るには常に少なくとも 65 $(fpower) が必要です。$(p) それらは $(c)curses$ とみなされます。 ()。"
+        }
+	]
+}

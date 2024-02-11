@@ -1,0 +1,13 @@
+﻿{
+  "parent": "quest_giver:root",
+  "reputation": 0,
+  "icon": "minecraft:arrow",
+  "start": {
+    "title": {
+      "text": "矢の職人技"
+    },
+    "description": {
+      "text": "スプルースの木が矢の軸を作るのに最適であることをご存知ですか？ まあどちらでも構いません。 それらの原木をいくつか入手してもらえますか? 少なくとも4つは必要です。"
+    }
+  }
+}

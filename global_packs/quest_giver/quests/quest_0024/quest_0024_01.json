@@ -1,0 +1,40 @@
+﻿{
+  "parent": "quest_giver:quest_0024_01b",
+  "reputation": 6,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "またあったね！"
+    },
+    "description": {
+      "text": "ああ、ほとんど忘れていました。紙を一枚もらえますか？彼らの隠れ家の場所を書き留めておきます。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ここです。"
+    },
+    "description": {
+      "text": "ここです。急いでください！ 彼らがその子供をどうするつもりなのかはわかりません。"
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "minecraft:paper"
+      },
+      "id": "quest_giver:gift",
+      "amount": 1
+     }
+  ],
+  "rewards": [
+    {
+      "command": "/loot give @p loot minecraft:guard1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p guard1 true",
+      "id": "quest_giver:command"
+    }    
+  ]
+}

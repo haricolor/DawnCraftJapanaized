@@ -1,0 +1,12 @@
+﻿{
+  "reputation": 15,
+  "icon": "minecraft:brewing_stand",
+  "start": {
+    "title": {
+      "text": "やぁ！"
+    },
+    "description": {
+      "text": "ごきげんよう。冒険者よ、私はあなたに討伐の契約をいくつか持っています。"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+﻿{
+  "reputation": 0,
+  "icon": "minecraft:brewing_stand",
+  "start": {
+    "title": {
+      "text": "やぁ！"
+    },
+    "description": {
+      "text": "冒険者さん、$(red)腐った肉  5個$() をくれませんか？ポーションを準備するために必要です。"
+    }
+  }
+}

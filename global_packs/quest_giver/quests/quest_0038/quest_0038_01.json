@@ -1,0 +1,44 @@
+﻿{
+  "parent": "quest_giver:quest_0038_01b",
+  "reputation": 13,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "探検！"
+    },
+    "description": {
+      "text": "これら 3 つのバイオームを見てきたら、 私のところに戻ってきてください:  古代の砂地、火山の峰、ホワイトメサ"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "終了した"
+    },
+    "description": {
+      "text": "詳細な説明をありがとうございました 。あなたの説明に基づいてそれらを地図に描くことができると思います！ さあ、報酬を受け取ってください。"
+    }
+  },
+  "tasks": [
+	{
+	   "id": "afptweaks:advancement",
+	   "advancement": "custom:traveller"
+	}
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 6
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only custom:trade_cartographer",
+      "id": "quest_giver:command"
+    }
+  ]
+}

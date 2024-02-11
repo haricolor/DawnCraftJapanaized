@@ -1,0 +1,12 @@
+﻿{
+  "reputation": 19,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "やぁ！"
+    },
+    "description": {
+      "text": "エンダーガーディアンは非常に重要なアイテムを守っています。 それがどこにあるのか知りたいですか？"
+    }
+  }
+}

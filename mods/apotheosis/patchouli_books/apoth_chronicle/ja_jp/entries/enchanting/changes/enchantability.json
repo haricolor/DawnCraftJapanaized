@@ -1,0 +1,17 @@
+﻿{
+      "name": "エンチャント性",
+    "icon": "minecraft:golden_sword",
+    "category": "apotheosis:enchanting/changes",
+	"flag": "apotheosis:enchanting",
+	"sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+      "text": "Vanilla では、明示的な $(l:apotheosis:enchanting/table/enchantability)Item Enchantability$() のないすべてのアイテムのデフォルトは 0 です。$(p)Apotheosis はデフォルトを 1 に変更します。$(p)これには次のような側面があります。一部のアイテムを意図せずエンチャント可能にする効果。"
+        },
+		{
+            "type": "patchouli:text",
+      "text": "この調整は、明示的な値を持つアイテムのエンチャント能力を変更しません。$(p)エンチャント能力がゼロのアイテムはエンチャントできません。"
+        }
+	]
+}

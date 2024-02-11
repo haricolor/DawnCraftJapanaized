@@ -1,0 +1,12 @@
+﻿{
+  "reputation": 14,
+  "icon": "minecraft:heart_of_the_sea",
+  "start": {
+    "title": {
+      "text": "やぁ！"
+    },
+    "description": {
+      "text": "こんにちは、冒険者です。海からあるものを持ってきてもらえませんか？"
+    }
+  }
+}

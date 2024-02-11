@@ -1,0 +1,43 @@
+﻿{
+  "parent": "quest_giver:quest_0040_02b",
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "頼んだものは持ってきてくれましたか？"
+    },
+    "description": {
+      "text": "それで、scuteは持ってきてくれましたか？"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "ああ、ここには何があるんだろう。 その仕事で傷が残らないことを祈ります！ これが報酬です。 あなたの種族はダイヤモンドが好きだと聞きました。"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "alexsmobs:crocodile_scute"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:diamond"
+      },
+      "id": "quest_giver:item",
+      "times": 2
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    }
+  ]
+}

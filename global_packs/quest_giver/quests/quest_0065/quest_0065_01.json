@@ -1,0 +1,43 @@
+﻿{
+  "parent": "quest_giver:quest_0065_01b",
+  "reputation": 7,
+  "icon": "minecraft:arrow",
+  "start": {
+    "title": {
+      "text": "先端の矢"
+    },
+    "description": {
+      "text": "もう忘れましたか？私が求めているのは $(red)グロウストーンダスト 12個 $() です。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "ありがとう！この矢を代金として受け取っていただけますか？"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:glowstone_dust"
+      },
+      "id": "quest_giver:gift",
+      "times": 12
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "minecraft:arrow"
+      },
+      "id": "quest_giver:item",
+      "times": 35
+    }
+  ]
+}

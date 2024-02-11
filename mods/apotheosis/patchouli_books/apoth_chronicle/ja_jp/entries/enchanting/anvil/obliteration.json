@@ -1,0 +1,17 @@
+﻿{
+      "name": "抹消",
+    "icon": "minecraft:enchanted_book",
+    "category": "apotheosis:enchanting/anvil",
+	"flag": "apotheosis:enchanting",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+      "text": "$(9)Obliteration$() は、もう 1 つの真新しい金床専用のエンチャントです。$(p)Obliteration 金床は、1 つのエンチャントを持つ 1 つのエンチャントの本を、それぞれ 1 レベル低い 2 つのエンチャントの本に変換できます。"
+        },
+		{
+			"type": "patchouli:text",
+      "text": "抹消金床を使用するには、エンチャントされた本を世界に投げ、本の上に着地するように金床を置きます。$(p)抹消された鋭さ III を持つ本は、それぞれ鋭さ II を持つ 2 冊の本になります。"
+		}
+	]
+}

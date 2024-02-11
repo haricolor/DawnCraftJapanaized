@@ -1,0 +1,43 @@
+﻿{
+  "parent": "quest_giver:quest_0058_01b",
+  "reputation": 15,
+  "icon": "minecraft:bow",
+  "start": {
+    "title": {
+      "text": "狩猟依頼"
+    },
+    "description": {
+      "text": "(*あなたは、サメがそうやって攻撃するわけではないことを理解しています。 そして、$(red)シュモクザメ$() などの最も受動的な種類のサメだけが死ぬと歯を落とすことを理解しています。 しかし、あなたは沈黙を守ることに決めました*)"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "はははは……これに妹の名前を刻んでペンダントにして身につけよう。 ありがとう冒険者さん、報酬はこれです。"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "alexsmobs:shark_tooth"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "minecraft:salmon"
+      },
+      "id": "quest_giver:item",
+      "times": 6
+    }
+  ]
+}

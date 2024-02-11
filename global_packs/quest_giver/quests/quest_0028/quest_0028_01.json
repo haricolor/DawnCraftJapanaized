@@ -1,0 +1,37 @@
+﻿{
+  "parent": "quest_giver:quest_0028_01b",
+  "reputation": 0,
+  "icon": "minecraft:oak_sapling",
+  "start": {
+    "title": {
+      "text": "霞山"
+    },
+    "description": {
+      "text": "おい、神秘的なバイオーム $(red)ヘイズ山脈 $() はもう見つけた?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "そうですか..."
+    },
+    "description": {
+      "text": "そうですか…正直言ってかなり残念です。ヘイズ山脈にはドラゴンが住んでいるだろうと思っていました...まあ、少なくとも今ではそれが神話であることがわかりました。ありがとう。"
+    }
+  },
+  "tasks": [
+    {
+		"id": "afptweaks:advancement",
+		"advancement": "custom:magical_spring"
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/advancement grant @p only custom:trade_armorer",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 3",
+      "id": "quest_giver:command"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+﻿{
+      "name": "攻撃範囲",
+    "icon": "minecraft:skeleton_skull",
+    "category": "apotheosis:adventure/attributes",
+	"flag": "apotheosis:adventure",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+      "text": "$(9)攻撃範囲$() は、近接武器でターゲットを攻撃できる最大距離です。$(p)通常は武器に付いています。"
+        },
+		{
+			"type": "patchouli:text",
+      "text": "$(9)$(n)基本値:$() 3.0$(p)$(9)$(n)最大値:$() 1024$(p)"
+		}
+	]
+}

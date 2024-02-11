@@ -1,0 +1,30 @@
+﻿{
+  "parent": "quest_giver:quest_0113_01",
+  "reputation": 16,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "またあったね！"
+    },
+    "description": {
+      "text": "$(red)ジェム$() は入手できましたか? それを入手するには、 その生き物を駆除する必要があるかもしれません。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ここです。"
+    },
+    "description": {
+      "text": "うわー…これはすごいですね。 これはただただ...驚くべきことです。 これには少し時間がかかります。 木の棒を持ってきてもらえますか？あなたにあるものを特別なものを 作ることができるかもしれないと思います。"
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "simple_mobs:gem_item"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+     }
+  ]
+}

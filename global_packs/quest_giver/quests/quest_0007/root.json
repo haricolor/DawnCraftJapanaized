@@ -1,0 +1,12 @@
+﻿{
+  "reputation": 10,
+  "icon": "minecraft:arrow",
+  "start": {
+    "title": {
+      "text": "やぁ！"
+    },
+    "description": {
+      "text": "私はたった 10 個のエメラルドで矢羽根テーブルの使い方を教えています。教わりますか？"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+﻿{
+  "parent": "quest_giver:root",
+  "reputation": 37,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "緊急のリクエスト"
+    },
+    "description": {
+      "text": "悪党がやって来ます。 鉄インゴットを16個手に入れるのを手伝ってくれませんか？ 衛兵用の武器をもっと作らなければ… 準備ができていません。"
+    }
+  }
+}

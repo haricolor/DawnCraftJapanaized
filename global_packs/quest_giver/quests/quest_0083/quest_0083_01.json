@@ -1,0 +1,40 @@
+﻿{
+  "parent": "quest_giver:quest_0083_01b",
+  "reputation": 13,
+  "icon": "minecraft:iron_axe",
+  "start": {
+    "title": {
+      "text": "貴重なアイテム"
+    },
+    "description": {
+      "text": "$(red)ペッパー$() を買ってきてください。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "さあ、私の愛する斧を返してください。それは私のこれまでで最高の作品でした。"
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "minecraft:paper"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+     }
+  ],
+  "rewards": [
+    {
+      "command": "/loot give @p loot minecraft:toolsmith1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p toolsmith1 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

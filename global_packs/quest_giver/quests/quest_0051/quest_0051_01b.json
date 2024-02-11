@@ -1,0 +1,13 @@
+﻿{
+  "parent": "quest_giver:root",
+  "reputation": 0,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "アドバイス"
+    },
+    "description": {
+      "text": "農家としての私の人生の目標は、 さまざまな植物を栽培する専門家になることです。 しかし、私は小麦とジャガイモしか経験したことがありません… カボチャの種を見つけるのを手伝ってくれませんか? そこから私の農家への道が始まります！"
+    }
+  }
+}

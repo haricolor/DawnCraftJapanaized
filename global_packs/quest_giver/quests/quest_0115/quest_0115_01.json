@@ -1,0 +1,43 @@
+﻿{
+  "parent": "quest_giver:quest_0115_01b",
+  "reputation": 10,
+  "icon": "minecraft:iron_axe",
+  "start": {
+    "title": {
+      "text": "提案"
+    },
+    "description": {
+      "text": "エメラルド6個でネザーディメンションの怪物がどこにいるのか教えるよ！"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "さあ、楽しい狩りを！ このマップはネザーで開いた場合にのみ機能することに注意してください。 ここでこのマップを開いてロールしても、空白のマップしか得られません。"
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:gift",
+      "amount": 6
+     }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "simple_mobs:rolled_map_1"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "command": "/gamestage add @p netherian2 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

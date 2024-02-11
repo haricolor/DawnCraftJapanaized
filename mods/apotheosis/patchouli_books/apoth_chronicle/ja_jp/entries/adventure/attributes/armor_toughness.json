@@ -1,0 +1,17 @@
+﻿{
+      "name": "装甲の靭性",
+    "icon": "minecraft:netherite_chestplate",
+    "category": "apotheosis:adventure/attributes",
+	"flag": "apotheosis:adventure",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+      "text": "$(9)アーマーのタフネス$() は、より高いダメージを与える攻撃に対してアーマーがどれだけ効果的かを調整する統計です。$(p)通常はアーマーと一部のシールドによって提供されます。"
+        },
+		{
+			"type": "patchouli:text",
+      "text": "$(9)$(n)基本値:$() 0$(p)$(9)$(n)最大値:$() 30$(p)注:バニラでは、最大値は 20 です。上限が 30 に引き上げられ、防具の計算も変更されます。"
+		}
+	]
+}

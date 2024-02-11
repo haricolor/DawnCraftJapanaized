@@ -1,0 +1,13 @@
+﻿{
+      "name": "色収差",
+    "icon": "minecraft:enchanted_book",
+    "category": "apotheosis:enchanting/enchantments",
+	"flag": "apotheosis:enchanting",
+	"sortnum": 1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+      "text": "$(9)色収差$() は、ハサミ用のエンチャントです。$(p)これにより、刈られた羊毛がランダムな色になります。"
+        }
+	]
+}

@@ -1,0 +1,13 @@
+﻿{
+  "parent": "quest_giver:root",
+  "reputation": 0,
+  "icon": "minecraft:cod",
+  "start": {
+    "title": {
+      "text": "釣り竿を作る"
+    },
+    "description": {
+      "text": "釣り竿が折れそうになってしまったのですが、 新しいのを作ってもらえますか？ いつものクラフターさんは最近不在なので…。"
+    }
+  }
+}

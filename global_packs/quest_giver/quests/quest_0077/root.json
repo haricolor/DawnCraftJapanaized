@@ -1,0 +1,12 @@
+﻿{
+  "reputation": 24,
+  "icon": "minecraft:stone",
+  "start": {
+    "title": {
+      "text": "やぁ！"
+    },
+    "description": {
+      "text": "エバーブライト次元から $(red)ターコイズストーン$() を入手してもらえませんか?どのように見えるか興味があります"
+    }
+  }
+}

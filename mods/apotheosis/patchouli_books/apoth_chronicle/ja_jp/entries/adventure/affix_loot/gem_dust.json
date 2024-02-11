@@ -1,0 +1,15 @@
+﻿{
+      "name": "ジェムダスト",
+    "icon": "apotheosis:gem_dust",
+    "category": "apotheosis:adventure/affix_loot",
+	"flag": "apotheosis:adventure",
+	"sortnum": 2,
+    "pages": [
+		{
+            "type": "patchouli:spotlight",
+			"item": "apotheosis:gem_dust",
+			"link_recipe": true,
+      "text": "すべての神聖ジェムは粉砕することで $(9)ジェムダスト$() に減らすことができます。$(p)具体的には、ワールド内の金床で粉砕する必要があります。"
+        }
+	]
+}

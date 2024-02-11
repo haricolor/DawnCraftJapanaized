@@ -1,0 +1,7 @@
+﻿{
+      "name": "ポーションのレシピ",
+	"parent": "apotheosis:potion/potion",
+      "description": "このセクションでは、追加されたすべての新しいバニラポーションのレシピについて詳しく説明します。",
+    "icon": "minecraft:nether_wart",
+	"flag": "apotheosis:potion"
+}

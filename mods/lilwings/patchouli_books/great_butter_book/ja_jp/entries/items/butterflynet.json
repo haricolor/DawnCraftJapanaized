@@ -1,0 +1,21 @@
+﻿{
+      "name": "蝶よけネット",
+  "icon": "lilwings:butterfly_net",
+  "category": "lilwings:items",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "虫取り網",
+      "item": "lilwings:butterfly_net",
+      "link_recipe": true,
+      "text": "蝶よけネットは蝶捕りの旅の始まりです。棒と糸を使って蝶を作れば、ゲーム内のほぼすべての蝶を捕まえることができます。このネットを右クリックして蝶を捕獲し、床上で再度右クリックして蝶を放します。蝶の瓶を右クリックしてその中に蝶を入れます"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "エンダー虫取り網",
+      "item": "lilwings:enderfly_net",
+      "link_recipe": true,
+      "text": "この虫取り網はほぼ同じように機能しますが、アップグレードされています。この虫よけネットを使用すると、エンドやネザーで見つかる珍しい蝶も含め、あらゆる種類の蝶を捕まえることができます。ネザライトとエンダーで強化された紐で作られたこの虫取り網 128 倍の耐久性があり、一生使えるでしょう。"
+    }
+  ]
+}

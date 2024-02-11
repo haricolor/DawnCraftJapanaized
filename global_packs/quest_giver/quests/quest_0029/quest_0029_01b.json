@@ -1,0 +1,13 @@
+﻿{
+  "parent": "quest_giver:root",
+  "reputation": 0,
+  "icon": "minecraft:iron_chestplate",
+  "start": {
+    "title": {
+      "text": "キノコのシチュー！"
+    },
+    "description": {
+      "text": "ありがとう！美味しい$(red)マッシュルームシチュー$()を味わいたいだけです。"
+    }
+  }
+}

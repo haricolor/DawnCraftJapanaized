@@ -1,0 +1,17 @@
+﻿{
+      "name": "ピアス",
+    "icon": "apotheosis:textures/mob_effect/sundering.png",
+    "category": "apotheosis:adventure/attributes",
+	"flag": "apotheosis:adventure",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+      "text": "$(9)Piercing$() は、ターゲットを攻撃するときにどれだけの装甲が無視されるかを表します。$(p)この統計は重火器でのみ見られます。"
+        },
+		{
+			"type": "patchouli:text",
+      "text": "$(9)$(n)基本値:$() 1$(p)$(9)$(n)最大値:$() 1024$(p)注: 値 1.0 は実際には 0% 貫通です。ただし、ベースがゼロの場合、パーセンテージ修飾子は効果がなく、フラット修飾子はボーナスを正しく伝えません。"
+		}
+	]
+}

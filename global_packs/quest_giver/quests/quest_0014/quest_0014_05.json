@@ -1,0 +1,52 @@
+﻿{
+  "parent": "quest_giver:quest_0014_04",
+  "reputation": 10,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "アイホルダーへの道"
+    },
+    "description": {
+      "text": "放浪騎士の現在の状態に関する情報はほとんどありませんが、 先の戦争以来かなり弱体化しているはずです... ああ、エンダーパールを忘れずに持って行ってください。 彼はテレポートによってのみ逃げることができる厄介な攻撃を持っています。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "アイホルダーへの道"
+    },
+    "description": {
+      "text": "おお、放浪騎士を倒したんですね。彼はタフでしたか？当時、彼は直面する可能性のある最も恐ろしい相手の一人でした、ついに彼の年齢が彼に追いついたと思います。 さて、次の神秘の目の持ち主は別の人間です。 彼は現在、農家で平和に暮らしています。 これが彼の場所への地図です。"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "endrem:rogue_eye"
+      },
+      "id": "quest_giver:item_pickup",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/loot give @p loot minecraft:guildmaster3",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/pmmo admin @p add crafting level 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/pmmo admin @p add engineering level 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only simple_mobs:knight_rober_quest_complete",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p guildmaster5 true",
+      "id": "quest_giver:command"
+    }    
+  ]
+}

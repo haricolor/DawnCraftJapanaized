@@ -1,0 +1,34 @@
+﻿{
+  "parent": "quest_giver:quest_0024_01",
+  "reputation": 6,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "迷子"
+    },
+    "description": {
+      "text": "どうかその子を助けに行って、 ここに連れ帰ってください。"
+    }
+
+  },
+  "complete": {
+    "title": {
+      "text": "迷子の子: 完了"
+    },
+    "description": {
+      "text": "冒険者よ、君のやったことの英雄だ。 あなたが私たちにしてくれたことを私たちは決して忘れません。 新しい戦闘スキル、 バーサーカーを教えます。"
+    }
+  },
+  "tasks": [
+    {
+      "id": "afptweaks:follow_quest",
+       "structure": "#minecraft:village"
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/give @p epicfight:skillbook{skill:\"epicfight:berserker\"}",
+      "id": "quest_giver:command"
+    }
+  ]
+}

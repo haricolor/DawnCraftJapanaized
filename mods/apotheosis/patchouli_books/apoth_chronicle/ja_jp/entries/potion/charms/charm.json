@@ -1,0 +1,28 @@
+﻿{
+      "name": "ポーションチャーム",
+    "icon": "apotheosis:potion_charm",
+    "category": "apotheosis:potion/charms",
+	"flag": "apotheosis:potion",
+	"sortnum": -1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+      "text": "$(9)ポーション チャーム$()は、ポーションを最大限に活用するのに役立つ新しいアイテムです。$(p)ほら、通常のポーションはそれを飲んで一度にすべての効果を使用する必要がありますが、 $(9)Potion Charm$() を使用すると、よろめかせることができます。"
+        },
+		{
+            "type": "patchouli:crafting",
+			"recipe": "apotheosis:potion_charm",
+			"title": "Potion Charm Crafting",
+      "text": "チャームは、同じ種類の 3 つのポーションとブレイズ パウダーから作られます。$(p) 1 つのチャームは、3 つのポーションを組み合わせたものよりも長く持続します。"
+        },
+		{
+            "type": "patchouli:text",
+			"title": "Using Potion Charms",
+      "text": "$(9)ポーション チャーム$() は、有効になっている場合にのみアクティブになります。$(p) チャームを有効にするには、手に持った状態で右クリックするだけです。$(p) 有効になっているチャームは光り始めます。"
+        },
+		{
+            "type": "patchouli:text",
+      "text": "チャームがアクティブでインベントリにある限り、耐久性を消費しながらポーションが適用されます。$(p) チャームは一度に数秒しかポーションを適用しません。$(p) チャームがなくなると耐久性があると壊れます。"
+        }
+	]
+}
