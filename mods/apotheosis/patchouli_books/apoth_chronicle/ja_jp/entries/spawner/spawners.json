@@ -7,11 +7,11 @@
     "pages": [
         {
             "type": "patchouli:text",
-      "text": "$(9)Mob Spawner$() は、虚空からエンティティを注ぎ込むことができる魔法のブロックです。$(p)しかし、それはすでに知っていたので、新しいことに移りましょう。$(p)Apotheosis では、スポナー$(9)Silk Touch$() で拾うことができます。"
+      "text": "$(9)スポナー$() は、虚空からエンティティを注ぎ込むことができる魔法のブロックです。$(p)しかし、それはすでに知っていると思うので、新しいことに移りましょう。$(p)Apotheosis では、スポナー$(9)シルクタッチ$() で拾うことができます。"
         },
 		{
             "type": "patchouli:text",
-      "text": "この方法でスポナーを収穫すると、追加の耐久コストが発生します。$(p)Mob スポナーには、その機能を制御する一連の $(l:apotheosis:spawner/stats)Spawner Stats$() があります。$(p)これらの統計は、 $(l:apotheosis:spawner/modifiers)Spawner Modifiers$() を使用して変更できます。"
+      "text": "この方法でスポナーを収穫すると、追加の耐久コストが発生します。$(p)Mobスポナーには、その機能を制御する一連の $(l:apotheosis:spawner/stats)スポナー統計情報$() があります。$(p)これらの統計は、 $(l:apotheosis:spawner/modifiers)スポナーモディファイア$() を使用して変更できます。"
         }
 	]
 }

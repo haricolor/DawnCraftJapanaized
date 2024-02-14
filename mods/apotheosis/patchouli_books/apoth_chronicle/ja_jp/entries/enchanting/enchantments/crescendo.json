@@ -1,5 +1,5 @@
 ﻿{
-      "name": "ボルトのクレッシェンド",
+      "name": "矢増加",
     "icon": "minecraft:enchanted_book",
     "category": "apotheosis:enchanting/enchantments",
 	"flag": "apotheosis:enchanting",
@@ -7,7 +7,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-      "text": "$(2)クレッシェンド オブ ボルト$() はクロスボウ用のマスターワーク エンチャントです。$(p)このエンチャントの各レベルで、リロードごとに追加のショットが得られます。$(p)追加のショットには弾薬はかかりません。"
+      "text": "$(2)矢増加$() はクロスボウ用のマスターワーク エンチャントです。$(p)このエンチャントの各レベルで、リロードごとに追加のショットが得られます。$(p)追加のショットには弾薬はかかりません。"
         }
 	]
 }

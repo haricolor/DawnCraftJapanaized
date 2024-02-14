@@ -1,5 +1,5 @@
 ﻿{
-      "name": "冷害",
+      "name": "氷撃",
     "icon": "minecraft:blue_ice",
     "category": "apotheosis:adventure/attributes",
 	"flag": "apotheosis:adventure",
@@ -7,7 +7,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-      "text": "$(9)Coldダメージ$()は近接攻撃に適用されるボーナス魔法ダメージです。また、ダメージの強さに応じて低速も適用されます。$(p)近接武器にあります。"
+      "text": "$(9)氷撃$()は近接攻撃に適用されるボーナス魔法ダメージです。また、ダメージの強さに応じて低速も適用されます。$(p)近接武器にあります。"
         },
 		{
 			"type": "patchouli:text",

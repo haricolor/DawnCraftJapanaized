@@ -8,7 +8,7 @@
         {
             "type": "patchouli:crafting",
 			"recipe": "apotheosis:salvaging_table",
-      "text": "$(9)Salvaging Table$() は、アフィックス アイテムを対応する $(9)Rarity Materials$() に分解するために使用されます。"
+      "text": "$(9)サルベージングテーブル$() は、アフィックス アイテムを対応する $(9)レアリティマテリアル$() に分解するために使用されます。"
 		},
 		{
             "type": "patchouli:spotlight",

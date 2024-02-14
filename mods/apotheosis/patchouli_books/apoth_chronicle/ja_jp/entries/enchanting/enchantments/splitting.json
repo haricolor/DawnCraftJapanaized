@@ -7,7 +7,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-      "text": "$(l:apotheosis:enchanting/anvil/splitting)Splitting$() を参照してください。"
+      "text": "$(l:apotheosis:enchanting/anvil/splitting)分割$() を参照してください。"
         }
 	]
 }

@@ -1,5 +1,5 @@
 ﻿{
-      "name": "エンドレス・クイバー",
+      "name": "無限の矢筒",
     "icon": "minecraft:enchanted_book",
     "category": "apotheosis:enchanting/enchantments",
 	"flag": "apotheosis:enchanting",
@@ -7,7 +7,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-      "text": "$(2)Endless Quiver$() は、弓のマスターワーク エンチャントです。$(p) 弓を発射するとき、種類に関係なく、矢は消費されません。$(p) $(9) からの直接アップグレードとみなされます。無限$()。"
+      "text": "$(2)無限の矢筒$() は、弓のマスターワーク エンチャントです。$(p) 弓を発射するとき、種類に関係なく、矢は消費されません。$(p) $(9) からの直接アップグレードとみなされます。無限$()。"
         },
 		{
             "type": "patchouli:text",

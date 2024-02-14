@@ -7,26 +7,26 @@
     "pages": [
         {
             "type": "patchouli:text",
-      "text": "Apotheosis では、$(9)Fletching$() と呼ばれる新しいタイプのクラフトが導入されています。$(p)これにより、より効率的に矢を作成できるようになります。$(p)クラフト タイプに加えて、新しい矢もあります。"
+      "text": "Apotheosis では、$(9)矢羽立て$() と呼ばれる新しいタイプのクラフトが導入されています。$(p)これにより、より効率的に矢を作成できるようになります。$(p)クラフト タイプに加えて、新しい矢もあります。"
         },
 		{
             "type": "patchouli:spotlight",
 			"item": "apotheosis:obsidian_arrow",
 			"link_recipe": true,
-      "text": "$(9)Obsidian Arrow$() は標準の矢を直接アップグレードしたものです。$(p)すべての遠距離攻撃で 20% の追加ダメージを与えます。"
+      "text": "$(9)黒曜石の矢$() は標準の矢を直接アップグレードしたものです。$(p)すべての遠距離攻撃で 20% の追加ダメージを与えます。"
         },
 		{
             "type": "patchouli:spotlight",
 			"item": "apotheosis:broadhead_arrow",
 			"anchor": "broadhead",
 			"link_recipe": true,
-      "text": "$(9)ブロードヘッドアロー$()は長時間の戦闘に最適です。$(p)ヒットするたびに出血が適用されます。追加のヒットごとに持続時間が更新され、ターゲットの出血レベルが増加します。"
+      "text": "$(9)出血の矢$()は長時間の戦闘に最適です。$(p)ヒットするたびに出血が適用されます。追加のヒットごとに持続時間が更新され、ターゲットの出血レベルが増加します。"
         },
 		{
             "type": "patchouli:spotlight",
 			"item": "apotheosis:explosive_arrow",
 			"link_recipe": true,
-      "text": "$(9)爆発アロー$()はグループに対して最適です。$(p)衝撃時に爆発を引き起こします。"
+      "text": "$(9)爆発の矢$()はグループに対して最適です。$(p)衝撃時に爆発を引き起こします。"
         },
 		{
             "type": "patchouli:spotlight",

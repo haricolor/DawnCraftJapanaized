@@ -7,7 +7,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-      "text": "$(9)Gem$() は凝縮された強さの結晶です。$(p)接辞アイテムにソケットに取り付けると、通常であればいつでも強力な属性ボーナスが得られます。"
+      "text": "$(9)ジェム$() は凝縮された強さの結晶です。$(p)アフィックスアイテムにソケットに取り付けると、通常であればいつでも強力な属性ボーナスが得られます。"
         },
 		{
 			"type": "patchouli:text",
@@ -28,13 +28,13 @@
             "type": "patchouli:crafting",
 			"recipe": "apotheosis:vial_of_expulsion",
 			"title": "Searing Expulsion",
-      "text": "ソケットにあるアイテムと鍛冶台の $(9)Vial of Searing Expulsion$() を組み合わせてジェムを取り除き、その過程でそれらを破壊します。"
+      "text": "ソケットにあるアイテムと鍛冶台の $(9)秘術剥がしの小瓶$() を組み合わせてジェムを取り除き、その過程でそれらを破壊します。"
 		},
 		{
             "type": "patchouli:crafting",
 			"recipe": "apotheosis:vial_of_extraction",
 			"title": "Arcane Extraction",
-      "text": "ソケットにあるアイテムを鍛冶テーブルの $(9)Vial of Arcane Extraction$() と組み合わせてジェムを取り出し、その過程でアイテムを破壊します。"
+      "text": "ソケットにあるアイテムを鍛冶テーブルの $(9)秘術剥がしの小瓶$() と組み合わせてジェムを取り出し、その過程でアイテムを破壊します。"
 		}
 	]
 }

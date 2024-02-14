@@ -1,5 +1,5 @@
 ﻿{
-      "name": "人生を修復する",
+      "name": "生命の修繕",
     "icon": "minecraft:enchanted_book",
     "category": "apotheosis:enchanting/enchantments",
 	"flag": "apotheosis:enchanting",
@@ -7,7 +7,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-      "text": "$(4)Life Mending$() は、すべてのダメージを受けやすいアイテムに適用できる破損したエンチャントです。$(p)$(9)Mending$() は受け取った経験値を耐久性に変換しますが、$(4)Life Mending$() は受け取った回復力を変換します。 $(p)ヘルス ポイントあたりの耐久性はレベルとともに増加します。"
+      "text": "$(4)生命の修繕$() は、すべてのダメージを受けやすいアイテムに適用できる破損したエンチャントです。$(9)修繕$() は受け取った経験値を耐久性に変換しますが、$(4)生命の修繕$() は受け取った回復力を変換します。 $(p)ヘルス ポイントあたりの耐久性はレベルとともに増加します。"
         },
 		{
             "type": "patchouli:text",

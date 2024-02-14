@@ -6,7 +6,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-      "text": "書物は特別な種類の本です。$(p)書物は本と同じようにエンチャントできますが、特定のエンチャントのみを受け取ることができます。$(p)例外は $(l:apotheosis:enchanting/utility/scrapping)Tome ですScrapping$() には別の目的があります。"
+      "text": "書物は特別な種類の本です。$(p)書物は本と同じようにエンチャントできますが、特定のエンチャントのみを受け取ることができます。$(p)例外は $(l:apotheosis:enchanting/utility/scrapping)解体の書$()です。 それには別の目的があります。"
         },
 		{
             "type": "patchouli:crafting",

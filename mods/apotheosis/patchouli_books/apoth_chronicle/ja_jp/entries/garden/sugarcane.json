@@ -7,7 +7,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-      "text": "Sugar Cane の最大成長高さは 255 に増加しました。$(p)この値は設定可能であるため、modpack に基づく値よりも少し低くなる可能性があります。"
+      "text": "サトウキビの最大成長高さは 255 に増加しました。$(p)この値は設定可能であるため、modpack に基づく値よりも少し低くなる可能性があります。"
         }
 	],
 	"extra_recipe_mappings": {

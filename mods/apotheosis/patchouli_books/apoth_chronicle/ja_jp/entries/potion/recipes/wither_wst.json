@@ -1,5 +1,5 @@
 ﻿{
-      "name": "枯れる",
+      "name": "ウィザー",
     "icon": "minecraft:textures/mob_effect/wither.png",
     "category": "apotheosis:potion/recipes",
 	"flag": "&apotheosis:potion,apotheosis:wstloaded",
@@ -7,13 +7,13 @@
     "pages": [
         {
             "type": "patchouli:text",
-      "text": "$(c)Wither$() は、通常は作成できない敵対的な効果です。$(p) これを受けている間、ティックごとにダメージを受けます。$(p) ポイズンとは異なり、このダメージは致命的です。"
+      "text": "$(c)ウィザーr$() は、通常は作成できない敵対的な効果です。$(p) これを受けている間、ティックごとにダメージを受けます。$(p) ポイズンとは異なり、このダメージは致命的です。"
         },
 		{
             "type": "patchouli:spotlight",
 			"title": "Brewing Recipe",
 			"item": "wstweaks:fragment",
-      "text": "このポーションは、Awkward Potion と Wither Skull Fragment を使用して作成できます。$(p)通常の材料を使用して拡張、強化、またはスプラッシュ ポーションに変えることができます。"
+      "text": "このポーションは、奇妙なポーションとウィザースケルトンの頭蓋骨で作成できます。$(p)通常の材料を使用して拡張、強化、またはスプラッシュ ポーションに変えることができます。"
         }
 	]
 }

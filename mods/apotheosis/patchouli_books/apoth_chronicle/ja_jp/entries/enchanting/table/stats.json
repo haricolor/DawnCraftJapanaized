@@ -1,5 +1,5 @@
 ﻿{
-      "name": "魅力的なステータス",
+      "name": "エンチャントステータス",
     "icon": "minecraft:bookshelf",
     "category": "apotheosis:enchanting/table",
 	"flag": "apotheosis:enchanting",
@@ -21,7 +21,7 @@
 		},
 		{
 			"type": "patchouli:text",
-      "text": "$(4)1 - Quanta$() と $(9)1 + Quanta$() の間の値が選択されています。$(p)$(fpower) は、その値に $(bpower) を乗算した値に等しくなります。 $(p)$(quanta) の値が高くなると、パワーの範囲が広がります。つまり、エンチャントの $(fpower) の一貫性が低くなります。"
+      "text": "$(4)1 - クアンタ$() と $(9)1 + クアンタ$() の間の値が選択されています。$(p)$(fpower) は、その値に $(bpower) を乗算した値に等しくなります。 $(p)$(quanta) の値が高くなると、パワーの範囲が広がります。つまり、エンチャントの $(fpower) の一貫性が低くなります。"
 		},
 		{
 			"type": "patchouli:text",
@@ -30,13 +30,13 @@
 		},
 		{
 			"type": "patchouli:text",
-      "text": "デフォルトでは、レアリティには次の重みがあります:$(p)コモン: 10$(br)アンコモン: 5$(br)レア: 3$(br)ベリーレア: 1$(p)$(arcana の 10% ごと) ) は重みを変更し、最終的には完全に反転します。$(p)$(arcana) バーの上にマウスを置くと、現在の重みが表示されます。"
+      "text": "デフォルトでは、レアリティには次の重みがあります:$(p)コモン: 10$(br)アンコモン: 5$(br)レア: 3$(br)ベリーレア: 1$(p) 10%ごとに$(arcana) は重みを変更し、最終的には完全に反転します。$(p)$(arcana) バーの上にマウスを置くと、現在の重みが表示されます。"
 		},
 		{
 			"type": "patchouli:text",
 			"title": "Rectification",
 			"anchor": "rectification",
-      "text": "整流は三次統計です。これは $(quanta) 変更の下限に直接影響します。$(p)$(4)Min Power$() が $(4)1 - Quanta$() に等しいことを思い出してください。$(p)With Rectification ( R)、あなたの $(4)Min Power$() は $(4)1 - (1 - R) * Quanta$() に等しくなります。"
+      "text": "整流は三次統計です。これは $(quanta) 変更の下限に直接影響します。$(p)$(4)最小パワー$() が $(4)1 - クアンタ$() に等しいことを思い出してください。$(p)整流によって(R)、あなたの $(4)最小パワー$() は $(4)1 - (1 - R) * クアンタ$() に等しくなります。"
 		},
 		{
 			"type": "patchouli:text",

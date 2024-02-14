@@ -1,6 +1,6 @@
 ﻿{
-      "name": "戦利品を貼り付ける",
-      "description": "冒険中に、さまざまなボーナスを持つアイテムに遭遇することがあります。$(p)これらは、さまざまな程度の力を持つ過去の遺物であるアフィックス アイテムです。",
+      "name": "アフィックスを貼り付ける",
+      "description": "冒険中に、さまざまなボーナスを持つアイテムに遭遇することがあります。$(p)これらは、さまざまな力を持つ過去の遺物であるアフィックス アイテムです。",
     "icon": "minecraft:chest",
 	"flag": "apotheosis:adventure",
 	"parent": "apotheosis:adventure/adventure"

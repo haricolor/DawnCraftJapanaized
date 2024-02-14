@@ -1,5 +1,5 @@
 ﻿{
-      "name": "切れ味",
+      "name": "ダメージ増加",
     "icon": "minecraft:netherite_sword",
     "category": "apotheosis:enchanting/changes",
 	"flag": "apotheosis:enchanting",
@@ -7,7 +7,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-      "text": "$(9)Sharpness$() は他のダメージ エンチャントと排他的ではなくなりました。$(p)つまり、$(9)Sharpness$() と、通常は排他的である他の 1 つのダメージ エンチャントを使用できるようになりました。"
+      "text": "$(9)ダメージ増加$() は他のダメージ エンチャントと排他的ではなくなりました。$(p)つまり、$(9)ダメージ増加$() と、通常は排他的である他の 1 つのダメージ エンチャントを使用できるようになりました。"
         }
 	]
 }

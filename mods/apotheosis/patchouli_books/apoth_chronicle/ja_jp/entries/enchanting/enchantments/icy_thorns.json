@@ -1,5 +1,5 @@
 ﻿{
-      "name": "氷のとげ",
+      "name": "氷の棘",
     "icon": "minecraft:enchanted_book",
     "category": "apotheosis:enchanting/enchantments",
 	"flag": "apotheosis:enchanting",
@@ -7,7 +7,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-      "text": "$(9)Icy Thorns$() はチェスト当てのエンチャントです。$(p)攻撃者に速度低下を与えます。持続時間と強さはエンチャント レベルに応じて変化します。$(p)これは $(9)Thorns$() と排他的です。"
+      "text": "$(9)氷の棘$() はチェスト当てのエンチャントです。$(p)攻撃者に速度低下を与えます。持続時間と強さはエンチャント レベルに応じて変化します。$(p)これは $(9)棘の鎧$() と排他的です。"
         }
 	]
 }

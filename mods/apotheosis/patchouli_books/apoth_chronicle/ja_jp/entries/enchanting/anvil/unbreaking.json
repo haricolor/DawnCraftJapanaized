@@ -1,5 +1,5 @@
 ﻿{
-      "name": "壊れない",
+      "name": "不壊",
     "icon": "minecraft:enchanted_book",
     "category": "apotheosis:enchanting/anvil",
 	"flag": "apotheosis:enchanting",
@@ -7,7 +7,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-      "text": "$(9)Unbreaking$() を金床に適用できるようになりました。$(p)Unbreaking の各レベルにより、使用時 (または落下時) に金床が損傷する可能性が減少します。"
+      "text": "$(9)不壊$() を金床に適用できるようになりました。$(p)不壊 の各レベルにより、使用時 (または落下時) に金床が損傷する可能性が減少します。"
         }
 	]
 }

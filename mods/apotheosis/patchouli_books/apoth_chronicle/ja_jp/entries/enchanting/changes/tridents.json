@@ -7,14 +7,14 @@
     "pages": [
         {
             "type": "patchouli:text",
-      "text": "新しいエンチャントに加えて、トライデントは $(9)Sharpness$()、$(9)Looting$()、$(9)Piercing$() も受け取ることができます。$(p)Sharpness と Looting 機能は、剣。$(p)貫通すると、投げられたトライデントがさらに敵を攻撃できるようになります。"
+      "text": "新しいエンチャントに加えて、トライデントは $(9)ダメージ増加$()、$(9)ドロップ増加$()、$(9)ピアス$() も受け取ることができます。$(p)ダメージ増加とドロップ増加は、剣と同様に機能します。$(p)ピアスは投げられたトライデントがさらに敵を攻撃できるようになります。"
         },
 		{
             "type": "patchouli:spotlight",
 			"title": "Making Tridents",
 			"item": "apotheosis:inert_trident",
 			"link_recipe": true,
-      "text": "Apotheosis では、トライデントを作成する方法も追加されています。$(p)$(9)Inert Trident$() を作成し、$(l:apotheosis:enchanting/table/infusion)Infusion Enchanting$() を通じてアップグレードするだけです。"
+      "text": "Apotheosis では、トライデントを作成する方法も追加されています。$(p)$(9)不活性トライデント$() を作成し、$(l:apotheosis:enchanting/table/infusion)注入エンチャント$() を通じてアップグレードするだけです。"
         }
 	]
 }

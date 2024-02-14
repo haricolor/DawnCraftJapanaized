@@ -12,7 +12,7 @@
 		{
             "type": "patchouli:crafting",
 			"recipe": "apotheosis:scrap_tome",
-      "text": "あなたは常にエンチャントの半分 (切り上げ) を受け取ります。$(p)選択されたエンチャントは、$(l:apotheosis:enchanting/table/seed)Enchanting Seed$() に基づいています。"
+      "text": "あなたは常にエンチャントの半分 (切り上げ) を受け取ります。$(p)選択されたエンチャントは、$(l:apotheosis:enchanting/table/seed)エンチャントシード$() に基づいています。"
 		}
 	]
 }

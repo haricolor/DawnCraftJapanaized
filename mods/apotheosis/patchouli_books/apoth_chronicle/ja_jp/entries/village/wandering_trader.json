@@ -1,5 +1,5 @@
 ﻿{
-      "name": "放浪のトレーダー",
+      "name": "放浪商人",
     "icon": "minecraft:emerald",
     "category": "apotheosis:village/village",
 	"flag": "apotheosis:village",
@@ -11,11 +11,11 @@
         },
 		{
             "type": "patchouli:text",
-      "text": "ただし、Apotheosis はテーブルに大量の新しい取引を追加するため、実際に対話する価値があります。$(p)これらの取引には、$(9)Beacons$() や $(9)Totems of Undying$() などのアイテムが含まれます。強化されたダイヤモンド装備。"
+      "text": "ただし、Apotheosis は大量の新しい取引を追加するため、実際に対話する価値があります。$(p)これらの取引には、強化されたダイヤモンド装備や$(9)ビーコン$() や $(9)不死のトーテム$() などのアイテムが含まれます。"
         },
 		{
             "type": "patchouli:text",
-      "text": "また、神格化により放浪商人のスポーン率も向上し、地表だけでなく地下にもスポーンできるようになります。"
+      "text": "また、Apotheosis により放浪商人のスポーン率も向上し、地表だけでなく地下にもスポーンできるようになります。"
         }
 	]
 }
