@@ -3,8 +3,8 @@
 製作者：[ハリイロ](https://twitter.com/haricolor)  
 当該リソースパックはDawnCraft製作者陣とは関係の無い有志翻訳です。  
 **この翻訳リソースパック等についてDawnCraft製作者やDiscordコミュニティへ問い合わせを行うのはお控えください。**  
-以下に導入手順をまとめた動画を投稿してますので必要であればそちらも参照してください。
-https://www.nicovideo.jp/watch/sm43400335?ref=garage_share_other
+以下に導入手順をまとめた動画を投稿してますので必要であればそちらも参照してください。  
+https://www.nicovideo.jp/watch/sm43400335?ref=garage_share_other  
 動作確認環境としては  
   OS：Windows11  
   modパック導入方法：CurseForge  
